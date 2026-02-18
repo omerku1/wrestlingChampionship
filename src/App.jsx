@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import HomePage from './pages/HomePage';
 import EventPage from './pages/EventPage';
@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/wrestlingChampionship">
+    <Router>
       <div className="app">
         {/* Animated background elements */}
         <div className="bg-orbs">
