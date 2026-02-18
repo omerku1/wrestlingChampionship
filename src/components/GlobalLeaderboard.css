@@ -9,11 +9,7 @@
   text-align: center;
   overflow: hidden;
   border-radius: 20px;
-  background: linear-gradient(135deg,
-    rgba(233, 69, 96, 0.2) 0%,
-    rgba(15, 52, 96, 0.3) 50%,
-    rgba(255, 215, 0, 0.2) 100%
-  );
+  background: linear-gradient(135deg, rgba(233, 69, 96, 0.2) 0%, rgba(15, 52, 96, 0.3) 50%, rgba(255, 215, 0, 0.2) 100%);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -226,10 +222,7 @@
 }
 
 .standings-table thead {
-  background: linear-gradient(135deg,
-    rgba(233, 69, 96, 0.2) 0%,
-    rgba(15, 52, 96, 0.3) 100%
-  );
+  background: linear-gradient(135deg, rgba(233, 69, 96, 0.2) 0%, rgba(15, 52, 96, 0.3) 100%);
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -339,7 +332,6 @@
   color: var(--accent);
 }
 
-/* Event columns */
 .col-event {
   text-align: center;
   min-width: 100px;
@@ -368,11 +360,6 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
-/* Next event column */
-.col-event.next-event-col {
-  /* Removed special styling - same as regular event columns */
-}
-
 .standings-table th.next-event-col {
   color: var(--text);
   position: relative;
@@ -389,11 +376,6 @@
   background: transparent;
   font-size: 1rem;
   font-weight: 400;
-}
-
-/* Upcoming event columns */
-.col-event.upcoming-event-col {
-  /* Removed special styling - same as regular event columns */
 }
 
 .standings-table th.upcoming-event-col {
@@ -420,50 +402,30 @@
   color: var(--primary);
 }
 
-/* Top 3 row styling */
 .table-row.rank-1 {
-  background: linear-gradient(90deg,
-    rgba(255, 215, 0, 0.1) 0%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg, rgba(255, 215, 0, 0.1) 0%, transparent 100%);
 }
 
 .table-row.rank-1:hover {
-  background: linear-gradient(90deg,
-    rgba(255, 215, 0, 0.15) 0%,
-    rgba(233, 69, 96, 0.1) 100%
-  );
+  background: linear-gradient(90deg, rgba(255, 215, 0, 0.15) 0%, rgba(233, 69, 96, 0.1) 100%);
 }
 
 .table-row.rank-2 {
-  background: linear-gradient(90deg,
-    rgba(192, 192, 192, 0.1) 0%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg, rgba(192, 192, 192, 0.1) 0%, transparent 100%);
 }
 
 .table-row.rank-2:hover {
-  background: linear-gradient(90deg,
-    rgba(192, 192, 192, 0.15) 0%,
-    rgba(233, 69, 96, 0.1) 100%
-  );
+  background: linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(233, 69, 96, 0.1) 100%);
 }
 
 .table-row.rank-3 {
-  background: linear-gradient(90deg,
-    rgba(205, 127, 50, 0.1) 0%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg, rgba(205, 127, 50, 0.1) 0%, transparent 100%);
 }
 
 .table-row.rank-3:hover {
-  background: linear-gradient(90deg,
-    rgba(205, 127, 50, 0.15) 0%,
-    rgba(233, 69, 96, 0.1) 100%
-  );
+  background: linear-gradient(90deg, rgba(205, 127, 50, 0.15) 0%, rgba(233, 69, 96, 0.1) 100%);
 }
 
-/* Expanded row */
 .expanded-row {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -583,6 +545,17 @@
     font-size: 1.5rem;
   }
 
+  .leaderboard-table-container {
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+  }
+
+  .standings-table {
+    min-width: 600px;
+  }
+
   .standings-table th,
   .standings-table td {
     padding: 1rem;
@@ -630,14 +603,18 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .main-content-layout {
-    grid-template-columns: 220px 1fr;
-    gap: 0.75rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .events-sidebar {
+    margin-bottom: 2rem;
+    position: static;
   }
 
   .event-list-name {
     font-size: 0.875rem;
   }
 }
-
