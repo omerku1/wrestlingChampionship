@@ -1,0 +1,545 @@
+{
+    "eventName": "Royal Rumble 2026",
+    "eventDate": "2026-01-31",
+    "location": "Riyadh, Saudi Arabia",
+    "gamblers": [
+        {
+            "id": "user1@wwe-fans.com",
+            "nickname": "CodyFan_99"
+        },
+        {
+            "id": "user2@wwe-fans.com",
+            "nickname": "TheTribalChief"
+        },
+        {
+            "id": "user3@wwe-fans.com",
+            "nickname": "MamiRhea"
+        },
+        {
+            "id": "user4@wwe-fans.com",
+            "nickname": "StoneColdSteve"
+        },
+        {
+            "id": "user5@wwe-fans.com",
+            "nickname": "WrestlingGod"
+        },
+        {
+            "id": "user6@wwe-fans.com",
+            "nickname": "HustleLoyalty"
+        },
+        {
+            "id": "user7@wwe-fans.com",
+            "nickname": "QueenCharlotte"
+        },
+        {
+            "id": "user8@wwe-fans.com",
+            "nickname": "TheVisionary"
+        },
+        {
+            "id": "user9@wwe-fans.com",
+            "nickname": "AmericanNightmare"
+        },
+        {
+            "id": "user10@wwe-fans.com",
+            "nickname": "TheGame"
+        },
+        {
+            "id": "user11@wwe-fans.com",
+            "nickname": "DeadmanWalking"
+        },
+        {
+            "id": "user12@wwe-fans.com",
+            "nickname": "PhenomenalOne"
+        },
+        {
+            "id": "user13@wwe-fans.com",
+            "nickname": "EST_of_WWE"
+        },
+        {
+            "id": "user14@wwe-fans.com",
+            "nickname": "TheMan"
+        },
+        {
+            "id": "user15@wwe-fans.com",
+            "nickname": "BigTimeBecks"
+        },
+        {
+            "id": "user16@wwe-fans.com",
+            "nickname": "DirtyDom"
+        },
+        {
+            "id": "user17@wwe-fans.com",
+            "nickname": "YEAH_Knight"
+        },
+        {
+            "id": "user18@wwe-fans.com",
+            "nickname": "MainEventJey"
+        },
+        {
+            "id": "user19@wwe-fans.com",
+            "nickname": "SamiZayn_Fan"
+        },
+        {
+            "id": "user20@wwe-fans.com",
+            "nickname": "KevinOwensShow"
+        },
+        {
+            "id": "user21@wwe-fans.com",
+            "nickname": "JudgmentDay_Member"
+        },
+        {
+            "id": "user22@wwe-fans.com",
+            "nickname": "Bloodline_Loyal"
+        },
+        {
+            "id": "user23@wwe-fans.com",
+            "nickname": "NXT_Prospect"
+        },
+        {
+            "id": "user24@wwe-fans.com",
+            "nickname": "LegendsNeverDie"
+        },
+        {
+            "id": "user25@wwe-fans.com",
+            "nickname": "WorldChamp"
+        }
+    ],
+    "matches": [
+        {
+            "match name": "Men's Royal Rumble Match",
+            "match score": 8,
+            "duration": "56:10",
+            "titleChange": false,
+            "rating": 6.9,
+            "gamblersResult": [
+                {
+                    "id": "user1@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user2@wwe-fans.com",
+                    "result": 8
+                },
+                {
+                    "id": "user3@wwe-fans.com",
+                    "result": -8
+                },
+                {
+                    "id": "user4@wwe-fans.com",
+                    "result": 16
+                },
+                {
+                    "id": "user5@wwe-fans.com",
+                    "result": 8
+                },
+                {
+                    "id": "user6@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user7@wwe-fans.com",
+                    "result": 0
+                },
+                {
+                    "id": "user8@wwe-fans.com",
+                    "result": 7
+                },
+                {
+                    "id": "user9@wwe-fans.com",
+                    "result": -16
+                },
+                {
+                    "id": "user10@wwe-fans.com",
+                    "result": -24
+                },
+                {
+                    "id": "user11@wwe-fans.com",
+                    "result": -8
+                },
+                {
+                    "id": "user12@wwe-fans.com",
+                    "result": 4
+                },
+                {
+                    "id": "user13@wwe-fans.com",
+                    "result": 0
+                },
+                {
+                    "id": "user14@wwe-fans.com",
+                    "result": 0
+                },
+                {
+                    "id": "user15@wwe-fans.com",
+                    "result": 16
+                },
+                {
+                    "id": "user16@wwe-fans.com",
+                    "result": 0
+                },
+                {
+                    "id": "user17@wwe-fans.com",
+                    "result": 5
+                },
+                {
+                    "id": "user18@wwe-fans.com",
+                    "result": 10
+                },
+                {
+                    "id": "user19@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user20@wwe-fans.com",
+                    "result": 9
+                },
+                {
+                    "id": "user21@wwe-fans.com",
+                    "result": -16
+                },
+                {
+                    "id": "user22@wwe-fans.com",
+                    "result": 4
+                },
+                {
+                    "id": "user23@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user24@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user25@wwe-fans.com",
+                    "result": 7
+                }
+            ]
+        },
+        {
+            "match name": "Women's Royal Rumble Match",
+            "match score": 6,
+            "duration": "1:07:00",
+            "titleChange": false,
+            "rating": 8.1,
+            "gamblersResult": [
+                {
+                    "id": "user1@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user2@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user3@wwe-fans.com",
+                    "result": -6
+                },
+                {
+                    "id": "user4@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user5@wwe-fans.com",
+                    "result": -3
+                },
+                {
+                    "id": "user6@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user7@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user8@wwe-fans.com",
+                    "result": -6
+                },
+                {
+                    "id": "user9@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user10@wwe-fans.com",
+                    "result": 18
+                },
+                {
+                    "id": "user11@wwe-fans.com",
+                    "result": -12
+                },
+                {
+                    "id": "user12@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user13@wwe-fans.com",
+                    "result": -12
+                },
+                {
+                    "id": "user14@wwe-fans.com",
+                    "result": -6
+                },
+                {
+                    "id": "user15@wwe-fans.com",
+                    "result": 9
+                },
+                {
+                    "id": "user16@wwe-fans.com",
+                    "result": -12
+                },
+                {
+                    "id": "user17@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user18@wwe-fans.com",
+                    "result": 12
+                },
+                {
+                    "id": "user19@wwe-fans.com",
+                    "result": 10
+                },
+                {
+                    "id": "user20@wwe-fans.com",
+                    "result": -6
+                },
+                {
+                    "id": "user21@wwe-fans.com",
+                    "result": 5
+                },
+                {
+                    "id": "user22@wwe-fans.com",
+                    "result": 3
+                },
+                {
+                    "id": "user23@wwe-fans.com",
+                    "result": -6
+                },
+                {
+                    "id": "user24@wwe-fans.com",
+                    "result": 4
+                },
+                {
+                    "id": "user25@wwe-fans.com",
+                    "result": 6
+                }
+            ]
+        },
+        {
+            "match name": "Gunther vs AJ Styles",
+            "match score": 2,
+            "duration": "24:15",
+            "titleChange": false,
+            "rating": 9,
+            "gamblersResult": [
+                {
+                    "id": "user1@wwe-fans.com",
+                    "result": 4
+                },
+                {
+                    "id": "user2@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user3@wwe-fans.com",
+                    "result": 4
+                },
+                {
+                    "id": "user4@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user5@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user6@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user7@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user8@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user9@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user10@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user11@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user12@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user13@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user14@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user15@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user16@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user17@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user18@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user19@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user20@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user21@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user22@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user23@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user24@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user25@wwe-fans.com",
+                    "result": 4
+                }
+            ]
+        },
+        {
+            "match name": "World Heavyweight Title: Drew Mcintyre vs. Sami Zayn",
+            "match score": 3,
+            "duration": "16:15",
+            "titleChange": false,
+            "rating": 6.8,
+            "gamblersResult": [
+                {
+                    "id": "user1@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user2@wwe-fans.com",
+                    "result": 4
+                },
+                {
+                    "id": "user3@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user4@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user5@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user6@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user7@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user8@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user9@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user10@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user11@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user12@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user13@wwe-fans.com",
+                    "result": 6
+                },
+                {
+                    "id": "user14@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user15@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user16@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user17@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user18@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user19@wwe-fans.com",
+                    "result": -4
+                },
+                {
+                    "id": "user20@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user21@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user22@wwe-fans.com",
+                    "result": -2
+                },
+                {
+                    "id": "user23@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user24@wwe-fans.com",
+                    "result": 2
+                },
+                {
+                    "id": "user25@wwe-fans.com",
+                    "result": -6
+                }
+            ]
+        }
+    ]
+}

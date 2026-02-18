@@ -1,0 +1,215 @@
+.leaderboard {
+  width: 100%;
+}
+
+.leaderboard-table-container {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow-x: auto;
+  overflow-y: visible;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.leaderboard-table thead {
+  background: linear-gradient(135deg,
+    rgba(233, 69, 96, 0.2) 0%,
+    rgba(15, 52, 96, 0.3) 100%
+  );
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.leaderboard-table th {
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text);
+  white-space: nowrap;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.leaderboard-table tbody tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease;
+}
+
+.leaderboard-table tbody tr:hover {
+  background: rgba(233, 69, 96, 0.1);
+}
+
+.leaderboard-table td {
+  padding: 0.625rem 0.75rem;
+  vertical-align: middle;
+}
+
+/* Column widths */
+.col-rank {
+  width: 60px;
+  text-align: center;
+}
+
+.col-nickname {
+  min-width: 150px;
+  font-weight: 600;
+}
+
+.col-total {
+  width: 80px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.col-match {
+  min-width: 120px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.col-match {
+  white-space: normal;
+  line-height: 1.3;
+  padding: 0.75rem 0.5rem;
+}
+
+/* Rank badge */
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 24px;
+  padding: 0 0.5rem;
+  background: rgba(233, 69, 96, 0.2);
+  border-radius: 6px;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+/* Score styling */
+.total-score {
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 900;
+}
+
+.total-score.positive {
+  color: var(--success);
+}
+
+.total-score.negative {
+  color: var(--danger);
+}
+
+.total-score.neutral {
+  color: var(--text-secondary);
+}
+
+.match-score {
+  display: inline-block;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.match-score.positive {
+  color: var(--success);
+}
+
+.match-score.negative {
+  color: var(--danger);
+}
+
+.match-score.neutral {
+  color: var(--text-secondary);
+}
+
+/* Top 3 row highlighting */
+.leaderboard-table tbody tr:nth-child(1) {
+  background: linear-gradient(90deg,
+    rgba(255, 215, 0, 0.08) 0%,
+    transparent 100%
+  );
+}
+
+.leaderboard-table tbody tr:nth-child(1):hover {
+  background: linear-gradient(90deg,
+    rgba(255, 215, 0, 0.12) 0%,
+    rgba(233, 69, 96, 0.1) 100%
+  );
+}
+
+.leaderboard-table tbody tr:nth-child(2) {
+  background: linear-gradient(90deg,
+    rgba(192, 192, 192, 0.08) 0%,
+    transparent 100%
+  );
+}
+
+.leaderboard-table tbody tr:nth-child(2):hover {
+  background: linear-gradient(90deg,
+    rgba(192, 192, 192, 0.12) 0%,
+    rgba(233, 69, 96, 0.1) 100%
+  );
+}
+
+.leaderboard-table tbody tr:nth-child(3) {
+  background: linear-gradient(90deg,
+    rgba(205, 127, 50, 0.08) 0%,
+    transparent 100%
+  );
+}
+
+.leaderboard-table tbody tr:nth-child(3):hover {
+  background: linear-gradient(90deg,
+    rgba(205, 127, 50, 0.12) 0%,
+    rgba(233, 69, 96, 0.1) 100%
+  );
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .leaderboard-table {
+    font-size: 0.8125rem;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 0.5rem;
+  }
+
+  .col-rank {
+    width: 50px;
+  }
+
+  .col-nickname {
+    min-width: 120px;
+  }
+
+  .col-total {
+    width: 70px;
+  }
+
+  .col-match {
+    width: 60px;
+  }
+
+  .total-score {
+    font-size: 1rem;
+  }
+
+  .match-score {
+    font-size: 0.875rem;
+  }
+}
+
