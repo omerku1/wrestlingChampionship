@@ -6,6 +6,17 @@ import Header from '../components/Header';
 import Leaderboard from '../components/Leaderboard';
 import './EventPage.css';
 
+// Automatically import all JSON files from the data directory using Vite's glob import
+// This creates a map like: { './Royal_Rumble.json': { default: {...} }, ... }
+const eventModules = import.meta.glob('../data/*.json', { eager: true });
+
+// Convert to a simple filename -> data map
+const EVENT_DATA_MAP = Object.entries(eventModules).reduce((acc, [path, module]) => {
+  const filename = path.split('/').pop(); // Extract just the filename from './data/filename.json'
+  acc[filename] = module.default;
+  return acc;
+}, {});
+
 function EventPage() {
   const { eventFile, eventName } = useParams();
   const navigate = useNavigate();
@@ -44,20 +55,19 @@ function EventPage() {
         setLoading(false);
       }
     } else if (eventFile) {
-      // Load event data directly from data directory for past events
+      // Load event data from the static map
       const filename = decodeURIComponent(eventFile);
-      fetch(`/data/${filename}`)
-        .then(res => res.json())
-        .then(data => {
-          setEventData(data);
-          setIsUpcoming(false);
-          setIsNextEvent(false);
-          setLoading(false);
-        })
-        .catch(err => {
-          console.error('Error loading event data:', err);
-          setLoading(false);
-        });
+
+      const data = EVENT_DATA_MAP[filename];
+      if (data) {
+        setEventData(data);
+        setIsUpcoming(false);
+        setIsNextEvent(false);
+        setLoading(false);
+      } else {
+        console.error(`Event file not found: ${filename}`);
+        setLoading(false);
+      }
     }
   }, [eventFile, eventName, location.state, location.pathname]);
 
