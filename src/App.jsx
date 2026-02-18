@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/wrestlingChampionship">
       <div className="app">
         {/* Animated background elements */}
         <div className="bg-orbs">
