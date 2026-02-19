@@ -58,7 +58,6 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.03 }}
-                whileHover={{ backgroundColor: 'rgba(233, 69, 96, 0.1)' }}
               >
                 <td className="col-rank">
                   <div className="rank-cell">
