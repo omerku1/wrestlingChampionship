@@ -83,11 +83,25 @@
 
 @media (max-width: 768px) {
   .event-stats-cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .event-stat-card {
+    padding: 0.6rem;
+  }
+
+  .stat-label {
+    font-size: 0.7rem;
   }
 
   .stat-value {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    white-space: normal; /* allow wrapping for long names */
+    overflow-wrap: anywhere;
+  }
+
+  .stat-subtext, .stat-subtext-small {
+    font-size: 0.7rem;
   }
 }
-

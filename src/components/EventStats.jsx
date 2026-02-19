@@ -108,10 +108,6 @@ function EventStats({ eventData }) {
 
   return (
     <div className="event-stats-cards">
-      {/*<div className="event-stat-card">*/}
-      {/*  <div className="stat-label">Accuracy Rate</div>*/}
-      {/*  <div className="stat-value">{statistics.accuracyRate}%</div>*/}
-      {/*</div>*/}
 
       <div className="event-stat-card">
         <div className="stat-label">Top Performer</div>
