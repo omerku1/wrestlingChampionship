@@ -524,12 +524,20 @@
   }
 
   .main-content-layout {
-    grid-template-columns: 1fr;
+    /* Change mobile layout from grid -> stacked flex column so we can control visual order */
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
+  }
+
+  /* Ensure the leaderboard appears first on mobile, then the events list */
+  .leaderboard-section {
+    order: 0;
   }
 
   .events-sidebar {
     position: static;
+    order: 1;
   }
 
   .events-sidebar h2 {
