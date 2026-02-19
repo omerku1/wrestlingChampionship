@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import GlobalLeaderboard from '../components/GlobalLeaderboard';
-import seasonData from '../data/global_leaderboard.json';
+import seasonData from '../data/Global_Leaderboard.json';
 import './HomePage.css';
 
 function HomePage() {
