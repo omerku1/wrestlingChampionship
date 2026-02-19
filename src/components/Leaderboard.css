@@ -157,26 +157,48 @@
   color: var(--text-secondary);
 }
 
-/* Top 3 row highlighting */
+/* Top 3 row highlighting - switch to greenish-blue palette */
+.leaderboard-table tbody tr.rank-1,
 .leaderboard-table tbody tr:nth-child(1) {
   background: linear-gradient(90deg,
-    rgba(255, 215, 0, 0.08) 0%,
-    transparent 100%
+    rgba(112, 225, 200, 0.14) 0%, /* light mint */
+    rgba(34, 197, 94, 0.04) 100% /* soft green */
   );
 }
 
+.leaderboard-table tbody tr.rank-2,
 .leaderboard-table tbody tr:nth-child(2) {
   background: linear-gradient(90deg,
-    rgba(192, 192, 192, 0.08) 0%,
-    transparent 100%
+    rgba(72, 189, 204, 0.12) 0%, /* aqua */
+    rgba(34, 197, 94, 0.03) 100% /* softer */
   );
 }
 
+.leaderboard-table tbody tr.rank-3,
 .leaderboard-table tbody tr:nth-child(3) {
   background: linear-gradient(90deg,
-    rgba(205, 127, 50, 0.08) 0%,
-    transparent 100%
+    rgba(59, 130, 246, 0.10) 0%, /* blue */
+    rgba(34, 197, 94, 0.02) 100% /* faint */
   );
+}
+
+/* Make rank badges color-coordinated */
+.leaderboard-table tbody tr.rank-1 .rank-badge,
+.leaderboard-table tbody tr:nth-child(1) .rank-badge {
+  background: rgba(112, 225, 200, 0.2);
+  color: #065f46; /* darker green */
+}
+
+.leaderboard-table tbody tr.rank-2 .rank-badge,
+.leaderboard-table tbody tr:nth-child(2) .rank-badge {
+  background: rgba(72, 189, 204, 0.18);
+  color: #064e3b;
+}
+
+.leaderboard-table tbody tr.rank-3 .rank-badge,
+.leaderboard-table tbody tr:nth-child(3) .rank-badge {
+  background: rgba(59, 130, 246, 0.16);
+  color: #0b3d91; /* deep blue */
 }
 
 /* Responsive */
