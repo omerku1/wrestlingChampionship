@@ -5,30 +5,58 @@ import './Stats.css';
 
 function Stats({ eventData }) {
   const statistics = useMemo(() => {
+    // Determine which format is being used
+    const matches = eventData.matchDetails || eventData.matches || [];
+    const gamblersArray = Array.isArray(eventData.gamblers)
+      ? eventData.gamblers
+      : Object.entries(eventData.gamblers).map(([id, gambler]) => ({
+          id,
+          ...gambler
+        }));
+
     let totalPoints = 0;
     let positiveScores = 0;
     let negativeScores = 0;
     let perfectPredictions = 0;
     const scoreDistribution = {};
 
-    eventData.matches.forEach(match => {
-      totalPoints += match['match score'];
-      match.gamblersResult.forEach(result => {
-        if (result.result > 0) positiveScores++;
-        else if (result.result < 0) negativeScores++;
-        if (result.result === match['match score']) perfectPredictions++;
+    if (matches[0]?.gamblersResult) {
+      // Old format
+      matches.forEach(match => {
+        totalPoints += match['match score'];
+        match.gamblersResult.forEach(result => {
+          if (result.result > 0) positiveScores++;
+          else if (result.result < 0) negativeScores++;
+          if (result.result === match['match score']) perfectPredictions++;
 
-        scoreDistribution[result.result] = (scoreDistribution[result.result] || 0) + 1;
+          scoreDistribution[result.result] = (scoreDistribution[result.result] || 0) + 1;
+        });
       });
-    });
+    } else {
+      // New format
+      matches.forEach(match => {
+        totalPoints += match['match score'];
+        gamblersArray.forEach(gambler => {
+          const matchName = match['match name'];
+          const result = gambler.matches?.[matchName] || 0;
+          if (result !== 0) {
+            if (result > 0) positiveScores++;
+            else if (result < 0) negativeScores++;
+            if (result === match['match score']) perfectPredictions++;
 
-    const avgMatchValue = (totalPoints / eventData.matches.length).toFixed(1);
-    const totalPredictions = eventData.gamblers.length * eventData.matches.length;
+            scoreDistribution[result] = (scoreDistribution[result] || 0) + 1;
+          }
+        });
+      });
+    }
+
+    const avgMatchValue = (totalPoints / matches.length).toFixed(1);
+    const totalPredictions = gamblersArray.length * matches.length;
     const accuracyRate = ((positiveScores / totalPredictions) * 100).toFixed(1);
 
     // Calculate gambler stats
     const gamblerStats = {};
-    eventData.gamblers.forEach(gambler => {
+    gamblersArray.forEach(gambler => {
       gamblerStats[gambler.id] = {
         nickname: gambler.nickname,
         totalScore: 0,
@@ -37,15 +65,35 @@ function Stats({ eventData }) {
       };
     });
 
-    eventData.matches.forEach(match => {
-      match.gamblersResult.forEach(result => {
-        if (gamblerStats[result.id]) {
-          gamblerStats[result.id].totalScore += result.result;
-          if (result.result > 0) gamblerStats[result.id].wins++;
-          else if (result.result < 0) gamblerStats[result.id].losses++;
+    if (matches[0]?.gamblersResult) {
+      // Old format
+      matches.forEach(match => {
+        match.gamblersResult.forEach(result => {
+          if (gamblerStats[result.id]) {
+            gamblerStats[result.id].totalScore += result.result;
+            if (result.result > 0) gamblerStats[result.id].wins++;
+            else if (result.result < 0) gamblerStats[result.id].losses++;
+          }
+        });
+      });
+    } else {
+      // New format
+      gamblersArray.forEach(gambler => {
+        matches.forEach(match => {
+          const matchName = match['match name'];
+          const result = gambler.matches?.[matchName] || 0;
+          gamblerStats[gambler.id].totalScore += result;
+          if (result > 0) gamblerStats[gambler.id].wins++;
+          else if (result < 0) gamblerStats[gambler.id].losses++;
+        });
+        // Add individual scores if they exist
+        if (gambler.individuals) {
+          Object.values(gambler.individuals).forEach(score => {
+            gamblerStats[gambler.id].totalScore += score || 0;
+          });
         }
       });
-    });
+    }
 
     const gamblerArray = Object.values(gamblerStats);
     const bestGambler = gamblerArray.reduce((best, curr) =>

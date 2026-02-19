@@ -27,6 +27,15 @@ function durationToMinutes(duration) {
 
 function EventStats({ eventData }) {
   const statistics = useMemo(() => {
+    // Determine which format is being used
+    const matches = eventData.matchDetails || eventData.matches || [];
+    const gamblersArray = Array.isArray(eventData.gamblers)
+      ? eventData.gamblers
+      : Object.entries(eventData.gamblers).map(([id, gambler]) => ({
+          id,
+          ...gambler
+        }));
+
     let positiveScores = 0;
     let negativeScores = 0;
     let titleChanges = 0;
@@ -34,7 +43,7 @@ function EventStats({ eventData }) {
     const durations = [];
     const ratings = [];
 
-    eventData.matches.forEach(match => {
+    matches.forEach(match => {
       // Count title changes
       if (match.titleChange) {
         titleChanges++;
@@ -47,14 +56,16 @@ function EventStats({ eventData }) {
       });
       ratings.push(match.rating);
 
-      // Count positive/negative predictions
-      match.gamblersResult.forEach(result => {
-        if (result.result > 0) positiveScores++;
-        else if (result.result < 0) negativeScores++;
-      });
+      // Count positive/negative predictions (old format only)
+      if (match.gamblersResult) {
+        match.gamblersResult.forEach(result => {
+          if (result.result > 0) positiveScores++;
+          else if (result.result < 0) negativeScores++;
+        });
+      }
     });
 
-    const totalPredictions = eventData.gamblers.length * eventData.matches.length;
+    const totalPredictions = gamblersArray.length * matches.length;
     const accuracyRate = ((positiveScores / totalPredictions) * 100).toFixed(0);
 
     // Calculate match statistics
@@ -65,29 +76,48 @@ function EventStats({ eventData }) {
     const lowestRating = Math.min(...ratings);
 
     // Find match names and original duration strings
-    const longestMatchData = eventData.matches.find(m => durationToMinutes(m.duration) === longestMatchMinutes);
-    const shortestMatchData = eventData.matches.find(m => durationToMinutes(m.duration) === shortestMatchMinutes);
-    const longestMatchName = longestMatchData['match name'];
-    const shortestMatchName = shortestMatchData['match name'];
-    const highestRatingMatchName = eventData.matches.find(m => m.rating === highestRating)['match name'];
-    const lowestRatingMatchName = eventData.matches.find(m => m.rating === lowestRating)['match name'];
+    const longestMatchData = matches.find(m => durationToMinutes(m.duration) === longestMatchMinutes);
+    const shortestMatchData = matches.find(m => durationToMinutes(m.duration) === shortestMatchMinutes);
+    const longestMatchName = longestMatchData?.['match name'] || 'N/A';
+    const shortestMatchName = shortestMatchData?.['match name'] || 'N/A';
+    const highestRatingMatchName = matches.find(m => m.rating === highestRating)?.['match name'] || 'N/A';
+    const lowestRatingMatchName = matches.find(m => m.rating === lowestRating)?.['match name'] || 'N/A';
 
     // Calculate top performer
     const gamblerStats = {};
-    eventData.gamblers.forEach(gambler => {
+    gamblersArray.forEach(gambler => {
       gamblerStats[gambler.id] = {
         nickname: gambler.nickname,
         totalScore: 0
       };
     });
 
-    eventData.matches.forEach(match => {
-      match.gamblersResult.forEach(result => {
-        if (gamblerStats[result.id]) {
-          gamblerStats[result.id].totalScore += result.result;
+    // Calculate scores based on format
+    if (matches[0]?.gamblersResult) {
+      // Old format
+      matches.forEach(match => {
+        match.gamblersResult.forEach(result => {
+          if (gamblerStats[result.id]) {
+            gamblerStats[result.id].totalScore += result.result;
+          }
+        });
+      });
+    } else {
+      // New format - sum from matches object
+      gamblersArray.forEach(gambler => {
+        if (gambler.matches) {
+          Object.values(gambler.matches).forEach(score => {
+            gamblerStats[gambler.id].totalScore += score || 0;
+          });
+        }
+        // Add individual scores if they exist
+        if (gambler.individuals) {
+          Object.values(gambler.individuals).forEach(score => {
+            gamblerStats[gambler.id].totalScore += score || 0;
+          });
         }
       });
-    });
+    }
 
     const gamblerArray = Object.values(gamblerStats);
     const bestGambler = gamblerArray.reduce((best, curr) =>
@@ -97,10 +127,10 @@ function EventStats({ eventData }) {
     return {
       accuracyRate,
       bestGambler,
-      numberOfMatches: eventData.matches.length,
+      numberOfMatches: matches.length,
       titleChanges,
-      longestMatch: { name: longestMatchName, duration: longestMatchData.duration },
-      shortestMatch: { name: shortestMatchName, duration: shortestMatchData.duration },
+      longestMatch: { name: longestMatchName, duration: longestMatchData?.duration || 'N/A' },
+      shortestMatch: { name: shortestMatchName, duration: shortestMatchData?.duration || 'N/A' },
       highestRatingMatch: { name: highestRatingMatchName, rating: highestRating },
       lowestRatingMatch: { name: lowestRatingMatchName, rating: lowestRating }
     };
