@@ -30,6 +30,8 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
           <tr>
             <th className="col-rank">Standing</th>
             <th className="col-nickname">Nickname</th>
+            {/* moved Total Score to be right after Nickname */}
+            <th className="col-score">Total Score</th>
             {pastEvents.map((event, idx) => (
               <th key={`past-${idx}`} className="col-event">{event.event}</th>
             ))}
@@ -43,7 +45,6 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
                 {event.event}
               </th>
             ))}
-            <th className="col-score">Total Score</th>
           </tr>
         </thead>
         <tbody>
@@ -75,6 +76,15 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
                     <span className="nickname-id">{gambler.id}</span>
                   </div>
                 </td>
+
+                {/* Total Score immediately after Nickname */}
+                <td className="col-score">
+                  <span className={`score-value ${getScoreClass(gambler.totalPoints)}`}>
+                    {gambler.totalPoints > 0 && '+'}
+                    {gambler.totalPoints}
+                  </span>
+                </td>
+
                 {gambler.history.map((event, idx) => (
                   <td key={`past-${idx}`} className="col-event">
                     <span className={`event-points ${getScoreClass(event.points)}`}>
@@ -93,12 +103,6 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
                     <span className="event-points upcoming-empty">-</span>
                   </td>
                 ))}
-                <td className="col-score">
-                  <span className={`score-value ${getScoreClass(gambler.totalPoints)}`}>
-                    {gambler.totalPoints > 0 && '+'}
-                    {gambler.totalPoints}
-                  </span>
-                </td>
               </motion.tr>
             );
           })}
