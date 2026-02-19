@@ -85,10 +85,12 @@
   transition: all 0.3s ease;
 }
 
-.detail-item:hover {
-  background: rgba(233, 69, 96, 0.2);
-  border-color: var(--primary);
-  transform: translateY(-2px);
+@media (hover: hover) and (pointer: fine) {
+  .detail-item.clickable:hover {
+    background: rgba(233, 69, 96, 0.2);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+  }
 }
 
 .detail-divider {
@@ -114,11 +116,13 @@
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.stat-card:hover {
-  background: rgba(233, 69, 96, 0.2);
-  border-color: var(--primary);
-  transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
+@media (hover: hover) and (pointer: fine) {
+  .stat-card.clickable:hover {
+    background: rgba(233, 69, 96, 0.2);
+    border-color: var(--primary);
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
+  }
 }
 
 .stat-value {
@@ -181,4 +185,3 @@
     grid-template-columns: 1fr;
   }
 }
-
