@@ -1,6 +1,7 @@
 {
     "seasonName": "The Wrestling Betting Championship 2026",
     "totalEvents": 1,
+    "currentChampion": "זאבי",
     "globalLeaderboard": [
         {
             "id": "user1@wwe-fans.co.il",

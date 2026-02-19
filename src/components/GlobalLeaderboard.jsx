@@ -3,6 +3,7 @@ import { Trophy, Calendar, ChevronRight, Sparkles } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import './GlobalLeaderboard.css';
 import logo from '../logo.png';
+import belt from '../belt.png';
 import eventsSchedule from '../data/Events_Schedule.json';
 
 function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }) {
@@ -273,8 +274,23 @@ function GlobalLeaderboard({ seasonData }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
         >
+          {/* Current Champion Card */}
+          <motion.div
+            className="current-champion-card"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.8 }}
+          >
+            <div className="champion-content">
+              <div className="champion-label">
+                <span>Current Champion</span>
+              </div>
+              <div className="champion-name">{seasonData.currentChampion}</div>
+              <img src={belt} alt="Championship Belt" className="champion-belt" />
+            </div>
+          </motion.div>
+
           <h2>
-            <Trophy size={24} />
             Season Standings
           </h2>
 
