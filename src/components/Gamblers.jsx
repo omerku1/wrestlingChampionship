@@ -7,7 +7,17 @@ function Gamblers({ eventData }) {
   const gamblersData = useMemo(() => {
     const scores = {};
 
-    eventData.gamblers.forEach(gambler => {
+    // Check if gamblers is an object (new format) or array (old format)
+    const gamblersArray = Array.isArray(eventData.gamblers)
+      ? eventData.gamblers
+      : Object.entries(eventData.gamblers).map(([id, gambler]) => ({
+          id,
+          ...gambler
+        }));
+
+    const matches = eventData.matchDetails || eventData.matches || [];
+
+    gamblersArray.forEach(gambler => {
       scores[gambler.id] = {
         nickname: gambler.nickname,
         totalScore: 0,
@@ -18,21 +28,49 @@ function Gamblers({ eventData }) {
       };
     });
 
-    eventData.matches.forEach(match => {
-      match.gamblersResult.forEach(result => {
-        if (scores[result.id]) {
-          scores[result.id].totalScore += result.result;
-          scores[result.id].matchResults.push({
-            matchName: match['match name'],
-            result: result.result,
-            matchScore: match['match score']
+    if (matches[0]?.gamblersResult) {
+      // Old format
+      matches.forEach(match => {
+        match.gamblersResult.forEach(result => {
+          if (scores[result.id]) {
+            scores[result.id].totalScore += result.result;
+            scores[result.id].matchResults.push({
+              matchName: match['match name'],
+              result: result.result,
+              matchScore: match['match score']
+            });
+            if (result.result > 0) scores[result.id].wins++;
+            else if (result.result < 0) scores[result.id].losses++;
+            else scores[result.id].draws++;
+          }
+        });
+      });
+    } else {
+      // New format - calculate from matches object
+      gamblersArray.forEach(gambler => {
+        if (gambler.matches) {
+          matches.forEach(match => {
+            const matchName = match['match name'];
+            const result = gambler.matches[matchName] || 0;
+            scores[gambler.id].matchResults.push({
+              matchName: matchName,
+              result: result,
+              matchScore: match['match score']
+            });
+            scores[gambler.id].totalScore += result;
+            if (result > 0) scores[gambler.id].wins++;
+            else if (result < 0) scores[gambler.id].losses++;
+            else scores[gambler.id].draws++;
           });
-          if (result.result > 0) scores[result.id].wins++;
-          else if (result.result < 0) scores[result.id].losses++;
-          else scores[result.id].draws++;
+        }
+        // Add individual scores if they exist
+        if (gambler.individuals) {
+          Object.entries(gambler.individuals).forEach(([key, value]) => {
+            scores[gambler.id].totalScore += value || 0;
+          });
         }
       });
-    });
+    }
 
     return Object.entries(scores)
       .map(([id, data]) => ({ id, ...data }))

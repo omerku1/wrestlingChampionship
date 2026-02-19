@@ -6,23 +6,65 @@ function Leaderboard({ eventData }) {
   const leaderboardData = useMemo(() => {
     const scores = {};
 
+    // Check if gamblers is an object (new format) or array (old format)
+    const gamblersArray = Array.isArray(eventData.gamblers)
+      ? eventData.gamblers
+      : Object.entries(eventData.gamblers).map(([id, gambler]) => ({
+          id,
+          ...gambler
+        }));
+
     // Initialize scores for each gambler
-    eventData.gamblers.forEach(gambler => {
+    gamblersArray.forEach(gambler => {
       scores[gambler.id] = {
         nickname: gambler.nickname,
         totalScore: 0,
-        matchScores: []
+        matchScores: [],
+        individualScores: [],
+        individualsData: {}
       };
     });
 
-    // Calculate total scores and collect match scores
-    eventData.matches.forEach(match => {
-      match.gamblersResult.forEach(result => {
-        if (scores[result.id]) {
-          scores[result.id].totalScore += result.result;
-          scores[result.id].matchScores.push(result.result);
-        }
+    // Check if using new format (matchDetails + matches scores) or old format (matches + gamblersResult)
+    const hasMatchDetails = eventData.matchDetails && Array.isArray(eventData.matchDetails);
+    const hasMatches = eventData.matches && Array.isArray(eventData.matches);
+
+    if (hasMatchDetails && gamblersArray[0]?.matches) {
+      // New format: matches object with scores per match
+      Object.values(eventData.matchDetails).forEach((match, idx) => {
+        gamblersArray.forEach(gambler => {
+          const matchName = match['match name'];
+          const score = gambler.matches?.[matchName] || 0;
+          if (scores[gambler.id]) {
+            scores[gambler.id].totalScore += score;
+            scores[gambler.id].matchScores.push(score);
+          }
+        });
       });
+    } else if (hasMatches) {
+      // Old format: gamblersResult array
+      eventData.matches.forEach(match => {
+        match.gamblersResult?.forEach(result => {
+          if (scores[result.id]) {
+            scores[result.id].totalScore += result.result;
+            scores[result.id].matchScores.push(result.result);
+          }
+        });
+      });
+    }
+
+    // Calculate individual scores if they exist
+    gamblersArray.forEach(gambler => {
+      if (gambler.individuals) {
+        scores[gambler.id].individualsData = gambler.individuals;
+        // Sum all individual scores
+        const individualTotal = Object.values(gambler.individuals).reduce((sum, val) => sum + val, 0);
+        scores[gambler.id].totalScore += individualTotal;
+        scores[gambler.id].individualScores = Object.entries(gambler.individuals).map(([key, val]) => ({
+          name: key,
+          score: val
+        }));
+      }
     });
 
     // Convert to array and sort by total score
@@ -53,12 +95,32 @@ function Leaderboard({ eventData }) {
               <th className="col-rank">Rank</th>
               <th className="col-nickname">Nickname</th>
               <th className="col-total">Total</th>
-              {eventData.matches.map((match, idx) => (
+              {(eventData.matchDetails || eventData.matches || []).map((match, idx) => (
                 <th key={idx} className="col-match">
                   {match['match name']}
                 </th>
               ))}
+              {leaderboardData[0]?.individualScores.length > 0 && (
+                <>
+                  <th className="col-individuals-total">Individuals</th>
+                  <th className="col-individual-header" colSpan={leaderboardData[0].individualScores.length}>
+                    Details
+                  </th>
+                </>
+              )}
             </tr>
+            {leaderboardData[0]?.individualScores.length > 0 && (
+              <tr className="sub-header">
+                <th colSpan={3}></th>
+                <th colSpan={(eventData.matchDetails || eventData.matches || []).length}></th>
+                <th></th>
+                {leaderboardData[0].individualScores.map((individual, idx) => (
+                  <th key={`header-${idx}`} className="col-individual">
+                    {individual.name.replace(/_/g, ' ')}
+                  </th>
+                ))}
+              </tr>
+            )}
           </thead>
           <tbody>
             {leaderboardData.map((gambler, index) => {
@@ -98,6 +160,24 @@ function Leaderboard({ eventData }) {
                       <span className={`event-points ${getScoreClass(score)}`}>
                         {score > 0 && '+'}
                         {score}
+                      </span>
+                    </td>
+                  ))}
+                  {gambler.individualScores.length > 0 && (
+                    <td className="col-individuals-total">
+                      <span className={`individuals-total-score ${getScoreClass(gambler.individualsData && Object.values(gambler.individualsData).reduce((sum, val) => sum + val, 0))}`}>
+                        {(() => {
+                          const total = gambler.individualsData && Object.values(gambler.individualsData).reduce((sum, val) => sum + val, 0);
+                          return total > 0 ? '+' + total : total;
+                        })()}
+                      </span>
+                    </td>
+                  )}
+                  {gambler.individualScores.map((individual, idx) => (
+                    <td key={`ind-${idx}`} className="col-individual">
+                      <span className={`individual-score ${getScoreClass(individual.score)}`}>
+                        {individual.score > 0 && '+'}
+                        {individual.score}
                       </span>
                     </td>
                   ))}

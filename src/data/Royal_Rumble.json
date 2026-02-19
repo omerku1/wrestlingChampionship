@@ -2,544 +2,586 @@
     "eventName": "Royal Rumble",
     "eventDate": "2026-01-31",
     "location": "Riyadh, Saudi Arabia",
-    "gamblers": [
-        {
-            "id": "user1@wwe-fans.com",
-            "nickname": "CodyFan_99"
-        },
-        {
-            "id": "user2@wwe-fans.com",
-            "nickname": "TheTribalChief"
-        },
-        {
-            "id": "user3@wwe-fans.com",
-            "nickname": "MamiRhea"
-        },
-        {
-            "id": "user4@wwe-fans.com",
-            "nickname": "StoneColdSteve"
-        },
-        {
-            "id": "user5@wwe-fans.com",
-            "nickname": "WrestlingGod"
-        },
-        {
-            "id": "user6@wwe-fans.com",
-            "nickname": "HustleLoyalty"
-        },
-        {
-            "id": "user7@wwe-fans.com",
-            "nickname": "QueenCharlotte"
-        },
-        {
-            "id": "user8@wwe-fans.com",
-            "nickname": "TheVisionary"
-        },
-        {
-            "id": "user9@wwe-fans.com",
-            "nickname": "AmericanNightmare"
-        },
-        {
-            "id": "user10@wwe-fans.com",
-            "nickname": "TheGame"
-        },
-        {
-            "id": "user11@wwe-fans.com",
-            "nickname": "DeadmanWalking"
-        },
-        {
-            "id": "user12@wwe-fans.com",
-            "nickname": "PhenomenalOne"
-        },
-        {
-            "id": "user13@wwe-fans.com",
-            "nickname": "EST_of_WWE"
-        },
-        {
-            "id": "user14@wwe-fans.com",
-            "nickname": "TheMan"
-        },
-        {
-            "id": "user15@wwe-fans.com",
-            "nickname": "BigTimeBecks"
-        },
-        {
-            "id": "user16@wwe-fans.com",
-            "nickname": "DirtyDom"
-        },
-        {
-            "id": "user17@wwe-fans.com",
-            "nickname": "YEAH_Knight"
-        },
-        {
-            "id": "user18@wwe-fans.com",
-            "nickname": "MainEventJey"
-        },
-        {
-            "id": "user19@wwe-fans.com",
-            "nickname": "SamiZayn_Fan"
-        },
-        {
-            "id": "user20@wwe-fans.com",
-            "nickname": "KevinOwensShow"
-        },
-        {
-            "id": "user21@wwe-fans.com",
-            "nickname": "JudgmentDay_Member"
-        },
-        {
-            "id": "user22@wwe-fans.com",
-            "nickname": "Bloodline_Loyal"
-        },
-        {
-            "id": "user23@wwe-fans.com",
-            "nickname": "NXT_Prospect"
-        },
-        {
-            "id": "user24@wwe-fans.com",
-            "nickname": "LegendsNeverDie"
-        },
-        {
-            "id": "user25@wwe-fans.com",
-            "nickname": "WorldChamp"
-        }
-    ],
-    "matches": [
+    "matchDetails": [
         {
             "match name": "Men's Royal Rumble Match",
             "match score": 8,
             "duration": "58:21",
             "titleChange": false,
-            "rating": 4.71,
-            "gamblersResult": [
-                {
-                    "id": "user1@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user2@wwe-fans.com",
-                    "result": 8
-                },
-                {
-                    "id": "user3@wwe-fans.com",
-                    "result": -8
-                },
-                {
-                    "id": "user4@wwe-fans.com",
-                    "result": 16
-                },
-                {
-                    "id": "user5@wwe-fans.com",
-                    "result": 8
-                },
-                {
-                    "id": "user6@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user7@wwe-fans.com",
-                    "result": 0
-                },
-                {
-                    "id": "user8@wwe-fans.com",
-                    "result": 7
-                },
-                {
-                    "id": "user9@wwe-fans.com",
-                    "result": -16
-                },
-                {
-                    "id": "user10@wwe-fans.com",
-                    "result": -24
-                },
-                {
-                    "id": "user11@wwe-fans.com",
-                    "result": -8
-                },
-                {
-                    "id": "user12@wwe-fans.com",
-                    "result": 4
-                },
-                {
-                    "id": "user13@wwe-fans.com",
-                    "result": 0
-                },
-                {
-                    "id": "user14@wwe-fans.com",
-                    "result": 0
-                },
-                {
-                    "id": "user15@wwe-fans.com",
-                    "result": 16
-                },
-                {
-                    "id": "user16@wwe-fans.com",
-                    "result": 0
-                },
-                {
-                    "id": "user17@wwe-fans.com",
-                    "result": 5
-                },
-                {
-                    "id": "user18@wwe-fans.com",
-                    "result": 10
-                },
-                {
-                    "id": "user19@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user20@wwe-fans.com",
-                    "result": 9
-                },
-                {
-                    "id": "user21@wwe-fans.com",
-                    "result": -16
-                },
-                {
-                    "id": "user22@wwe-fans.com",
-                    "result": 4
-                },
-                {
-                    "id": "user23@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user24@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user25@wwe-fans.com",
-                    "result": 7
-                }
-            ]
+            "rating": 4.71
         },
         {
             "match name": "Women's Royal Rumble Match",
             "match score": 6,
             "duration": "1:06:51",
             "titleChange": false,
-            "rating": 6.19,
-            "gamblersResult": [
-                {
-                    "id": "user1@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user2@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user3@wwe-fans.com",
-                    "result": -6
-                },
-                {
-                    "id": "user4@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user5@wwe-fans.com",
-                    "result": -3
-                },
-                {
-                    "id": "user6@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user7@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user8@wwe-fans.com",
-                    "result": -6
-                },
-                {
-                    "id": "user9@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user10@wwe-fans.com",
-                    "result": 18
-                },
-                {
-                    "id": "user11@wwe-fans.com",
-                    "result": -12
-                },
-                {
-                    "id": "user12@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user13@wwe-fans.com",
-                    "result": -12
-                },
-                {
-                    "id": "user14@wwe-fans.com",
-                    "result": -6
-                },
-                {
-                    "id": "user15@wwe-fans.com",
-                    "result": 9
-                },
-                {
-                    "id": "user16@wwe-fans.com",
-                    "result": -12
-                },
-                {
-                    "id": "user17@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user18@wwe-fans.com",
-                    "result": 12
-                },
-                {
-                    "id": "user19@wwe-fans.com",
-                    "result": 10
-                },
-                {
-                    "id": "user20@wwe-fans.com",
-                    "result": -6
-                },
-                {
-                    "id": "user21@wwe-fans.com",
-                    "result": 5
-                },
-                {
-                    "id": "user22@wwe-fans.com",
-                    "result": 3
-                },
-                {
-                    "id": "user23@wwe-fans.com",
-                    "result": -6
-                },
-                {
-                    "id": "user24@wwe-fans.com",
-                    "result": 4
-                },
-                {
-                    "id": "user25@wwe-fans.com",
-                    "result": 6
-                }
-            ]
+            "rating": 6.19
         },
         {
             "match name": "Gunther vs AJ Styles",
             "match score": 2,
             "duration": "24:04",
             "titleChange": false,
-            "rating": 8.48,
-            "gamblersResult": [
-                {
-                    "id": "user1@wwe-fans.com",
-                    "result": 4
-                },
-                {
-                    "id": "user2@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user3@wwe-fans.com",
-                    "result": 4
-                },
-                {
-                    "id": "user4@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user5@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user6@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user7@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user8@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user9@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user10@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user11@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user12@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user13@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user14@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user15@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user16@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user17@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user18@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user19@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user20@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user21@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user22@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user23@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user24@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user25@wwe-fans.com",
-                    "result": 4
-                }
-            ]
+            "rating": 8.48
         },
         {
             "match name": "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn",
             "match score": 3,
             "duration": "15:59",
             "titleChange": false,
-            "rating": 6.34,
-            "gamblersResult": [
-                {
-                    "id": "user1@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user2@wwe-fans.com",
-                    "result": 4
-                },
-                {
-                    "id": "user3@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user4@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user5@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user6@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user7@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user8@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user9@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user10@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user11@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user12@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user13@wwe-fans.com",
-                    "result": 6
-                },
-                {
-                    "id": "user14@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user15@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user16@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user17@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user18@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user19@wwe-fans.com",
-                    "result": -4
-                },
-                {
-                    "id": "user20@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user21@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user22@wwe-fans.com",
-                    "result": -2
-                },
-                {
-                    "id": "user23@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user24@wwe-fans.com",
-                    "result": 2
-                },
-                {
-                    "id": "user25@wwe-fans.com",
-                    "result": -6
-                }
-            ]
+            "rating": 6.34
         }
-    ]
+    ],
+    "gamblers": {
+        "user1@wwe-fans.com": {
+            "nickname": "זאבי",
+            "matches": {
+                "Men's Royal Rumble Match": 24,
+                "Women's Royal Rumble Match": 12,
+                "Gunther vs AJ Styles": 3,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": 6,
+                "mens_time": -1,
+                "womens_time": 0,
+                "mens_eliminations": -1,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user2@wwe-fans.com": {
+            "nickname": "עידו שפירא",
+            "matches": {
+                "Men's Royal Rumble Match": 24,
+                "Women's Royal Rumble Match": 12,
+                "Gunther vs AJ Styles": 3,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user3@wwe-fans.com": {
+            "nickname": "אסף ג",
+            "matches": {
+                "Men's Royal Rumble Match": 24,
+                "Women's Royal Rumble Match": 12,
+                "Gunther vs AJ Styles": 0,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": -1,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user4@wwe-fans.com": {
+            "nickname": "פוחצ'בסקי",
+            "matches": {
+                "Men's Royal Rumble Match": 10,
+                "Women's Royal Rumble Match": 18,
+                "Gunther vs AJ Styles": 0,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": -1,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination": 0
+            }
+        },
+        "user5@wwe-fans.com": {
+            "nickname": "חגי",
+            "matches": {
+                "Men's Royal Rumble Match": 6,
+                "Women's Royal Rumble Match": 18,
+                "Gunther vs AJ Styles": 3,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": -1,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": 1,
+                "elimination": 0
+            }
+        },
+        "user6@wwe-fans.com": {
+            "nickname": "ליאור ברק",
+            "matches": {
+                "Men's Royal Rumble Match": 8,
+                "Women's Royal Rumble Match": 12,
+                "Gunther vs AJ Styles": -3,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 9
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user7@wwe-fans.com": {
+            "nickname": "sbarakud",
+            "matches": {
+                "Men's Royal Rumble Match": 12,
+                "Women's Royal Rumble Match": 12,
+                "Gunther vs AJ Styles": 0,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 9
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "surprises": 0,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination": 0
+            }
+        },
+        "user8@wwe-fans.com": {
+            "nickname": "אביעד",
+            "matches": {
+                "Men's Royal Rumble Match": 8,
+                "Women's Royal Rumble Match": 9,
+                "Gunther vs AJ Styles": 6,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 3
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": -1,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user9@wwe-fans.com": {
+            "nickname": "ירון",
+            "matches": {
+                "Men's Royal Rumble Match": 16,
+                "Women's Royal Rumble Match": 6,
+                "Gunther vs AJ Styles": -9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user10@wwe-fans.com": {
+            "nickname": "שי פינטו",
+            "matches": {
+                "Men's Royal Rumble Match": 8,
+                "Women's Royal Rumble Match": 0,
+                "Gunther vs AJ Styles": 3,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 3
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user11@wwe-fans.com": {
+            "nickname": "שחר ס",
+            "matches": {
+                "Men's Royal Rumble Match": 0,
+                "Women's Royal Rumble Match": 6,
+                "Gunther vs AJ Styles": 0,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": -1,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": 1,
+                "elimination": 0
+            }
+        },
+        "user12@wwe-fans.com": {
+            "nickname": "רפי",
+            "matches": {
+                "Men's Royal Rumble Match": 4,
+                "Women's Royal Rumble Match": 3,
+                "Gunther vs AJ Styles": 0,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": -1,
+                "dq": -1,
+                "surprises": 1,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination": 0
+            }
+        },
+        "user13@wwe-fans.com": {
+            "nickname": "עומר קול",
+            "matches": {
+                "Men's Royal Rumble Match": -8,
+                "Women's Royal Rumble Match": 12,
+                "Gunther vs AJ Styles": 0,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 9
+            },
+            "individuals": {
+                "short": 0,
+                "long": -1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": -1,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user14@wwe-fans.com": {
+            "nickname": "יעד",
+            "matches": {
+                "Men's Royal Rumble Match": 8,
+                "Women's Royal Rumble Match": 4,
+                "Gunther vs AJ Styles": -6,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": -2,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination": 0
+            }
+        },
+        "user15@wwe-fans.com": {
+            "nickname": "יהודה",
+            "matches": {
+                "Men's Royal Rumble Match": -16,
+                "Women's Royal Rumble Match": 18,
+                "Gunther vs AJ Styles": 3,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": 1,
+                "worst": 1,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": -1,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user16@wwe-fans.com": {
+            "nickname": "ארז",
+            "matches": {
+                "Men's Royal Rumble Match": 8,
+                "Women's Royal Rumble Match": 4,
+                "Gunther vs AJ Styles": -9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": 0,
+                "long": -1,
+                "best": 0,
+                "worst": 0,
+                "dq": -1,
+                "surprises": 0,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user17@wwe-fans.com": {
+            "nickname": "עומר ב",
+            "matches": {
+                "Men's Royal Rumble Match": 12,
+                "Women's Royal Rumble Match": 0,
+                "Gunther vs AJ Styles": -9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": 1,
+                "dq": -1,
+                "surprises": -2,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination": 1
+            }
+        },
+        "user18@wwe-fans.com": {
+            "nickname": "משה ב",
+            "matches": {
+                "Men's Royal Rumble Match": 3,
+                "Women's Royal Rumble Match": 4,
+                "Gunther vs AJ Styles": 9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": -6
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": -1,
+                "mens_time": 1,
+                "womens_time": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination": 0
+            }
+        },
+        "user19@wwe-fans.com": {
+            "nickname": "רובי",
+            "matches": {
+                "Men's Royal Rumble Match": 6,
+                "Women's Royal Rumble Match": 6,
+                "Gunther vs AJ Styles": -9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 3
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": -1,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": 1,
+                "elimination": 0
+            }
+        },
+        "user20@wwe-fans.com": {
+            "nickname": "אבי",
+            "matches": {
+                "Men's Royal Rumble Match": -16,
+                "Women's Royal Rumble Match": 0,
+                "Gunther vs AJ Styles": 9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user21@wwe-fans.com": {
+            "nickname": "הירש",
+            "matches": {
+                "Men's Royal Rumble Match": 2,
+                "Women's Royal Rumble Match": -6,
+                "Gunther vs AJ Styles": 0,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": -1,
+                "dq": -1,
+                "surprises": 1,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination": -3
+            }
+        },
+        "user22@wwe-fans.com": {
+            "nickname": "gugy.temp",
+            "matches": {
+                "Men's Royal Rumble Match": 6,
+                "Women's Royal Rumble Match": 3,
+                "Gunther vs AJ Styles": -9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": -6
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": 0,
+                "womens_time": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user23@wwe-fans.com": {
+            "nickname": "izra2go",
+            "matches": {
+                "Men's Royal Rumble Match": 2,
+                "Women's Royal Rumble Match": -6,
+                "Gunther vs AJ Styles": -9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 3
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": 1,
+                "dq": -1,
+                "surprises": -3,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": 1,
+                "elimination": -1
+            }
+        },
+        "user24@wwe-fans.com": {
+            "nickname": "יהונתן",
+            "matches": {
+                "Men's Royal Rumble Match": -24,
+                "Women's Royal Rumble Match": -6,
+                "Gunther vs AJ Styles": 6,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": 3
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "surprises": 0,
+                "mens_time": 0,
+                "womens_time": -1,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination": 0
+            }
+        },
+        "user25@wwe-fans.com": {
+            "nickname": "נון",
+            "matches": {
+                "Men's Royal Rumble Match": 0,
+                "Women's Royal Rumble Match": -12,
+                "Gunther vs AJ Styles": -9,
+                "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn": -3
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": -1,
+                "dq": -1,
+                "surprises": -4,
+                "mens_time": -1,
+                "womens_time": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination": -1
+            }
+        }
+    }
 }

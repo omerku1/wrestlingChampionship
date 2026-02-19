@@ -9,9 +9,44 @@ function Matches({ eventData }) {
     return 'neutral';
   };
 
+  // Check if gamblers is an object (new format) or array (old format)
+  const gamblersArray = Array.isArray(eventData.gamblers)
+    ? eventData.gamblers
+    : Object.entries(eventData.gamblers).map(([id, gambler]) => ({
+        id,
+        ...gambler
+      }));
+
   const findGambler = (id) => {
-    return eventData.gamblers.find(g => g.id === id);
+    return gamblersArray.find(g => g.id === id);
   };
+
+  const matches = eventData.matchDetails || eventData.matches || [];
+
+  // For new format, we need to construct match results from the gamblers data
+  const getMatchesForDisplay = () => {
+    if (matches[0]?.gamblersResult) {
+      // Old format - already has gamblersResult
+      return matches;
+    } else {
+      // New format - construct from gamblers.matches
+      return matches.map(match => {
+        const matchName = match['match name'];
+        const gamblersResult = gamblersArray
+          .map(gambler => ({
+            id: gambler.id,
+            result: gambler.matches?.[matchName] || 0
+          }))
+          .filter(g => g.result !== 0); // Only include gamblers with results
+        return {
+          ...match,
+          gamblersResult
+        };
+      });
+    }
+  };
+
+  const displayMatches = getMatchesForDisplay();
 
   return (
     <div className="matches">
@@ -25,8 +60,8 @@ function Matches({ eventData }) {
       </motion.div>
 
       <div className="matches-grid">
-        {eventData.matches.map((match, index) => {
-          const sortedResults = [...match.gamblersResult].sort((a, b) => b.result - a.result);
+        {displayMatches.map((match, index) => {
+          const sortedResults = [...(match.gamblersResult || [])].sort((a, b) => b.result - a.result);
 
           return (
             <motion.div
