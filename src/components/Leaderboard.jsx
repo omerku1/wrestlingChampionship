@@ -103,24 +103,14 @@ function Leaderboard({ eventData }) {
               {leaderboardData[0]?.individualScores.length > 0 && (
                 <>
                   <th className="col-individuals-total">Individuals</th>
-                  <th className="col-individual-header" colSpan={leaderboardData[0].individualScores.length}>
-                    Details
-                  </th>
+                  {leaderboardData[0].individualScores.map((individual, idx) => (
+                    <th key={`header-${idx}`} className="col-individual-header">
+                      {individual.name.replace(/_/g, ' ')}
+                    </th>
+                  ))}
                 </>
               )}
             </tr>
-            {leaderboardData[0]?.individualScores.length > 0 && (
-              <tr className="sub-header">
-                <th colSpan={3}></th>
-                <th colSpan={(eventData.matchDetails || eventData.matches || []).length}></th>
-                <th></th>
-                {leaderboardData[0].individualScores.map((individual, idx) => (
-                  <th key={`header-${idx}`} className="col-individual">
-                    {individual.name.replace(/_/g, ' ')}
-                  </th>
-                ))}
-              </tr>
-            )}
           </thead>
           <tbody>
             {leaderboardData.map((gambler, index) => {
