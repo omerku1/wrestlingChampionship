@@ -136,21 +136,11 @@ function GlobalLeaderboard({ seasonData }) {
         <div className="season-glow"></div>
 
         <motion.div
-          className="season-badge"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-        >
-          <Sparkles size={16} />
-          <span>SEASON RANKINGS</span>
-        </motion.div>
-
-        <motion.div
           className="season-title-container"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3 }}
-          style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', justifyContent: 'center' }}
+          style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem' }}
         >
           <img
             src={logo}
@@ -165,22 +155,6 @@ function GlobalLeaderboard({ seasonData }) {
           <h1 className="season-title">
             {seasonData.seasonName}
           </h1>
-        </motion.div>
-
-        <motion.div
-          className="season-stats"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.4 }}
-        >
-          <div className="season-stat">
-            <Calendar size={20} />
-            <span>{seasonData.totalEvents} Events Completed</span>
-          </div>
-          <div className="season-stat">
-            <Trophy size={20} />
-            <span>{seasonData.globalLeaderboard.length} Competitors</span>
-          </div>
         </motion.div>
       </motion.div>
 
