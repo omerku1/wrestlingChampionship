@@ -3,6 +3,7 @@ import { Trophy, Calendar, ChevronRight, Sparkles } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import './GlobalLeaderboard.css';
 import logo from '../logo.png';
+import eventsSchedule from '../data/Events_Schedule.json';
 
 function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }) {
   const getRankIcon = (rank) => {
@@ -173,7 +174,7 @@ function GlobalLeaderboard({ seasonData }) {
             Past Events
           </h2>
           <div className="events-list">
-            {seasonData.globalLeaderboard[0]?.history.map((event, index) => (
+            {eventsSchedule['past events']?.map((event, index) => (
               <motion.div
                 key={event.event}
                 className="event-list-item"
@@ -196,7 +197,7 @@ function GlobalLeaderboard({ seasonData }) {
           </div>
 
           {/* Next Event Section */}
-          {seasonData["Next Event"] && (
+          {eventsSchedule["next event"] && (
             <>
               <h2 style={{ marginTop: '2rem' }}>
                 <Calendar size={24} />
@@ -211,15 +212,15 @@ function GlobalLeaderboard({ seasonData }) {
                   whileHover={{ x: 5 }}
                   onClick={() => {
                     // Navigate to next event with special handling
-                    navigate(`/event/next/${encodeURIComponent(seasonData["Next Event"].event)}`, {
-                      state: { eventDetails: seasonData["Next Event"] }
+                    navigate(`/event/next/${encodeURIComponent(eventsSchedule["next event"].event)}`, {
+                      state: { eventDetails: eventsSchedule["next event"] }
                     });
                   }}
                 >
                   <div className="event-list-content">
                     <div className="event-list-name">
-                      {seasonData["Next Event"].event}
-                      <div className="event-date">{seasonData["Next Event"].date}</div>
+                      {eventsSchedule["next event"].event}
+                      <div className="event-date">{eventsSchedule["next event"].date}</div>
                     </div>
                     <ChevronRight size={18} />
                   </div>
@@ -229,14 +230,14 @@ function GlobalLeaderboard({ seasonData }) {
           )}
 
           {/* Upcoming Events Section */}
-          {seasonData["upcoming events"] && seasonData["upcoming events"].length > 0 && (
+          {eventsSchedule["upcoming events"] && eventsSchedule["upcoming events"].length > 0 && (
             <>
               <h2 style={{ marginTop: '2rem' }}>
                 <Calendar size={24} />
                 Upcoming Events
               </h2>
               <div className="events-list">
-                {seasonData["upcoming events"].map((event, index) => (
+                {eventsSchedule["upcoming events"].map((event, index) => (
                   <motion.div
                     key={event.event}
                     className="event-list-item upcoming-event"
@@ -279,9 +280,9 @@ function GlobalLeaderboard({ seasonData }) {
 
           <LeaderboardTable
             leaderboard={leaderboardWithRanks}
-            pastEvents={seasonData.globalLeaderboard[0]?.history || []}
-            nextEvent={seasonData["Next Event"]}
-            upcomingEvents={seasonData["upcoming events"] || []}
+            pastEvents={eventsSchedule['past events'] || []}
+            nextEvent={eventsSchedule['next event']}
+            upcomingEvents={eventsSchedule['upcoming events'] || []}
           />
         </motion.div>
       </div>
