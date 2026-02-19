@@ -1,0 +1,104 @@
+{
+    "past events": [
+        {
+            "date": "January 31",
+            "event": "Royal Rumble",
+            "location": "Riyadh, Saudi Arabia",
+            "matches": [
+                {
+                    "id": 1,
+                    "match": "Men's Royal Rumble Match",
+                    "type": "Royal Rumble match",
+                    "stipulation": "Winner receives a World Championship match at WrestleMania 42"
+                },
+                {
+                    "id": 2,
+                    "match": "Women's Royal Rumble Match",
+                    "type": "Royal Rumble match",
+                    "stipulation": "Winner receives a Women's World Championship match at WrestleMania 42"
+                },
+                {
+                    "id": 3,
+                    "match": "Gunther vs. AJ Styles",
+                    "type": "Singles match",
+                    "stipulation": "None"
+                },
+                {
+                    "id": 4,
+                    "match": "Drew McIntyre (c) vs. Sami Zayn",
+                    "type": "Singles match",
+                    "stipulation": "For the Undisputed WWE Championship"
+                }
+            ]
+        }
+    ],
+    "next event": {
+        "date": "February 28",
+        "event": "Elimination Chamber",
+        "location": "O2 Arena, London, England",
+        "matches": [
+            {
+                "id": 1,
+                "match": "Men's Elimination Chamber Match",
+                "type": "Elimination Chamber match",
+                "stipulation": "Winner receives a World Heavyweight Championship match at WrestleMania 42"
+            },
+            {
+                "id": 2,
+                "match": "Women's Elimination Chamber Match",
+                "type": "Elimination Chamber match",
+                "stipulation": "Winner receives a Women's World Championship match at WrestleMania 42"
+            },
+            {
+                "id": 3,
+                "match": "Cody Rhodes (c) vs. Roman Reigns",
+                "type": "Singles match",
+                "stipulation": "For the Undisputed WWE Championship"
+            },
+            {
+                "id": 4,
+                "match": "CM Punk (c) vs. Finn Bálor",
+                "type": "Singles match",
+                "stipulation": "For the World Heavyweight Championship"
+            }
+        ]
+    },
+    "upcoming events": [
+        {
+            "date": "March 7",
+            "event": "Vengeance Day",
+            "location": "TBA",
+            "matches": []
+        },
+        {
+            "date": "April 18-19",
+            "event": "WrestleMania 42",
+            "location": "Allegiant Stadium, Paradise, Nevada",
+            "matches": []
+        },
+        {
+            "date": "May 9",
+            "event": "Backlash",
+            "location": "Benchmark International Arena, Tampa, Florida",
+            "matches": []
+        },
+        {
+            "date": "May 31",
+            "event": "TBA",
+            "location": "Italy",
+            "matches": []
+        },
+        {
+            "date": "August 1-2",
+            "event": "SummerSlam",
+            "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
+            "matches": []
+        },
+        {
+            "date": "September 6",
+            "event": "Money in the Bank",
+            "location": "Smoothie King Center, New Orleans, Louisiana",
+            "matches": []
+        }
+    ]
+}
