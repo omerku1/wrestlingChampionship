@@ -5,8 +5,8 @@ A **stunning, modern React application** with **multi-page navigation** to track
 ## ✨ New Multi-Page Structure
 
 ### 🏠 **HOME PAGE** (`/`)
-- **Season Overview**: "The Road to WrestleMania 2026"
-- **Global Leaderboard**: All 25 competitors ranked by total season points
+- **Season Overview**: "The Wrestling Betting Championship 2026"
+- **Global Leaderboard**: All competitors ranked by total season points
 - **Event Cards**: Click to navigate to individual event pages
 - **Gambler Stats**: Accuracy rate and best event for each competitor
 - **Event History**: Performance breakdown across all events
