@@ -31,6 +31,13 @@ function Leaderboard({ eventData }) {
       .sort((a, b) => b.totalScore - a.totalScore);
   }, [eventData]);
 
+  const getRankIcon = (rank) => {
+    if (rank === 1) return '🥇';
+    if (rank === 2) return '🥈';
+    if (rank === 3) return '🥉';
+    return null;
+  };
+
   const getScoreClass = (score) => {
     if (score > 0) return 'positive';
     if (score < 0) return 'negative';
@@ -56,13 +63,30 @@ function Leaderboard({ eventData }) {
           <tbody>
             {leaderboardData.map((gambler, index) => {
               const rank = index + 1;
+              const rankIcon = getRankIcon(rank);
+              const shouldAnimate = index < 10; // Only animate top 10 to save mobile performance
 
               return (
-                <tr key={gambler.id} className={`leaderboard-row ${rank <= 3 ? `rank-${rank}` : ''}`}>
+                <motion.tr
+                  key={gambler.id}
+                  className={`table-row ${rank <= 3 ? `rank-${rank}` : ''}`}
+                  initial={shouldAnimate ? { opacity: 0, y: 10 } : { opacity: 1, y: 0 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: shouldAnimate ? index * 0.05 : 0 }}
+                  whileHover={{ backgroundColor: 'rgba(233, 69, 96, 0.1)' }}
+                >
                   <td className="col-rank">
-                    <span className="rank-badge">#{rank}</span>
+                    <div className="rank-cell">
+                      {rankIcon ? (
+                        <span className="rank-medal">{rankIcon}</span>
+                      ) : (
+                        <span className="rank-number">#{rank}</span>
+                      )}
+                    </div>
                   </td>
-                  <td className="col-nickname">{gambler.nickname}</td>
+                  <td className="col-nickname">
+                    <span className="nickname-text">{gambler.nickname}</span>
+                  </td>
                   <td className="col-total">
                     <span className={`total-score ${getScoreClass(gambler.totalScore)}`}>
                       {gambler.totalScore > 0 && '+'}
@@ -71,13 +95,13 @@ function Leaderboard({ eventData }) {
                   </td>
                   {gambler.matchScores.map((score, idx) => (
                     <td key={idx} className="col-match">
-                      <span className={`match-score ${getScoreClass(score)}`}>
+                      <span className={`event-points ${getScoreClass(score)}`}>
                         {score > 0 && '+'}
                         {score}
                       </span>
                     </td>
                   ))}
-                </tr>
+                </motion.tr>
               );
             })}
           </tbody>
@@ -88,4 +112,3 @@ function Leaderboard({ eventData }) {
 }
 
 export default Leaderboard;
-

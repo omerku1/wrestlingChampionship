@@ -1,238 +1,169 @@
 .leaderboard {
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .leaderboard-table-container {
   background: var(--card-bg);
   backdrop-filter: blur(10px);
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+
+  /* Mobile Scroll Fixes */
+  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
-  overflow-y: visible;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  display: block;
 }
 
 .leaderboard-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  min-width: max-content; /* Forces horizontal scroll if content is too wide */
 }
 
 .leaderboard-table thead {
-  background: linear-gradient(135deg,
-    rgba(233, 69, 96, 0.2) 0%,
-    rgba(15, 52, 96, 0.3) 100%
-  );
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.leaderboard-table th {
-  padding: 0.75rem;
-  text-align: left;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: var(--text);
-  white-space: nowrap;
+  background: linear-gradient(135deg, rgba(233, 69, 96, 0.2) 0%, rgba(15, 52, 96, 0.3) 100%);
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.leaderboard-table tbody tr {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  transition: all 0.2s ease;
-}
-
-/* Only make rows pointer/hoverable when explicitly clickable */
-.leaderboard-table tbody tr.clickable {
-  cursor: pointer;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .leaderboard-table tbody tr.clickable:hover {
-    background: rgba(233, 69, 96, 0.1);
-  }
-
-  .leaderboard-table tbody tr:nth-child(1).clickable:hover {
-    background: linear-gradient(90deg,
-      rgba(255, 215, 0, 0.12) 0%,
-      rgba(233, 69, 96, 0.1) 100%
-    );
-  }
-
-  .leaderboard-table tbody tr:nth-child(2).clickable:hover {
-    background: linear-gradient(90deg,
-      rgba(192, 192, 192, 0.12) 0%,
-      rgba(233, 69, 96, 0.1) 100%
-    );
-  }
-
-  .leaderboard-table tbody tr:nth-child(3).clickable:hover {
-    background: linear-gradient(90deg,
-      rgba(205, 127, 50, 0.12) 0%,
-      rgba(233, 69, 96, 0.1) 100%
-    );
-  }
-}
-
-/* Column widths */
-.col-rank {
-  width: 60px;
+.leaderboard-table th {
+  padding: 1rem 1.25rem;
   text-align: center;
-}
-
-.col-nickname {
-  min-width: 150px;
-  font-weight: 600;
-}
-
-.col-total {
-  width: 80px;
-  text-align: center;
+  font-size: 0.875rem;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text);
+  white-space: nowrap;
 }
 
-.col-match {
-  min-width: 120px;
-  text-align: center;
-  font-size: 0.75rem;
+.leaderboard-table tbody tr.table-row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
 }
 
-.col-match {
-  white-space: normal;
-  line-height: 1.3;
-  padding: 0.75rem 0.5rem;
+.leaderboard-table td {
+  padding: 1rem 1.25rem;
 }
 
-/* Rank badge */
-.rank-badge {
-  display: inline-flex;
+/* Rank & Medal Styling */
+.rank-cell {
+  display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 32px;
-  height: 24px;
-  padding: 0 0.5rem;
-  background: rgba(233, 69, 96, 0.2);
-  border-radius: 6px;
-  font-size: 0.8125rem;
-  font-weight: 800;
-  color: var(--primary);
 }
 
-/* Score styling */
-.total-score {
-  display: inline-block;
+.rank-medal {
+  font-size: 1.75rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 4px rgba(255, 215, 0, 0.5));
+}
+
+.rank-number {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--text-secondary);
+}
+
+.nickname-text {
   font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* Score Styling (with Neon Glow) */
+.col-total {
+  text-align: center;
+  border-left: 1px solid rgba(255,255,255,0.05);
+  border-right: 1px solid rgba(255,255,255,0.05);
+  background: rgba(0,0,0,0.1);
+}
+
+.total-score {
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
 .total-score.positive {
   color: var(--success);
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
 }
 
 .total-score.negative {
   color: var(--danger);
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
 }
 
 .total-score.neutral {
-  color: var(--text-secondary);
+  color: var(--accent);
 }
 
-.match-score {
-  display: inline-block;
-  font-size: 0.9375rem;
+/* Individual Match Score Styling */
+.col-match {
+  text-align: center;
+}
+
+.event-points {
+  font-size: 1.125rem;
   font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
 }
 
-.match-score.positive {
+.event-points.positive {
   color: var(--success);
+  background: rgba(16, 185, 129, 0.1);
 }
 
-.match-score.negative {
+.event-points.negative {
   color: var(--danger);
+  background: rgba(239, 68, 68, 0.1);
 }
 
-.match-score.neutral {
+.event-points.neutral {
   color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.05);
 }
 
-/* Top 3 row highlighting - switch to greenish-blue palette */
-.leaderboard-table tbody tr.rank-1,
-.leaderboard-table tbody tr:nth-child(1) {
-  background: linear-gradient(90deg,
-    rgba(112, 225, 200, 0.14) 0%, /* light mint */
-    rgba(34, 197, 94, 0.04) 100% /* soft green */
-  );
+/* Top 3 Row Backgrounds (Gold, Silver, Bronze) */
+.table-row.rank-1 {
+  background: linear-gradient(90deg, rgba(255, 215, 0, 0.1) 0%, transparent 100%);
 }
 
-.leaderboard-table tbody tr.rank-2,
-.leaderboard-table tbody tr:nth-child(2) {
-  background: linear-gradient(90deg,
-    rgba(72, 189, 204, 0.12) 0%, /* aqua */
-    rgba(34, 197, 94, 0.03) 100% /* softer */
-  );
+.table-row.rank-2 {
+  background: linear-gradient(90deg, rgba(192, 192, 192, 0.1) 0%, transparent 100%);
 }
 
-.leaderboard-table tbody tr.rank-3,
-.leaderboard-table tbody tr:nth-child(3) {
-  background: linear-gradient(90deg,
-    rgba(59, 130, 246, 0.10) 0%, /* blue */
-    rgba(34, 197, 94, 0.02) 100% /* faint */
-  );
+.table-row.rank-3 {
+  background: linear-gradient(90deg, rgba(205, 127, 50, 0.1) 0%, transparent 100%);
 }
 
-/* Make rank badges color-coordinated */
-.leaderboard-table tbody tr.rank-1 .rank-badge,
-.leaderboard-table tbody tr:nth-child(1) .rank-badge {
-  background: rgba(112, 225, 200, 0.2);
-  color: #065f46; /* darker green */
-}
-
-.leaderboard-table tbody tr.rank-2 .rank-badge,
-.leaderboard-table tbody tr:nth-child(2) .rank-badge {
-  background: rgba(72, 189, 204, 0.18);
-  color: #064e3b;
-}
-
-.leaderboard-table tbody tr.rank-3 .rank-badge,
-.leaderboard-table tbody tr:nth-child(3) .rank-badge {
-  background: rgba(59, 130, 246, 0.16);
-  color: #0b3d91; /* deep blue */
-}
-
-/* Responsive */
+/* Mobile Adjustments */
 @media (max-width: 768px) {
-  .leaderboard-table {
-    font-size: 0.8125rem;
-  }
-
   .leaderboard-table th,
   .leaderboard-table td {
-    padding: 0.5rem;
+    padding: 0.75rem;
   }
 
-  .col-rank {
-    width: 50px;
+  .rank-medal {
+    font-size: 1.5rem;
   }
 
-  .col-nickname {
-    min-width: 120px;
-  }
-
-  .col-total {
-    width: 70px;
-  }
-
-  .col-match {
-    width: 60px;
-  }
-
-  .total-score {
+  .nickname-text {
     font-size: 1rem;
   }
 
-  .match-score {
-    font-size: 0.875rem;
+  .total-score {
+    font-size: 1.25rem;
+  }
+
+  .event-points {
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
   }
 }

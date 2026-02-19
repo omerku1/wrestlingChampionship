@@ -249,11 +249,6 @@
   cursor: pointer;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .standings-table tbody tr.table-row.clickable:hover {
-    background: rgba(233, 69, 96, 0.1);
-  }
-}
 
 .standings-table tbody tr.table-row.expanded {
   background: rgba(233, 69, 96, 0.15);
@@ -401,11 +396,7 @@
   );
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .table-row.rank-1.clickable:hover {
-    background: linear-gradient(90deg, rgba(112,225,200,0.18) 0%, rgba(34,197,94,0.06) 100%);
-  }
-}
+
 
 .table-row.rank-2 {
   /* aqua-ish for 2nd */
@@ -415,11 +406,7 @@
   );
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .table-row.rank-2.clickable:hover {
-    background: linear-gradient(90deg, rgba(72,189,204,0.16) 0%, rgba(34,197,94,0.05) 100%);
-  }
-}
+
 
 .table-row.rank-3 {
   /* blue for 3rd */
@@ -429,11 +416,7 @@
   );
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .table-row.rank-3.clickable:hover {
-    background: linear-gradient(90deg, rgba(59,130,246,0.14) 0%, rgba(34,197,94,0.04) 100%);
-  }
-}
+
 
 .expanded-row {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -582,9 +565,13 @@
     width: 80px;
   }
 
-  .col-score {
-    width: 100px;
-  }
+.col-score {
+  text-align: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.1);
+  min-width: 100px;
+}
 
   .rank-medal {
     font-size: 1.5rem;

@@ -1,5 +1,5 @@
 {
-    "eventName": "Royal Rumble 2026",
+    "eventName": "Royal Rumble",
     "eventDate": "2026-01-31",
     "location": "Riyadh, Saudi Arabia",
     "gamblers": [
@@ -108,9 +108,9 @@
         {
             "match name": "Men's Royal Rumble Match",
             "match score": 8,
-            "duration": "56:10",
+            "duration": "58:21",
             "titleChange": false,
-            "rating": 6.9,
+            "rating": 4.71,
             "gamblersResult": [
                 {
                     "id": "user1@wwe-fans.com",
@@ -217,9 +217,9 @@
         {
             "match name": "Women's Royal Rumble Match",
             "match score": 6,
-            "duration": "1:07:00",
+            "duration": "1:06:51",
             "titleChange": false,
-            "rating": 8.1,
+            "rating": 6.19,
             "gamblersResult": [
                 {
                     "id": "user1@wwe-fans.com",
@@ -326,9 +326,9 @@
         {
             "match name": "Gunther vs AJ Styles",
             "match score": 2,
-            "duration": "24:15",
+            "duration": "24:04",
             "titleChange": false,
-            "rating": 9,
+            "rating": 8.48,
             "gamblersResult": [
                 {
                     "id": "user1@wwe-fans.com",
@@ -433,11 +433,11 @@
             ]
         },
         {
-            "match name": "World Heavyweight Title: Drew Mcintyre vs. Sami Zayn",
+            "match name": "Undisputed WWE Title: Drew Mcintyre vs. Sami Zayn",
             "match score": 3,
-            "duration": "16:15",
+            "duration": "15:59",
             "titleChange": false,
-            "rating": 6.8,
+            "rating": 6.34,
             "gamblersResult": [
                 {
                     "id": "user1@wwe-fans.com",
