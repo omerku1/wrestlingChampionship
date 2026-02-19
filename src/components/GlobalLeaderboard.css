@@ -388,32 +388,44 @@
 }
 
 .table-row.rank-1 {
-  background: linear-gradient(90deg, rgba(255, 215, 0, 0.1) 0%, transparent 100%);
+  /* greenish-mint for 1st */
+  background: linear-gradient(90deg,
+    rgba(112, 225, 200, 0.14) 0%,
+    rgba(34, 197, 94, 0.04) 100%
+  );
 }
 
 @media (hover: hover) and (pointer: fine) {
   .table-row.rank-1.clickable:hover {
-    background: linear-gradient(90deg, rgba(255, 215, 0, 0.15) 0%, rgba(233, 69, 96, 0.1) 100%);
+    background: linear-gradient(90deg, rgba(112,225,200,0.18) 0%, rgba(34,197,94,0.06) 100%);
   }
 }
 
 .table-row.rank-2 {
-  background: linear-gradient(90deg, rgba(192, 192, 192, 0.1) 0%, transparent 100%);
+  /* aqua-ish for 2nd */
+  background: linear-gradient(90deg,
+    rgba(72, 189, 204, 0.12) 0%,
+    rgba(34, 197, 94, 0.03) 100%
+  );
 }
 
 @media (hover: hover) and (pointer: fine) {
   .table-row.rank-2.clickable:hover {
-    background: linear-gradient(90deg, rgba(192, 192, 192, 0.15) 0%, rgba(233, 69, 96, 0.1) 100%);
+    background: linear-gradient(90deg, rgba(72,189,204,0.16) 0%, rgba(34,197,94,0.05) 100%);
   }
 }
 
 .table-row.rank-3 {
-  background: linear-gradient(90deg, rgba(205, 127, 50, 0.1) 0%, transparent 100%);
+  /* blue for 3rd */
+  background: linear-gradient(90deg,
+    rgba(59, 130, 246, 0.10) 0%,
+    rgba(34, 197, 94, 0.02) 100%
+  );
 }
 
 @media (hover: hover) and (pointer: fine) {
   .table-row.rank-3.clickable:hover {
-    background: linear-gradient(90deg, rgba(205, 127, 50, 0.15) 0%, rgba(233, 69, 96, 0.1) 100%);
+    background: linear-gradient(90deg, rgba(59,130,246,0.14) 0%, rgba(34,197,94,0.04) 100%);
   }
 }
 
@@ -524,12 +536,20 @@
   }
 
   .main-content-layout {
-    grid-template-columns: 1fr;
+    /* Change mobile layout from grid -> stacked flex column so we can control visual order */
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
+  }
+
+  /* Ensure the leaderboard appears first on mobile, then the events list */
+  .leaderboard-section {
+    order: 0;
   }
 
   .events-sidebar {
     position: static;
+    order: 1;
   }
 
   .events-sidebar h2 {

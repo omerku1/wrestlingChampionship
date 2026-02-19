@@ -58,7 +58,7 @@ function Leaderboard({ eventData }) {
               const rank = index + 1;
 
               return (
-                <tr key={gambler.id} className="leaderboard-row">
+                <tr key={gambler.id} className={`leaderboard-row ${rank <= 3 ? `rank-${rank}` : ''}`}>
                   <td className="col-rank">
                     <span className="rank-badge">#{rank}</span>
                   </td>
