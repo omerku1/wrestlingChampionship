@@ -30,7 +30,6 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
           <tr>
             <th className="col-rank">Standing</th>
             <th className="col-nickname">Nickname</th>
-            {/* moved Total Score to be right after Nickname */}
             <th className="col-score">Total Score</th>
             {pastEvents.map((event, idx) => (
               <th key={`past-${idx}`} className="col-event">{event.event}</th>
@@ -73,7 +72,6 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
                 <td className="col-nickname">
                   <div className="nickname-cell">
                     <span className="nickname-text">{gambler.nickname}</span>
-                    <span className="nickname-id">{gambler.id}</span>
                   </div>
                 </td>
 
