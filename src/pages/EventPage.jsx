@@ -46,6 +46,7 @@ function EventPage() {
           location: upcomingEventDetails.location,
           notes: upcomingEventDetails.notes,
           matches: upcomingEventDetails.matches, // Include matches if available
+          "Start time": upcomingEventDetails["Start time"], // Include start time for countdown
           isUpcoming: true,
           isNextEvent: eventType === 'next'
         });
@@ -73,25 +74,14 @@ function EventPage() {
 
   // Countdown timer effect for next event
   useEffect(() => {
-    if (isNextEvent && eventData?.date) {
+    if (isNextEvent && eventData?.["Start time"]) {
       const calculateCountdown = () => {
-        // Parse the date string (e.g., "February 28")
-        const eventDateStr = eventData.date;
-        const currentYear = new Date().getFullYear();
-
-        // Try to parse the date
+        // Parse the ISO 8601 timestamp from the Start time attribute
         let eventDate;
         try {
-          // Handle dates like "February 28" or "April 18-19" (take first date)
-          const datePart = eventDateStr.split('-')[0].trim();
-          eventDate = new Date(`${datePart}, ${currentYear}`);
-
-          // If the event date has passed this year, assume it's next year
-          if (eventDate < new Date()) {
-            eventDate = new Date(`${datePart}, ${currentYear + 1}`);
-          }
+          eventDate = new Date(eventData["Start time"]);
         } catch (error) {
-          console.error('Error parsing date:', error);
+          console.error('Error parsing start time:', error);
           return;
         }
 
