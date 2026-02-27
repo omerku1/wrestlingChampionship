@@ -40,14 +40,14 @@
         "matches": [
             {
                 "id": 1,
-                "match": "Men's Elimination Chamber Match",
-                "type": "Elimination Chamber match",
+                "match": "Randy Orton vs. LA Knight vs. Cody Rhodes vs. Je’Von Evans vs. Trick Williams vs. Jey Uso",
+                "type": "Men's Elimination Chamber match",
                 "stipulation": "Winner receives a World Heavyweight Championship match at WrestleMania 42"
             },
             {
                 "id": 2,
-                "match": "Women's Elimination Chamber Match",
-                "type": "Elimination Chamber match",
+                "match": "Tiffany Stratton vs. Rhea Ripley vs. Alexa Bliss vs. Asuka vs. Kiana James vs. Raquel Rodriguez",
+                "type": "Women's Elimination Chamber match",
                 "stipulation": "Winner receives a Women's World Championship match at WrestleMania 42"
             },
             {
