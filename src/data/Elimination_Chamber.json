@@ -41,18 +41,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 0,
-                "long": 1,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 0, "long": 1, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "hagaikt@gmail.com": {
             "nickname": "חגי כץ",
@@ -62,18 +51,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 3,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 0,
-                "worst": 0,
-                "dq": 1,
-                "turn": 0,
-                "surprises": 1,
-                "mens_eliminations": -1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 1, "mens_eliminations": -1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "bar.anidjar@gmail.com": {
             "nickname": "Bar Anidjar",
@@ -83,18 +61,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 1,
-                "worst": -1,
-                "dq": 1,
-                "turn": 1,
-                "surprises": 1,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": 1, "worst": -1, "dq": 0, "turn": 0, "surprises": 1, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "eliyau25@gmail.com": {
             "nickname": "אבא",
@@ -104,18 +71,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": 8
             },
-            "individuals": {
-                "short": 0,
-                "long": 0,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 0, "long": 0, "best": 0, "worst": 0, "dq": 0, "turn": -1, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "roby.glodan@nextage.co.il": {
             "nickname": "רובי",
@@ -125,18 +81,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": 0, "worst": 0, "dq": 0, "turn": -1, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "rettign@gmail.com": {
             "nickname": "נופר",
@@ -146,18 +91,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 0,
-                "best": -1,
-                "worst": -1,
-                "dq": 0,
-                "turn": -1,
-                "surprises": 1,
-                "mens_eliminations": -1,
-                "womens_eliminations": 1,
-                "elimination_spot": 1
-            }
+            "individuals": { "short": 1, "long": 0, "best": -1, "worst": -1, "dq": 0, "turn": -1, "surprises": 1, "mens_eliminations": -1, "womens_eliminations": 1, "elimination_spot": 1 }
         },
         "moshb52@gmail.com": {
             "nickname": "משה השם גורדון",
@@ -167,18 +101,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": -1,
-                "turn": 1,
-                "surprises": -1,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": -1, "turn": 0, "surprises": -1, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "shaharatari96@gmail.com": {
             "nickname": "שחר אטרי",
@@ -188,18 +111,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -8
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 1,
-                "turn": 1,
-                "surprises": -1,
-                "mens_eliminations": -1,
-                "womens_eliminations": -1,
-                "elimination_spot": 1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": 0, "surprises": -1, "mens_eliminations": -1, "womens_eliminations": -1, "elimination_spot": 1 }
         },
         "yaadilani@gmail.com": {
             "nickname": "אוי דוידוביץ'",
@@ -209,18 +121,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 0,
-                "long": 0,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 0, "long": 0, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "omerboenos@gmail.com": {
             "nickname": "עומר הקינדר דוג בואנוס",
@@ -230,18 +131,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": 8
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 1,
-                "worst": 1,
-                "dq": 1,
-                "turn": -1,
-                "surprises": -1,
-                "mens_eliminations": -1,
-                "womens_eliminations": -1,
-                "elimination_spot": 1
-            }
+            "individuals": { "short": 1, "long": 1, "best": 1, "worst": 1, "dq": 0, "turn": -1, "surprises": -1, "mens_eliminations": -1, "womens_eliminations": -1, "elimination_spot": 1 }
         },
         "asafsela1989@gmail.com": {
             "nickname": "אסף \"פאטו\" סלע",
@@ -251,18 +141,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": -1,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": -1, "turn": -1, "surprises": 0, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "morfridman24@gmail.com": {
             "nickname": "מור פרידמן",
@@ -272,18 +151,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 1,
-                "turn": 1,
-                "surprises": -1,
-                "mens_eliminations": -1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": 0, "surprises": -1, "mens_eliminations": -1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "kidcrippler@gmail.com": {
             "nickname": "Alon Cohen",
@@ -293,18 +161,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 0,
-                "worst": 0,
-                "dq": 1,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": 0, "worst": 0, "dq": 0, "turn": -1, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "shapiraido123@gmail.com": {
             "nickname": "עידו שפירא",
@@ -314,18 +171,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 1,
-                "long": 0,
-                "best": 0,
-                "worst": -1,
-                "dq": 1,
-                "turn": 0,
-                "surprises": 1,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": 1
-            }
+            "individuals": { "short": 1, "long": 0, "best": 0, "worst": -1, "dq": 0, "turn": 0, "surprises": 1, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": 1 }
         },
         "liorbarak09@gmail.com": {
             "nickname": "ליאור בקק",
@@ -335,18 +181,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 0,
-                "long": 0,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 0, "long": 0, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "yaronkfir5000@gmail.com": {
             "nickname": "ירון",
@@ -356,18 +191,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 1,
-                "worst": -1,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 1,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": 1
-            }
+            "individuals": { "short": 1, "long": 1, "best": 1, "worst": -1, "dq": 0, "turn": 0, "surprises": 1, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": 1 }
         },
         "shaharst5@gmail.com": {
             "nickname": "שחר מלכת הזירה",
@@ -377,18 +201,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": 4
             },
-            "individuals": {
-                "short": 1,
-                "long": 0,
-                "best": 0,
-                "worst": -1,
-                "dq": 1,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": -1,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 0, "best": 0, "worst": -1, "dq": 0, "turn": -1, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": -1, "elimination_spot": 0 }
         },
         "hirshfe@gmail.com": {
             "nickname": "חדרה ברולר",
@@ -398,18 +211,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 1,
-                "turn": -1,
-                "surprises": 1,
-                "mens_eliminations": -1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": -1, "surprises": 1, "mens_eliminations": -1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "noon.duvshani@gmail.com": {
             "nickname": "De Noon Duvshani",
@@ -419,18 +221,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": -3,
                 "Men's Elimination Chamber Match": 8
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 1,
-                "turn": -1,
-                "surprises": -1,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": -1, "surprises": -1, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "asafgaplaystation@gmail.com": {
             "nickname": "אסף גור אריה",
@@ -440,18 +231,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 0,
-                "long": 0,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 0, "long": 0, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "yonis1987@gmail.com": {
             "nickname": "יוניפאק",
@@ -461,18 +241,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": 4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 1,
-                "worst": 1,
-                "dq": -1,
-                "turn": -1,
-                "surprises": 1,
-                "mens_eliminations": 1,
-                "womens_eliminations": 0,
-                "elimination_spot": 1
-            }
+            "individuals": { "short": 1, "long": 1, "best": 1, "worst": 1, "dq": -1, "turn": -1, "surprises": 1, "mens_eliminations": 1, "womens_eliminations": 0, "elimination_spot": 1 }
         },
         "omer88kul@gmail.com": {
             "nickname": "עומר",
@@ -482,18 +251,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 0,
-                "long": 0,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 0, "long": 0, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "nirflax1984@gmail.com": {
             "nickname": "ניר, אבל לא זה המגניב, השני",
@@ -503,18 +261,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": -1,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": -1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": -1, "turn": -1, "surprises": 0, "mens_eliminations": -1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "spintoidigital@gmail.com": {
             "nickname": "שי (איש העוגיות)",
@@ -524,18 +271,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 3,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 0,
-                "long": 0,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 0, "long": 0, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "gugy.temp@gmail.com": {
             "nickname": "גיא",
@@ -545,18 +281,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": 8
             },
-            "individuals": {
-                "short": 1,
-                "long": 0,
-                "best": -1,
-                "worst": -1,
-                "dq": -1,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 0, "best": -1, "worst": -1, "dq": -1, "turn": -1, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "rshamir@gmail.com": {
             "nickname": "רפי",
@@ -566,18 +291,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 1,
-                "worst": 0,
-                "dq": 0,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": 1, "worst": 0, "dq": 0, "turn": -1, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "ddn142@gmail.com": {
             "nickname": "דני DDN",
@@ -587,18 +301,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": 1,
-                "dq": -1,
-                "turn": -1,
-                "surprises": 0,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": 1, "dq": -1, "turn": -1, "surprises": 0, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": 0 }
         },
         "yeudakonofnitski@gmail.com": {
             "nickname": "יהודה",
@@ -608,18 +311,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 3,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 1,
-                "turn": 1,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "sbarakud@gmail.com": {
             "nickname": "שי ברק",
@@ -629,18 +321,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -8
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 1,
-                "turn": 1,
-                "surprises": 0,
-                "mens_eliminations": -1,
-                "womens_eliminations": 1,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": -1, "womens_eliminations": 1, "elimination_spot": 0 }
         },
         "dvir6h@gmail.com": {
             "nickname": "דביר דוד הרוש",
@@ -650,18 +331,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": 8
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 1,
-                "turn": -1,
-                "surprises": 1,
-                "mens_eliminations": 1,
-                "womens_eliminations": -1,
-                "elimination_spot": -1
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": -1, "surprises": 1, "mens_eliminations": 1, "womens_eliminations": -1, "elimination_spot": -1 }
         },
         "yoavzeevi20@gmail.com": {
             "nickname": "זאבי (א)",
@@ -671,18 +341,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
                 "Men's Elimination Chamber Match": -12
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": -1,
-                "worst": -1,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 1,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": -1, "worst": -1, "dq": 0, "turn": 0, "surprises": 1, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         },
         "erez0017@gmail.com": {
             "nickname": "ארז",
@@ -692,18 +351,7 @@
                 "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
                 "Men's Elimination Chamber Match": -4
             },
-            "individuals": {
-                "short": 1,
-                "long": 1,
-                "best": 0,
-                "worst": 0,
-                "dq": 0,
-                "turn": 0,
-                "surprises": 0,
-                "mens_eliminations": 0,
-                "womens_eliminations": 0,
-                "elimination_spot": 0
-            }
+            "individuals": { "short": 1, "long": 1, "best": 0, "worst": 0, "dq": 0, "turn": 0, "surprises": 0, "mens_eliminations": 0, "womens_eliminations": 0, "elimination_spot": 0 }
         }
     }
 }

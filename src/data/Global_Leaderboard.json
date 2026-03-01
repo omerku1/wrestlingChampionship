@@ -4,228 +4,178 @@
     "currentChampion": "זאבי",
     "globalLeaderboard": [
         {
-            "id": "user1@wwe-fans.co.il",
+            "id": "yoavzeevi20@gmail.com",
             "nickname": "זאבי",
             "totalPoints": 47,
-            "history": [
-                { "event": "Royal Rumble", "points": 47 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 47 } ],
             "stats": { "accuracyRate": "80%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user2@wwe-fans.co.il",
+            "id": "shapiraido123@gmail.com",
             "nickname": "עידו שפירא",
             "totalPoints": 42,
-            "history": [
-                { "event": "Royal Rumble", "points": 42 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 42 } ],
             "stats": { "accuracyRate": "42%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user3@wwe-fans.co.il",
+            "id": "asafga@gmail.com",
             "nickname": "אסף ג",
             "totalPoints": 39,
-            "history": [
-                { "event": "Royal Rumble", "points": 39 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 39 } ],
             "stats": { "accuracyRate": "45%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user4@wwe-fans.co.il",
+            "id": "nir.poch@gmail.com",
             "nickname": "פוחצ'בסקי",
             "totalPoints": 31,
-            "history": [
-                { "event": "Royal Rumble", "points": 31 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 31 } ],
             "stats": { "accuracyRate": "69%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user5@wwe-fans.co.il",
+            "id": "hagaikt@gmail.com",
             "nickname": "חגי",
             "totalPoints": 28,
-            "history": [
-                { "event": "Royal Rumble", "points": 28 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 28 } ],
             "stats": { "accuracyRate": "80%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user6@wwe-fans.co.il",
+            "id": "liorbarak09@gmail.com",
             "nickname": "ליאור ברק",
             "totalPoints": 26,
-            "history": [
-                { "event": "Royal Rumble", "points": 26 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 26 } ],
             "stats": { "accuracyRate": "60%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user7@wwe-fans.co.il",
+            "id": "sbarakud@gmail.com",
             "nickname": "sbarakud",
             "totalPoints": 26,
-            "history": [
-                { "event": "Royal Rumble", "points": 26 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 26 } ],
             "stats": { "accuracyRate": "94%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user8@wwe-fans.co.il",
+            "id": "aviadc150@gmail.com",
             "nickname": "אביעד",
             "totalPoints": 23,
-            "history": [
-                { "event": "Royal Rumble", "points": 23 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 23 } ],
             "stats": { "accuracyRate": "49%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user9@wwe-fans.co.il",
+            "id": "yaronkfir5000@gmail.com",
             "nickname": "ירון",
             "totalPoints": 17,
-            "history": [
-                { "event": "Royal Rumble", "points": 17 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 17 } ],
             "stats": { "accuracyRate": "63%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user10@wwe-fans.co.il",
+            "id": "spintoidigital@gmail.com",
             "nickname": "שי פינטו",
             "totalPoints": 14,
-            "history": [
-                { "event": "Royal Rumble", "points": 14 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 14 } ],
             "stats": { "accuracyRate": "41%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user11@wwe-fans.co.il",
+            "id": "shaharst5@gmail.com",
             "nickname": "שחר ס",
             "totalPoints": 12,
-            "history": [
-                { "event": "Royal Rumble", "points": 12 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 12 } ],
             "stats": { "accuracyRate": "47%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user12@wwe-fans.co.il",
+            "id": "rshamir@gmail.com",
             "nickname": "רפי",
             "totalPoints": 12,
-            "history": [
-                { "event": "Royal Rumble", "points": 12 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 12 } ],
             "stats": { "accuracyRate": "84%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user13@wwe-fans.co.il",
+            "id": "omer88kul@gmail.com",
             "nickname": "עומר קול",
             "totalPoints": 11,
-            "history": [
-                { "event": "Royal Rumble", "points": 11 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 11 } ],
             "stats": { "accuracyRate": "40%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user14@wwe-fans.co.il",
+            "id": "yaadilani@gmail.com",
             "nickname": "יעד",
             "totalPoints": 11,
-            "history": [
-                { "event": "Royal Rumble", "points": 11 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 11 } ],
             "stats": { "accuracyRate": "49%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user15@wwe-fans.co.il",
+            "id": "yeudakonofnitski@gmail.com",
             "nickname": "יהודה",
             "totalPoints": 10,
-            "history": [
-                { "event": "Royal Rumble", "points": 10 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 10 } ],
             "stats": { "accuracyRate": "55%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user16@wwe-fans.co.il",
+            "id": "erez0017@gmail.com",
             "nickname": "ארז",
             "totalPoints": 6,
-            "history": [
-                { "event": "Royal Rumble", "points": 6 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 6 } ],
             "stats": { "accuracyRate": "44%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user17@wwe-fans.co.il",
+            "id": "omerboenos@gmail.com",
             "nickname": "עומר ב",
             "totalPoints": 5,
-            "history": [
-                { "event": "Royal Rumble", "points": 5 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 5 } ],
             "stats": { "accuracyRate": "65%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user18@wwe-fans.co.il",
+            "id": "moshb52@gmail.com",
             "nickname": "משה ב",
             "totalPoints": 5,
-            "history": [
-                { "event": "Royal Rumble", "points": 5 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 5 } ],
             "stats": { "accuracyRate": "63%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user19@wwe-fans.co.il",
+            "id": "roby.glodan@nextage.co",
             "nickname": "רובי",
             "totalPoints": 1,
-            "history": [
-                { "event": "Royal Rumble", "points": 1 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": 1 } ],
             "stats": { "accuracyRate": "59%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user20@wwe-fans.co.il",
+            "id": "aviravid85@gmail.com",
             "nickname": "אבי",
             "totalPoints": -1,
-            "history": [
-                { "event": "Royal Rumble", "points": -1 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": -1 } ],
             "stats": { "accuracyRate": "79%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user21@wwe-fans.co.il",
+            "id": "hirshfe@gmail.com",
             "nickname": "הירש",
             "totalPoints": -2,
-            "history": [
-                { "event": "Royal Rumble", "points": -2 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": -2 } ],
             "stats": { "accuracyRate": "86%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user22@wwe-fans.co.il",
+            "id": "gugy.temp@gmail.com",
             "nickname": "gugy.temp",
             "totalPoints": -10,
-            "history": [
-                { "event": "Royal Rumble", "points": -10 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": -10 } ],
             "stats": { "accuracyRate": "77%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user23@wwe-fans.co.il",
+            "id": "izra2go@gmail.com",
             "nickname": "izra2go",
             "totalPoints": -11,
-            "history": [
-                { "event": "Royal Rumble", "points": -11 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": -11 } ],
             "stats": { "accuracyRate": "61%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user24@wwe-fans.co.il",
+            "id": "jonathan.arad84@gmail.com",
             "nickname": "יהונתן",
             "totalPoints": -22,
-            "history": [
-                { "event": "Royal Rumble", "points": -22 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": -22 } ],
             "stats": { "accuracyRate": "91%", "bestEvent": "Royal Rumble" }
         },
         {
-            "id": "user25@wwe-fans.co.il",
+            "id": "noon.duvshani@gmail.com",
             "nickname": "נון",
             "totalPoints": -32,
-            "history": [
-                { "event": "Royal Rumble", "points": -32 }
-            ],
+            "history": [ { "event": "Royal Rumble", "points": -32 } ],
             "stats": { "accuracyRate": "82%", "bestEvent": "Royal Rumble" }
         }
     ]
