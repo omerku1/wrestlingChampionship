@@ -30,53 +30,79 @@
                     "stipulation": "For the Undisputed WWE Championship"
                 }
             ]
+        },
+        {
+            "date": "February 28",
+            "event": "Elimination Chamber",
+            "location": "United Center, Chicago, Illinois",
+            "Start time": "2026-02-28T23:59:00Z",
+            "matches": [
+                {
+                    "id": 1,
+                    "match": "Randy Orton vs. LA Knight vs. Cody Rhodes vs. Je’Von Evans vs. Trick Williams vs. Logan Paul",
+                    "type": "Men's Elimination Chamber match",
+                    "stipulation": "Winner receives a World Heavyweight Championship match at WrestleMania 42"
+                },
+                {
+                    "id": 2,
+                    "match": "Tiffany Stratton vs. Rhea Ripley vs. Alexa Bliss vs. Asuka vs. Kiana James vs. Raquel Rodriguez",
+                    "type": "Women's Elimination Chamber match",
+                    "stipulation": "Winner receives a Women's World Championship match at WrestleMania 42"
+                },
+                {
+                    "id": 3,
+                    "match": "Becky Lynch (c) vs. AJ Lee",
+                    "type": "Singles match",
+                    "stipulation": "For the Women’s Intercontinental Championship"
+                },
+                {
+                    "id": 4,
+                    "match": "CM Punk (c) vs. Finn Bálor",
+                    "type": "Singles match",
+                    "stipulation": "For the World Heavyweight Championship"
+                }
+            ]
         }
     ],
     "next event": {
-        "date": "February 28",
-        "event": "Elimination Chamber",
-        "location": "United Center, Chicago, Illinois",
-        "Start time": "2026-02-28T23:59:00Z",
+        "date": "April 18-19",
+        "event": "WrestleMania 42",
+        "location": "Allegiant Stadium, Paradise, Nevada",
+        "Start time": "2026-04-18T23:59:00Z",
         "matches": [
             {
                 "id": 1,
-                "match": "Randy Orton vs. LA Knight vs. Cody Rhodes vs. Je’Von Evans vs. Trick Williams vs. Logan Paul",
-                "type": "Men's Elimination Chamber match",
-                "stipulation": "Winner receives a World Heavyweight Championship match at WrestleMania 42"
+                "match": "CM Punk (c) vs. Roman Reigns",
+                "type": "Singles match",
+                "stipulation": "For the World Heavyweight Championship"
             },
             {
                 "id": 2,
-                "match": "Tiffany Stratton vs. Rhea Ripley vs. Alexa Bliss vs. Asuka vs. Kiana James vs. Raquel Rodriguez",
-                "type": "Women's Elimination Chamber match",
-                "stipulation": "Winner receives a Women's World Championship match at WrestleMania 42"
+                "match": "Stephanie Vaquer (c) vs. Liv Morgan",
+                "type": "Singles match",
+                "stipulation": "For the Women's World Championship"
             },
             {
                 "id": 3,
-                "match": "Becky Lynch (c) vs. AJ Lee",
+                "match": "Drew McIntyre (c) vs. Randy Orton",
                 "type": "Singles match",
-                "stipulation": "For the Women’s Intercontinental Championship"
+                "stipulation": "For the Undisputed WWE Championship"
             },
             {
                 "id": 4,
-                "match": "CM Punk (c) vs. Finn Bálor",
+                "match": "Jade Cargill (c) vs. Rhea Ripley",
                 "type": "Singles match",
-                "stipulation": "For the World Heavyweight Championship"
+                "stipulation": "For the WWE Women's Championship"
+            },
+            {
+                "id": 5,
+                "match": "Brock Lesnar vs. TBD",
+                "type": "Singles match",
+                "stipulation": "Open challenge"
             }
         ]
     },
     "upcoming events": [
-        {
-            "date": "March 7",
-            "event": "Vengeance Day",
-            "location": "TBA",
-            "matches": []
-        },
-        {
-            "date": "April 18-19",
-            "event": "WrestleMania 42",
-            "location": "Allegiant Stadium, Paradise, Nevada",
-            "matches": []
-        },
         {
             "date": "May 9",
             "event": "Backlash",
