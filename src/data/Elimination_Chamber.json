@@ -1,0 +1,709 @@
+{
+    "eventName": "Elimination Chamber",
+    "eventDate": "2026-02-28",
+    "location": "United Center, Chicago, Illinois",
+    "matchDetails": [
+        {
+            "match name": "Women's Elimination Chamber Match",
+            "match score": 4,
+            "duration": "23:45",
+            "titleChange": false,
+            "rating": 6.53
+        },
+        {
+            "match name": "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee",
+            "match score": 2,
+            "duration": "15:30",
+            "titleChange": true,
+            "rating": 5.81
+        },
+        {
+            "match name": "World Heavyweight Title: CM Punk vs. Finn Bálor",
+            "match score": 3,
+            "duration": "20:21",
+            "titleChange": false,
+            "rating": 6.80
+        },
+        {
+            "match name": "Men's Elimination Chamber Match",
+            "match score": 4,
+            "duration": "25:20",
+            "titleChange": false,
+            "rating": 4.63
+        }
+    ],
+    "gamblers": {
+        "jonathan.arad84@gmail.com": {
+            "nickname": "ג'וני רסלינג",
+            "matches": {
+                "Women's Elimination Chamber Match": 8,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 0,
+                "long": 1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "hagaikt@gmail.com": {
+            "nickname": "חגי כץ",
+            "matches": {
+                "Women's Elimination Chamber Match": -8,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 3,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 0,
+                "worst": 0,
+                "dq": 1,
+                "turn": 0,
+                "surprises": 1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "bar.anidjar@gmail.com": {
+            "nickname": "Bar Anidjar",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": -1,
+                "dq": 1,
+                "turn": 1,
+                "surprises": 1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "eliyau25@gmail.com": {
+            "nickname": "אבא",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": 8
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "roby.glodan@nextage.co.il": {
+            "nickname": "רובי",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "rettign@gmail.com": {
+            "nickname": "נופר",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 0,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": -1,
+                "surprises": 1,
+                "mens_eliminations": -1,
+                "womens_eliminations": 1,
+                "elimination_spot": 1
+            }
+        },
+        "moshb52@gmail.com": {
+            "nickname": "משה השם גורדון",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": -4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": 1,
+                "surprises": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "shaharatari96@gmail.com": {
+            "nickname": "שחר אטרי",
+            "matches": {
+                "Women's Elimination Chamber Match": 8,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": -2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -8
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 1,
+                "turn": 1,
+                "surprises": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination_spot": 1
+            }
+        },
+        "yaadilani@gmail.com": {
+            "nickname": "אוי דוידוביץ'",
+            "matches": {
+                "Women's Elimination Chamber Match": 4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 6,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "omerboenos@gmail.com": {
+            "nickname": "עומר הקינדר דוג בואנוס",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": -2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": 8
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": 1,
+                "dq": 1,
+                "turn": -1,
+                "surprises": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination_spot": 1
+            }
+        },
+        "asafsela1989@gmail.com": {
+            "nickname": "אסף \"פאטו\" סלע",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "morfridman24@gmail.com": {
+            "nickname": "מור פרידמן",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 1,
+                "turn": 1,
+                "surprises": -1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "kidcrippler@gmail.com": {
+            "nickname": "Alon Cohen",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 0,
+                "worst": 0,
+                "dq": 1,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "shapiraido123@gmail.com": {
+            "nickname": "עידו שפירא",
+            "matches": {
+                "Women's Elimination Chamber Match": 8,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 1,
+                "long": 0,
+                "best": 0,
+                "worst": -1,
+                "dq": 1,
+                "turn": 0,
+                "surprises": 1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": 1
+            }
+        },
+        "liorbarak09@gmail.com": {
+            "nickname": "ליאור בקק",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 6,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "yaronkfir5000@gmail.com": {
+            "nickname": "ירון",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": 1
+            }
+        },
+        "shaharst5@gmail.com": {
+            "nickname": "שחר מלכת הזירה",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": 4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 0,
+                "best": 0,
+                "worst": -1,
+                "dq": 1,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": -1,
+                "elimination_spot": 0
+            }
+        },
+        "hirshfe@gmail.com": {
+            "nickname": "חדרה ברולר",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": -4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 1,
+                "turn": -1,
+                "surprises": 1,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "noon.duvshani@gmail.com": {
+            "nickname": "De Noon Duvshani",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 6,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": -3,
+                "Men's Elimination Chamber Match": 8
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 1,
+                "turn": -1,
+                "surprises": -1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "asafgaplaystation@gmail.com": {
+            "nickname": "אסף גור אריה",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "yonis1987@gmail.com": {
+            "nickname": "יוניפאק",
+            "matches": {
+                "Women's Elimination Chamber Match": 4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": 4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": 1,
+                "dq": -1,
+                "turn": -1,
+                "surprises": 1,
+                "mens_eliminations": 1,
+                "womens_eliminations": 0,
+                "elimination_spot": 1
+            }
+        },
+        "omer88kul@gmail.com": {
+            "nickname": "עומר",
+            "matches": {
+                "Women's Elimination Chamber Match": 4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "nirflax1984@gmail.com": {
+            "nickname": "ניר, אבל לא זה המגניב, השני",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": -1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "spintoidigital@gmail.com": {
+            "nickname": "שי (איש העוגיות)",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": -2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 3,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "gugy.temp@gmail.com": {
+            "nickname": "גיא",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": 8
+            },
+            "individuals": {
+                "short": 1,
+                "long": 0,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "rshamir@gmail.com": {
+            "nickname": "רפי",
+            "matches": {
+                "Women's Elimination Chamber Match": 4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": 0,
+                "dq": 0,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "ddn142@gmail.com": {
+            "nickname": "דני DDN",
+            "matches": {
+                "Women's Elimination Chamber Match": 4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 6,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": 1,
+                "dq": -1,
+                "turn": -1,
+                "surprises": 0,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": 0
+            }
+        },
+        "yeudakonofnitski@gmail.com": {
+            "nickname": "יהודה",
+            "matches": {
+                "Women's Elimination Chamber Match": 8,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": -2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 3,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 1,
+                "turn": 1,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "sbarakud@gmail.com": {
+            "nickname": "שי ברק",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": -2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -8
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 1,
+                "turn": 1,
+                "surprises": 0,
+                "mens_eliminations": -1,
+                "womens_eliminations": 1,
+                "elimination_spot": 0
+            }
+        },
+        "dvir6h@gmail.com": {
+            "nickname": "דביר דוד הרוש",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": 8
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 1,
+                "turn": -1,
+                "surprises": 1,
+                "mens_eliminations": 1,
+                "womens_eliminations": -1,
+                "elimination_spot": -1
+            }
+        },
+        "yoavzeevi20@gmail.com": {
+            "nickname": "זאבי (א)",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 2,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 6,
+                "Men's Elimination Chamber Match": -12
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 1,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        },
+        "erez0017@gmail.com": {
+            "nickname": "ארז",
+            "matches": {
+                "Women's Elimination Chamber Match": -4,
+                "WWE Women's Intercontinental Title: Becky Lynch vs. AJ Lee": 4,
+                "World Heavyweight Title: CM Punk vs. Finn Bálor": 9,
+                "Men's Elimination Chamber Match": -4
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "mens_eliminations": 0,
+                "womens_eliminations": 0,
+                "elimination_spot": 0
+            }
+        }
+    }
+}
