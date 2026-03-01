@@ -1,182 +1,377 @@
 {
     "seasonName": "The Wrestling Betting Championship 2026",
-    "totalEvents": 1,
-    "currentChampion": "זאבי",
+    "totalEvents": 2,
+    "currentChampion": "יוניפאק",
     "globalLeaderboard": [
         {
             "id": "yoavzeevi20@gmail.com",
             "nickname": "זאבי",
-            "totalPoints": 47,
-            "history": [ { "event": "Royal Rumble", "points": 47 } ],
+            "totalPoints": 40,
+            "history": [
+                { "event": "Royal Rumble", "points": 47 },
+                { "event": "Elimination Chamber", "points": -7 }
+            ],
             "stats": { "accuracyRate": "80%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "shapiraido123@gmail.com",
             "nickname": "עידו שפירא",
-            "totalPoints": 42,
-            "history": [ { "event": "Royal Rumble", "points": 42 } ],
+            "totalPoints": 48,
+            "history": [
+                { "event": "Royal Rumble", "points": 42 },
+                { "event": "Elimination Chamber", "points": 6 }
+            ],
             "stats": { "accuracyRate": "42%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "asafga@gmail.com",
             "nickname": "אסף ג",
             "totalPoints": 39,
-            "history": [ { "event": "Royal Rumble", "points": 39 } ],
+            "history": [
+                { "event": "Royal Rumble", "points": 39 },
+                { "event": "Elimination Chamber", "points": 0 }
+            ],
             "stats": { "accuracyRate": "45%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "nir.poch@gmail.com",
             "nickname": "פוחצ'בסקי",
             "totalPoints": 31,
-            "history": [ { "event": "Royal Rumble", "points": 31 } ],
+            "history": [
+                { "event": "Royal Rumble", "points": 31 },
+                { "event": "Elimination Chamber", "points": 0 }
+            ],
             "stats": { "accuracyRate": "69%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "hagaikt@gmail.com",
             "nickname": "חגי",
-            "totalPoints": 28,
-            "history": [ { "event": "Royal Rumble", "points": 28 } ],
+            "totalPoints": 15,
+            "history": [
+                { "event": "Royal Rumble", "points": 28 },
+                { "event": "Elimination Chamber", "points": -13 }
+            ],
             "stats": { "accuracyRate": "80%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "liorbarak09@gmail.com",
             "nickname": "ליאור ברק",
-            "totalPoints": 26,
-            "history": [ { "event": "Royal Rumble", "points": 26 } ],
+            "totalPoints": 30,
+            "history": [
+                { "event": "Royal Rumble", "points": 26 },
+                { "event": "Elimination Chamber", "points": 4 }
+            ],
             "stats": { "accuracyRate": "60%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "sbarakud@gmail.com",
             "nickname": "sbarakud",
-            "totalPoints": 26,
-            "history": [ { "event": "Royal Rumble", "points": 26 } ],
+            "totalPoints": 21,
+            "history": [
+                { "event": "Royal Rumble", "points": 26 },
+                { "event": "Elimination Chamber", "points": -5 }
+            ],
             "stats": { "accuracyRate": "94%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "aviadc150@gmail.com",
             "nickname": "אביעד",
             "totalPoints": 23,
-            "history": [ { "event": "Royal Rumble", "points": 23 } ],
+            "history": [
+                { "event": "Royal Rumble", "points": 23 },
+                { "event": "Elimination Chamber", "points": 0 }
+            ],
             "stats": { "accuracyRate": "49%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "yaronkfir5000@gmail.com",
             "nickname": "ירון",
-            "totalPoints": 17,
-            "history": [ { "event": "Royal Rumble", "points": 17 } ],
+            "totalPoints": 13,
+            "history": [
+                { "event": "Royal Rumble", "points": 17 },
+                { "event": "Elimination Chamber", "points": -4 }
+            ],
             "stats": { "accuracyRate": "63%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "spintoidigital@gmail.com",
             "nickname": "שי פינטו",
-            "totalPoints": 14,
-            "history": [ { "event": "Royal Rumble", "points": 14 } ],
+            "totalPoints": 7,
+            "history": [
+                { "event": "Royal Rumble", "points": 14 },
+                { "event": "Elimination Chamber", "points": -7 }
+            ],
             "stats": { "accuracyRate": "41%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "shaharst5@gmail.com",
             "nickname": "שחר ס",
-            "totalPoints": 12,
-            "history": [ { "event": "Royal Rumble", "points": 12 } ],
+            "totalPoints": 23,
+            "history": [
+                { "event": "Royal Rumble", "points": 12 },
+                { "event": "Elimination Chamber", "points": 11 }
+            ],
             "stats": { "accuracyRate": "47%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "rshamir@gmail.com",
             "nickname": "רפי",
-            "totalPoints": 12,
-            "history": [ { "event": "Royal Rumble", "points": 12 } ],
-            "stats": { "accuracyRate": "84%", "bestEvent": "Royal Rumble" }
+            "totalPoints": 27,
+            "history": [
+                { "event": "Royal Rumble", "points": 12 },
+                { "event": "Elimination Chamber", "points": 15 }
+            ],
+            "stats": { "accuracyRate": "84%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "omer88kul@gmail.com",
-            "nickname": "עומר קול",
-            "totalPoints": 11,
-            "history": [ { "event": "Royal Rumble", "points": 11 } ],
+            "nickname": "עומר",
+            "totalPoints": 13,
+            "history": [
+                { "event": "Royal Rumble", "points": 11 },
+                { "event": "Elimination Chamber", "points": 2 }
+            ],
             "stats": { "accuracyRate": "40%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "yaadilani@gmail.com",
             "nickname": "יעד",
-            "totalPoints": 11,
-            "history": [ { "event": "Royal Rumble", "points": 11 } ],
-            "stats": { "accuracyRate": "49%", "bestEvent": "Royal Rumble" }
+            "totalPoints": 23,
+            "history": [
+                { "event": "Royal Rumble", "points": 11 },
+                { "event": "Elimination Chamber", "points": 12 }
+            ],
+            "stats": { "accuracyRate": "49%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "yeudakonofnitski@gmail.com",
             "nickname": "יהודה",
-            "totalPoints": 10,
-            "history": [ { "event": "Royal Rumble", "points": 10 } ],
+            "totalPoints": 7,
+            "history": [
+                { "event": "Royal Rumble", "points": 10 },
+                { "event": "Elimination Chamber", "points": -3 }
+            ],
             "stats": { "accuracyRate": "55%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "erez0017@gmail.com",
             "nickname": "ארז",
-            "totalPoints": 6,
-            "history": [ { "event": "Royal Rumble", "points": 6 } ],
-            "stats": { "accuracyRate": "44%", "bestEvent": "Royal Rumble" }
+            "totalPoints": 13,
+            "history": [
+                { "event": "Royal Rumble", "points": 6 },
+                { "event": "Elimination Chamber", "points": 7 }
+            ],
+            "stats": { "accuracyRate": "44%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "omerboenos@gmail.com",
             "nickname": "עומר ב",
-            "totalPoints": 5,
-            "history": [ { "event": "Royal Rumble", "points": 5 } ],
-            "stats": { "accuracyRate": "65%", "bestEvent": "Royal Rumble" }
+            "totalPoints": 17,
+            "history": [
+                { "event": "Royal Rumble", "points": 5 },
+                { "event": "Elimination Chamber", "points": 12 }
+            ],
+            "stats": { "accuracyRate": "65%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "moshb52@gmail.com",
             "nickname": "משה ב",
-            "totalPoints": 5,
-            "history": [ { "event": "Royal Rumble", "points": 5 } ],
+            "totalPoints": -1,
+            "history": [
+                { "event": "Royal Rumble", "points": 5 },
+                { "event": "Elimination Chamber", "points": -6 }
+            ],
             "stats": { "accuracyRate": "63%", "bestEvent": "Royal Rumble" }
         },
         {
             "id": "roby.glodan@nextage.co",
             "nickname": "רובי",
-            "totalPoints": 1,
-            "history": [ { "event": "Royal Rumble", "points": 1 } ],
-            "stats": { "accuracyRate": "59%", "bestEvent": "Royal Rumble" }
+            "totalPoints": 7,
+            "history": [
+                { "event": "Royal Rumble", "points": 1 },
+                { "event": "Elimination Chamber", "points": 6 }
+            ],
+            "stats": { "accuracyRate": "59%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "aviravid85@gmail.com",
             "nickname": "אבי",
             "totalPoints": -1,
-            "history": [ { "event": "Royal Rumble", "points": -1 } ],
-            "stats": { "accuracyRate": "79%", "bestEvent": "Royal Rumble" }
+            "history": [
+                { "event": "Royal Rumble", "points": -1 },
+                { "event": "Elimination Chamber", "points": 0 }
+            ],
+            "stats": { "accuracyRate": "79%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "hirshfe@gmail.com",
             "nickname": "הירש",
-            "totalPoints": -2,
-            "history": [ { "event": "Royal Rumble", "points": -2 } ],
-            "stats": { "accuracyRate": "86%", "bestEvent": "Royal Rumble" }
+            "totalPoints": -19,
+            "history": [
+                { "event": "Royal Rumble", "points": -2 },
+                { "event": "Elimination Chamber", "points": -17 }
+            ],
+            "stats": { "accuracyRate": "86%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "gugy.temp@gmail.com",
             "nickname": "gugy.temp",
-            "totalPoints": -10,
-            "history": [ { "event": "Royal Rumble", "points": -10 } ],
-            "stats": { "accuracyRate": "77%", "bestEvent": "Royal Rumble" }
+            "totalPoints": 4,
+            "history": [
+                { "event": "Royal Rumble", "points": -10 },
+                { "event": "Elimination Chamber", "points": 14 }
+            ],
+            "stats": { "accuracyRate": "77%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "izra2go@gmail.com",
             "nickname": "izra2go",
             "totalPoints": -11,
-            "history": [ { "event": "Royal Rumble", "points": -11 } ],
-            "stats": { "accuracyRate": "61%", "bestEvent": "Royal Rumble" }
+            "history": [
+                { "event": "Royal Rumble", "points": -11 },
+                { "event": "Elimination Chamber", "points": 0 }
+            ],
+            "stats": { "accuracyRate": "61%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "jonathan.arad84@gmail.com",
             "nickname": "יהונתן",
-            "totalPoints": -22,
-            "history": [ { "event": "Royal Rumble", "points": -22 } ],
-            "stats": { "accuracyRate": "91%", "bestEvent": "Royal Rumble" }
+            "totalPoints": -17,
+            "history": [
+                { "event": "Royal Rumble", "points": -22 },
+                { "event": "Elimination Chamber", "points": 5 }
+            ],
+            "stats": { "accuracyRate": "91%", "bestEvent": "Elimination Chamber" }
         },
         {
             "id": "noon.duvshani@gmail.com",
             "nickname": "נון",
-            "totalPoints": -32,
-            "history": [ { "event": "Royal Rumble", "points": -32 } ],
-            "stats": { "accuracyRate": "82%", "bestEvent": "Royal Rumble" }
+            "totalPoints": -28,
+            "history": [
+                { "event": "Royal Rumble", "points": -32 },
+                { "event": "Elimination Chamber", "points": 4 }
+            ],
+            "stats": { "accuracyRate": "82%", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "bar.anidjar@gmail.com",
+            "nickname": "Bar Anidjar",
+            "totalPoints": 7,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 7 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "eliyau25@gmail.com",
+            "nickname": "אבא",
+            "totalPoints": 16,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 16 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "rettign@gmail.com",
+            "nickname": "נופר",
+            "totalPoints": 0,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 0 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "shaharatari96@gmail.com",
+            "nickname": "שחר אטרי",
+            "totalPoints": 5,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 5 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "asafsela1989@gmail.com",
+            "nickname": "אסף \"פאטו\" סלע",
+            "totalPoints": -3,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": -3 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "morfridman24@gmail.com",
+            "nickname": "מור פרידמן",
+            "totalPoints": 1,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 1 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "kidcrippler@gmail.com",
+            "nickname": "Alon Cohen",
+            "totalPoints": 6,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 6 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "asafgaplaystation@gmail.com",
+            "nickname": "אסף גור אריה",
+            "totalPoints": 5,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 5 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "yonis1987@gmail.com",
+            "nickname": "יוניפאק",
+            "totalPoints": 21,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 21 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "nirflax1984@gmail.com",
+            "nickname": "ניר, אבל לא זה המגניב, השני",
+            "totalPoints": 0,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 0 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "ddn142@gmail.com",
+            "nickname": "דני DDN",
+            "totalPoints": 12,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 12 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
+        },
+        {
+            "id": "dvir6h@gmail.com",
+            "nickname": "דביר דוד הרוש",
+            "totalPoints": 16,
+            "history": [
+                { "event": "Royal Rumble", "points": 0 },
+                { "event": "Elimination Chamber", "points": 16 }
+            ],
+            "stats": { "accuracyRate": "N/A", "bestEvent": "Elimination Chamber" }
         }
     ]
 }
