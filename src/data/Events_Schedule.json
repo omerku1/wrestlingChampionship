@@ -84,7 +84,7 @@
             },
             {
                 "id": 3,
-                "match": "Drew McIntyre (c) vs. Randy Orton",
+                "match": "Cody Rhodes (c) vs. Randy Orton",
                 "type": "Singles match",
                 "stipulation": "For the Undisputed WWE Championship"
             },
@@ -96,9 +96,33 @@
             },
             {
                 "id": 5,
-                "match": "Brock Lesnar vs. TBD",
+                "match": "Brock Lesnar vs. Oba Femi",
                 "type": "Singles match",
-                "stipulation": "Open challenge"
+                "stipulation": "None"
+            },
+            {
+                "id": 6,
+                "match": "AJ Lee (c) vs. Becky Lynch",
+                "type": "Singles match",
+                "stipulation": "For the Women's Intercontinental Championship"
+            },
+            {
+                "id": 7,
+                "match": "Sami Zayn (c) vs. Trick Williams",
+                "type": "Singles match",
+                "stipulation": "For the United States Championship"
+            },
+            {
+                "id": 8,
+                "match": "Drew McIntyre vs. Jacob Fatu",
+                "type": "Unsanctioned Match",
+                "stipulation": "None"
+            },
+            {
+                "id": 9,
+                "match": "The Irresistible Forces (c) vs. The Bella Twins vs. Charlotte Flair and Alexa Bliss vs. Bayley and Lyra Valkyria",
+                "type": "Fatal 4-Way Tag Team match",
+                "stipulation": "For the WWE Women's Tag Team Championship"
             }
         ]
     },
