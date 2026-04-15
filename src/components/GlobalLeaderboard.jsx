@@ -5,6 +5,7 @@ import './GlobalLeaderboard.css';
 import logo from '../logo.png';
 import belt from '../belt.png';
 import eventsSchedule from '../data/Events_Schedule.json';
+import mitbImage from '../mitb.png'; // Importing mitb.png here
 
 function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }) {
   const getRankIcon = (rank) => {
@@ -277,21 +278,41 @@ function GlobalLeaderboard({ seasonData }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7 }}
         >
-          {/* Current Champion Card */}
-          <motion.div
-            className="current-champion-card"
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.8 }}
-          >
-            <div className="champion-content">
-              <div className="champion-label">
-                <span>Current Champion</span>
+          <div className="champion-cards-container" style={{ display: 'flex', gap: '1rem' }}>
+            {/* Current Champion Card */}
+            <motion.div
+              className="current-champion-card"
+              style={{ flex: 2 }}
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.8 }}
+            >
+              <div className="champion-content">
+                <div className="champion-label">
+                  <span>Current Champion</span>
+                </div>
+                <div className="champion-name">{seasonData.currentChampion}</div>
+                <img src={belt} alt="Championship Belt" className="champion-belt" />
               </div>
-              <div className="champion-name">{seasonData.currentChampion}</div>
-              <img src={belt} alt="Championship Belt" className="champion-belt" />
-            </div>
-          </motion.div>
+            </motion.div>
+
+            {/* Money in the Bank Holder Card */}
+            <motion.div
+              className="current-champion-card"
+              style={{ flex: 1 }}
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.85 }}
+            >
+              <div className="champion-content">
+                <div className="champion-label">
+                  <span>Money in the Bank Holder</span>
+                </div>
+                <div className="champion-name">עומר</div>
+                <img src={mitbImage} alt="Money in the Bank" className="champion-belt" />
+              </div>
+            </motion.div>
+          </div>
 
           <h2>
             Season Standings
