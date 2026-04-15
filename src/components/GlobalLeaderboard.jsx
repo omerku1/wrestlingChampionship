@@ -36,11 +36,11 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
             {pastEvents.map((event, idx) => (
               <th key={`past-${idx}`} className="col-event">{event.event}</th>
             ))}
-            {nextEvent && (
-              <th className="col-event next-event-col">
-                {nextEvent.event}
+            {nextEvent && nextEvent.map((event, idx) => (
+              <th key={`next-${idx}`} className="col-event next-event-col">
+                {event.event}
               </th>
-            )}
+            ))}
             {upcomingEvents.map((event, idx) => (
               <th key={`upcoming-${idx}`} className="col-event upcoming-event-col">
                 {event.event}
@@ -92,11 +92,11 @@ function LeaderboardTable({ leaderboard, pastEvents, nextEvent, upcomingEvents }
                     </span>
                   </td>
                 ))}
-                {nextEvent && (
-                  <td className="col-event next-event-col">
+                {nextEvent && nextEvent.map((event, idx) => (
+                  <td key={`next-${idx}`} className="col-event next-event-col">
                     <span className="event-points next-event-empty">-</span>
                   </td>
-                )}
+                ))}
                 {upcomingEvents.map((event, idx) => (
                   <td key={`upcoming-${idx}`} className="col-event upcoming-event-col">
                     <span className="event-points upcoming-empty">-</span>
@@ -198,34 +198,37 @@ function GlobalLeaderboard({ seasonData }) {
           </div>
 
           {/* Next Event Section */}
-          {eventsSchedule["next event"] && (
+          {eventsSchedule["next event"] && eventsSchedule["next event"].length > 0 && (
             <>
               <h2 style={{ marginTop: '2rem' }}>
                 <Calendar size={24} />
                 Next Event
               </h2>
               <div className="events-list">
-                <motion.div
-                  className="event-list-item next-event"
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.8 }}
-                  whileHover={{ x: 5 }}
-                  onClick={() => {
-                    // Navigate to next event with special handling
-                    navigate(`/event/next/${encodeURIComponent(eventsSchedule["next event"].event)}`, {
-                      state: { eventDetails: eventsSchedule["next event"] }
-                    });
-                  }}
-                >
-                  <div className="event-list-content">
-                    <div className="event-list-name">
-                      {eventsSchedule["next event"].event}
-                      <div className="event-date">{eventsSchedule["next event"].date}</div>
+                {eventsSchedule["next event"].map((event, index) => (
+                  <motion.div
+                    key={event.event}
+                    className="event-list-item next-event"
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.8 + index * 0.1 }}
+                    whileHover={{ x: 5 }}
+                    onClick={() => {
+                      // Navigate to next event with special handling
+                      navigate(`/event/next/${encodeURIComponent(event.event)}`, {
+                        state: { eventDetails: event }
+                      });
+                    }}
+                  >
+                    <div className="event-list-content">
+                      <div className="event-list-name">
+                        {event.event}
+                        <div className="event-date">{event.date}</div>
+                      </div>
+                      <ChevronRight size={18} />
                     </div>
-                    <ChevronRight size={18} />
-                  </div>
-                </motion.div>
+                  </motion.div>
+                ))}
               </div>
             </>
           )}
