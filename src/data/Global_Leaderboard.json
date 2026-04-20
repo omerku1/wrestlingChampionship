@@ -1,12 +1,12 @@
 {
     "seasonName": "The Wrestling Betting Championship 2026",
     "totalEvents": 3,
-    "currentChampion": "חדרה ברולר",
+    "currentChampion": "רובי",
     "globalLeaderboard": [
         {
             "id": "yoavzeevi20@gmail.com",
             "nickname": "זאבי",
-            "totalPoints": 32,
+            "totalPoints": 36,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -18,7 +18,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": -8
+                    "points": -4
                 }
             ],
             "stats": {
@@ -29,7 +29,7 @@
         {
             "id": "shapiraido123@gmail.com",
             "nickname": "עידו שפירא",
-            "totalPoints": 59,
+            "totalPoints": 58,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -41,7 +41,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 11
+                    "points": 10
                 }
             ],
             "stats": {
@@ -121,7 +121,7 @@
         {
             "id": "liorbarak09@gmail.com",
             "nickname": "ליאור ברק",
-            "totalPoints": 59,
+            "totalPoints": 67,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -133,7 +133,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 29
+                    "points": 37
                 }
             ],
             "stats": {
@@ -144,7 +144,7 @@
         {
             "id": "sbarakud@gmail.com",
             "nickname": "sbarakud",
-            "totalPoints": 15,
+            "totalPoints": 16,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -156,7 +156,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": -6
+                    "points": -5
                 }
             ],
             "stats": {
@@ -167,7 +167,7 @@
         {
             "id": "aviadc150@gmail.com",
             "nickname": "אביעד",
-            "totalPoints": 49,
+            "totalPoints": 51,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -179,7 +179,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 26
+                    "points": 28
                 }
             ],
             "stats": {
@@ -190,7 +190,7 @@
         {
             "id": "yaronkfir5000@gmail.com",
             "nickname": "ירון",
-            "totalPoints": 31,
+            "totalPoints": 33,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -202,7 +202,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 18
+                    "points": 20
                 }
             ],
             "stats": {
@@ -236,7 +236,7 @@
         {
             "id": "shaharst5@gmail.com",
             "nickname": "שחר ס",
-            "totalPoints": 37,
+            "totalPoints": 43,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -248,7 +248,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 14
+                    "points": 20
                 }
             ],
             "stats": {
@@ -259,7 +259,7 @@
         {
             "id": "rshamir@gmail.com",
             "nickname": "רפי",
-            "totalPoints": 35,
+            "totalPoints": 43,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -271,12 +271,12 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 8
+                    "points": 16
                 }
             ],
             "stats": {
                 "accuracyRate": "84%",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "WrestleMania 42"
             }
         },
         {
@@ -305,7 +305,7 @@
         {
             "id": "yaadilani@gmail.com",
             "nickname": "יעד",
-            "totalPoints": 27,
+            "totalPoints": 24,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -317,7 +317,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 4
+                    "points": 1
                 }
             ],
             "stats": {
@@ -328,7 +328,7 @@
         {
             "id": "yeudakonofnitski@gmail.com",
             "nickname": "יהודה",
-            "totalPoints": 31,
+            "totalPoints": 37,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -340,7 +340,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 24
+                    "points": 30
                 }
             ],
             "stats": {
@@ -374,7 +374,7 @@
         {
             "id": "omerboenos@gmail.com",
             "nickname": "עומר ב",
-            "totalPoints": 35,
+            "totalPoints": 39,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -386,7 +386,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 18
+                    "points": 22
                 }
             ],
             "stats": {
@@ -466,7 +466,7 @@
         {
             "id": "hirshfe@gmail.com",
             "nickname": "הירש",
-            "totalPoints": 22,
+            "totalPoints": 19,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -478,7 +478,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 41
+                    "points": 38
                 }
             ],
             "stats": {
@@ -535,7 +535,7 @@
         {
             "id": "jonathan.arad84@gmail.com",
             "nickname": "יהונתן",
-            "totalPoints": -21,
+            "totalPoints": -18,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -547,7 +547,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": -4
+                    "points": -1
                 }
             ],
             "stats": {
@@ -558,7 +558,7 @@
         {
             "id": "noon.duvshani@gmail.com",
             "nickname": "נון",
-            "totalPoints": -35,
+            "totalPoints": -34,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -570,7 +570,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": -7
+                    "points": -6
                 }
             ],
             "stats": {
@@ -604,7 +604,7 @@
         {
             "id": "eliyau25@gmail.com",
             "nickname": "אבא",
-            "totalPoints": 9,
+            "totalPoints": 11,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -616,7 +616,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": -7
+                    "points": -5
                 }
             ],
             "stats": {
@@ -627,7 +627,7 @@
         {
             "id": "rettign@gmail.com",
             "nickname": "נופר",
-            "totalPoints": 13,
+            "totalPoints": 16,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -639,7 +639,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 13
+                    "points": 16
                 }
             ],
             "stats": {
@@ -650,7 +650,7 @@
         {
             "id": "shaharatari96@gmail.com",
             "nickname": "שחר אטרי",
-            "totalPoints": 41,
+            "totalPoints": 44,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -662,7 +662,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 36
+                    "points": 39
                 }
             ],
             "stats": {
@@ -696,7 +696,7 @@
         {
             "id": "morfridman24@gmail.com",
             "nickname": "מור פרידמן",
-            "totalPoints": 31,
+            "totalPoints": 32,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -708,7 +708,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 30
+                    "points": 31
                 }
             ],
             "stats": {
@@ -788,7 +788,7 @@
         {
             "id": "nirflax1984@gmail.com",
             "nickname": "ניר, אבל לא זה המגניב, השני",
-            "totalPoints": 25,
+            "totalPoints": 24,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -800,7 +800,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 25
+                    "points": 24
                 }
             ],
             "stats": {
@@ -811,7 +811,7 @@
         {
             "id": "ddn142@gmail.com",
             "nickname": "דני DDN",
-            "totalPoints": 35,
+            "totalPoints": 37,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -823,12 +823,12 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 23
+                    "points": 25
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "WrestleMania 42"
             }
         },
         {
@@ -857,75 +857,6 @@
         {
             "id": "dannygolan13@gmail.com",
             "nickname": "דני פריקינג גולן",
-            "totalPoints": 19,
-            "history": [
-                {
-                    "event": "Royal Rumble",
-                    "points": 0
-                },
-                {
-                    "event": "Elimination Chamber",
-                    "points": 0
-                },
-                {
-                    "event": "WrestleMania 42",
-                    "points": 19
-                }
-            ],
-            "stats": {
-                "accuracyRate": "N/A",
-                "bestEvent": "WrestleMania 42"
-            }
-        },
-        {
-            "id": "davidhengel99@gmail.com",
-            "nickname": "דודי חנגל",
-            "totalPoints": 10,
-            "history": [
-                {
-                    "event": "Royal Rumble",
-                    "points": 0
-                },
-                {
-                    "event": "Elimination Chamber",
-                    "points": 0
-                },
-                {
-                    "event": "WrestleMania 42",
-                    "points": 10
-                }
-            ],
-            "stats": {
-                "accuracyRate": "N/A",
-                "bestEvent": "WrestleMania 42"
-            }
-        },
-        {
-            "id": "golansade@gmail.com",
-            "nickname": "גולנדרטייקר",
-            "totalPoints": -12,
-            "history": [
-                {
-                    "event": "Royal Rumble",
-                    "points": 0
-                },
-                {
-                    "event": "Elimination Chamber",
-                    "points": 0
-                },
-                {
-                    "event": "WrestleMania 42",
-                    "points": -12
-                }
-            ],
-            "stats": {
-                "accuracyRate": "N/A",
-                "bestEvent": "WrestleMania 42"
-            }
-        },
-        {
-            "id": "shlomialp@gmail.com",
-            "nickname": "שלומי",
             "totalPoints": 22,
             "history": [
                 {
@@ -947,9 +878,9 @@
             }
         },
         {
-            "id": "dvir.fishel@gmail.com",
-            "nickname": "דביר",
-            "totalPoints": 19,
+            "id": "davidhengel99@gmail.com",
+            "nickname": "דודי חנגל",
+            "totalPoints": 11,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -961,7 +892,76 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 19
+                    "points": 11
+                }
+            ],
+            "stats": {
+                "accuracyRate": "N/A",
+                "bestEvent": "WrestleMania 42"
+            }
+        },
+        {
+            "id": "golansade@gmail.com",
+            "nickname": "גולנדרטייקר",
+            "totalPoints": -13,
+            "history": [
+                {
+                    "event": "Royal Rumble",
+                    "points": 0
+                },
+                {
+                    "event": "Elimination Chamber",
+                    "points": 0
+                },
+                {
+                    "event": "WrestleMania 42",
+                    "points": -13
+                }
+            ],
+            "stats": {
+                "accuracyRate": "N/A",
+                "bestEvent": "Royal Rumble"
+            }
+        },
+        {
+            "id": "shlomialp@gmail.com",
+            "nickname": "שלומי",
+            "totalPoints": 23,
+            "history": [
+                {
+                    "event": "Royal Rumble",
+                    "points": 0
+                },
+                {
+                    "event": "Elimination Chamber",
+                    "points": 0
+                },
+                {
+                    "event": "WrestleMania 42",
+                    "points": 23
+                }
+            ],
+            "stats": {
+                "accuracyRate": "N/A",
+                "bestEvent": "WrestleMania 42"
+            }
+        },
+        {
+            "id": "dvir.fishel@gmail.com",
+            "nickname": "דביר",
+            "totalPoints": 20,
+            "history": [
+                {
+                    "event": "Royal Rumble",
+                    "points": 0
+                },
+                {
+                    "event": "Elimination Chamber",
+                    "points": 0
+                },
+                {
+                    "event": "WrestleMania 42",
+                    "points": 20
                 }
             ],
             "stats": {
@@ -972,7 +972,7 @@
         {
             "id": "reuven.openu@gmail.com",
             "nickname": "ראובן",
-            "totalPoints": 18,
+            "totalPoints": 16,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -984,7 +984,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 18
+                    "points": 16
                 }
             ],
             "stats": {
@@ -1018,7 +1018,7 @@
         {
             "id": "saarisraelderi@gmail.com",
             "nickname": "סער ישראל",
-            "totalPoints": 34,
+            "totalPoints": 40,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1030,7 +1030,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 34
+                    "points": 40
                 }
             ],
             "stats": {
@@ -1041,7 +1041,7 @@
         {
             "id": "sagikalih1@gmail.com",
             "nickname": "שגיא",
-            "totalPoints": 16,
+            "totalPoints": 19,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1053,7 +1053,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 16
+                    "points": 19
                 }
             ],
             "stats": {
@@ -1064,7 +1064,7 @@
         {
             "id": "matanshamj@gmail.com",
             "nickname": "מתן לביא",
-            "totalPoints": 25,
+            "totalPoints": 32,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1076,7 +1076,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 25
+                    "points": 32
                 }
             ],
             "stats": {
@@ -1087,7 +1087,7 @@
         {
             "id": "bkadosh@gmail.com",
             "nickname": "ביג בן ק",
-            "totalPoints": 10,
+            "totalPoints": 12,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1099,7 +1099,7 @@
                 },
                 {
                     "event": "WrestleMania 42",
-                    "points": 10
+                    "points": 12
                 }
             ],
             "stats": {

@@ -53,18 +53,11 @@
             "rating": 3.98
         },
         {
-            "match name": "Finn Bálor vs. Dominik Mysterio",
-            "match score": 1,
-            "duration": "10:27",
+            "match name": "Oba Femi vs. Brock Lesnar",
+            "match score": 3,
+            "duration": "04:46",
             "titleChange": false,
-            "rating": 5.22
-        },
-        {
-            "match name": "Sami Zayn vs. Trick Williams",
-            "match score": 2,
-            "duration": "07:07",
-            "titleChange": true,
-            "rating": 5.13
+            "rating": null
         },
         {
             "match name": "Intercontinental Championship Ladder Match",
@@ -74,18 +67,25 @@
             "rating": 8.03
         },
         {
+            "match name": "Sami Zayn vs. Trick Williams",
+            "match score": 2,
+            "duration": "07:07",
+            "titleChange": true,
+            "rating": 5.13
+        },
+        {
+            "match name": "Finn Bálor vs. Dominik Mysterio",
+            "match score": 1,
+            "duration": "10:27",
+            "titleChange": false,
+            "rating": 5.22
+        },
+        {
             "match name": "Jade Cargill vs. Rhea Ripley",
             "match score": 3,
             "duration": "10:08",
             "titleChange": true,
             "rating": 6.02
-        },
-        {
-            "match name": "Oba Femi vs. Brock Lesnar",
-            "match score": 3,
-            "duration": "04:46",
-            "titleChange": false,
-            "rating": null
         },
         {
             "match name": "CM Punk vs. Roman Reigns",
@@ -110,11 +110,20 @@
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 6,
-                "Oba Femi vs. Brock Lesnar": 3,
+                "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": -4
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": -1
         },
         "spintoidigital@gmail.com": {
             "nickname": "שי איש העוגיות",
@@ -133,7 +142,16 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": 11
         },
         "rettign@gmail.com": {
@@ -150,11 +168,20 @@
                 "Sami Zayn vs. Trick Williams": 4,
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 3,
-                "Oba Femi vs. Brock Lesnar": 3,
+                "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": -3 },
-            "totalPoints": 13
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -3
+            },
+            "totalPoints": 16
         },
         "dannygolan13@gmail.com": {
             "nickname": "דני פריקינג גולן",
@@ -169,12 +196,21 @@
                 "Finn Bálor vs. Dominik Mysterio": 3,
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 3,
-                "Jade Cargill vs. Rhea Ripley": 3,
+                "Jade Cargill vs. Rhea Ripley": 6,
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 1, "turn": -1 },
-            "totalPoints": 19
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 1,
+                "turn": -1
+            },
+            "totalPoints": 22
         },
         "shaharatari96@gmail.com": {
             "nickname": "שחר אטרי",
@@ -189,12 +225,21 @@
                 "Finn Bálor vs. Dominik Mysterio": 2,
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 3,
-                "Jade Cargill vs. Rhea Ripley": 3,
+                "Jade Cargill vs. Rhea Ripley": 6,
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": 0, "worst": 0, "long": 1, "short": 1, "title_changes": 0, "dq": 0, "surprises": 1, "turn": 0 },
-            "totalPoints": 36
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 1,
+                "short": 1,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 1,
+                "turn": 0
+            },
+            "totalPoints": 39
         },
         "roby.glodan@nextage.co.il": {
             "nickname": "רובי",
@@ -211,10 +256,19 @@
                 "Intercontinental Championship Ladder Match": 3,
                 "Jade Cargill vs. Rhea Ripley": 6,
                 "Oba Femi vs. Brock Lesnar": 9,
-                "CM Punk vs. Roman Reigns": 5
+                "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": 0 },
-            "totalPoints": 36
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 41
         },
         "davidhengel99@gmail.com": {
             "nickname": "דודי חנגל",
@@ -226,15 +280,24 @@
                 "Liv Morgan vs. Stephanie Vaquer": 3,
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": -4,
-                "Finn Bálor vs. Dominik Mysterio": 1,
+                "Finn Bálor vs. Dominik Mysterio": 2,
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 0,
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": -10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": 1, "turn": -1 },
-            "totalPoints": 10
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 1,
+                "turn": -1
+            },
+            "totalPoints": 11
         },
         "hagaikt@gmail.com": {
             "nickname": "חגי כץ",
@@ -253,7 +316,16 @@
                 "Oba Femi vs. Brock Lesnar": -6,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": -1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 2,
+                "turn": 0
+            },
             "totalPoints": 1
         },
         "morfridman24@gmail.com": {
@@ -262,7 +334,7 @@
                 "6-Man Tag Team Match": 0,
                 "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 4,
-                "Jacob Fatu vs. Drew McIntyre": 2,
+                "Jacob Fatu vs. Drew McIntyre": 4,
                 "Liv Morgan vs. Stephanie Vaquer": 9,
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": 0,
@@ -273,8 +345,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": 1, "dq": 0, "surprises": 0, "turn": -2 },
-            "totalPoints": 30
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": 1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -2
+            },
+            "totalPoints": 31
         },
         "yaadilani@gmail.com": {
             "nickname": "אוי דוידוביץ'",
@@ -293,8 +374,17 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": -4 },
-            "totalPoints": 4
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -4
+            },
+            "totalPoints": 1
         },
         "rshamir@gmail.com": {
             "nickname": "רפי",
@@ -303,7 +393,7 @@
                 "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 2,
-                "Liv Morgan vs. Stephanie Vaquer": 3,
+                "Liv Morgan vs. Stephanie Vaquer": 6,
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": -12,
                 "Finn Bálor vs. Dominik Mysterio": 1,
@@ -311,10 +401,19 @@
                 "Intercontinental Championship Ladder Match": 3,
                 "Jade Cargill vs. Rhea Ripley": -6,
                 "Oba Femi vs. Brock Lesnar": 0,
-                "CM Punk vs. Roman Reigns": 5
+                "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": 1, "worst": -1, "long": 0, "short": 0, "title_changes": 0, "dq": -1, "surprises": 1, "turn": 0 },
-            "totalPoints": 8
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": -1,
+                "surprises": 1,
+                "turn": 0
+            },
+            "totalPoints": 16
         },
         "aviadc150@gmail.com": {
             "nickname": "אביעד",
@@ -330,11 +429,20 @@
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 3,
                 "Jade Cargill vs. Rhea Ripley": 6,
-                "Oba Femi vs. Brock Lesnar": 3,
+                "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": 26
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 28
         },
         "golansade@gmail.com": {
             "nickname": "גולנדרטייקר",
@@ -346,15 +454,24 @@
                 "Liv Morgan vs. Stephanie Vaquer": 3,
                 "Gunther vs. Seth Rollins": 0,
                 "Cody Rhodes vs. Randy Orton": -12,
-                "Finn Bálor vs. Dominik Mysterio": 1,
+                "Finn Bálor vs. Dominik Mysterio": 2,
                 "Sami Zayn vs. Trick Williams": 4,
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": -9,
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": 1, "dq": -1, "surprises": -1, "turn": 0 },
-            "totalPoints": -12
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": 1,
+                "dq": -1,
+                "surprises": -1,
+                "turn": 0
+            },
+            "totalPoints": -13
         },
         "shlomialp@gmail.com": {
             "nickname": "שלומי",
@@ -370,16 +487,25 @@
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": -9,
                 "Jade Cargill vs. Rhea Ripley": 6,
-                "Oba Femi vs. Brock Lesnar": 3,
+                "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": 0, "surprises": -1, "turn": -1 },
-            "totalPoints": 22
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -1,
+                "turn": -1
+            },
+            "totalPoints": 23
         },
         "dvir.fishel@gmail.com": {
             "nickname": "דביר",
             "matches": {
-                "6-Man Tag Team Match": 1,
+                "6-Man Tag Team Match": 2,
                 "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 2,
@@ -387,14 +513,23 @@
                 "Gunther vs. Seth Rollins": 2,
                 "Cody Rhodes vs. Randy Orton": -12,
                 "Finn Bálor vs. Dominik Mysterio": 1,
-                "Sami Zayn vs. Trick Williams": 2,
+                "Sami Zayn vs. Trick Williams": 4,
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": -1 },
-            "totalPoints": 19
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": -1
+            },
+            "totalPoints": 20
         },
         "yeudakonofnitski@gmail.com": {
             "nickname": "יהודה",
@@ -403,18 +538,27 @@
                 "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 0,
-                "Liv Morgan vs. Stephanie Vaquer": 3,
+                "Liv Morgan vs. Stephanie Vaquer": 6,
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": -12,
                 "Finn Bálor vs. Dominik Mysterio": 1,
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 6,
-                "Jade Cargill vs. Rhea Ripley": 3,
+                "Jade Cargill vs. Rhea Ripley": 6,
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": 24
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 30
         },
         "omerboenos@gmail.com": {
             "nickname": "עומר הקינדר בואנוס",
@@ -424,17 +568,26 @@
                 "Becky Lynch vs. AJ Lee": 0,
                 "Jacob Fatu vs. Drew McIntyre": 4,
                 "Liv Morgan vs. Stephanie Vaquer": 0,
-                "Gunther vs. Seth Rollins": 1,
+                "Gunther vs. Seth Rollins": 2,
                 "Cody Rhodes vs. Randy Orton": 0,
                 "Finn Bálor vs. Dominik Mysterio": 2,
                 "Sami Zayn vs. Trick Williams": 6,
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 3,
-                "Oba Femi vs. Brock Lesnar": 3,
+                "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": -1, "worst": -1, "long": 0, "short": 1, "title_changes": -1, "dq": 0, "surprises": -1, "turn": -1 },
-            "totalPoints": 18
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 0,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -1,
+                "turn": -1
+            },
+            "totalPoints": 22
         },
         "reuven.openu@gmail.com": {
             "nickname": "ראובן",
@@ -453,8 +606,17 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 1, "turn": 0 },
-            "totalPoints": 18
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 1,
+                "turn": 0
+            },
+            "totalPoints": 16
         },
         "liorbarak09@gmail.com": {
             "nickname": "ליאור טייקר",
@@ -463,7 +625,7 @@
                 "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 6,
-                "Liv Morgan vs. Stephanie Vaquer": 3,
+                "Liv Morgan vs. Stephanie Vaquer": 6,
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": 0,
                 "Finn Bálor vs. Dominik Mysterio": 1,
@@ -471,10 +633,19 @@
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 6,
-                "CM Punk vs. Roman Reigns": 5
+                "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": 1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": 0 },
-            "totalPoints": 29
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 37
         },
         "hampt9@gmail.com": {
             "nickname": "Eliran",
@@ -484,7 +655,7 @@
                 "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 6,
                 "Liv Morgan vs. Stephanie Vaquer": 3,
-                "Gunther vs. Seth Rollins": 1,
+                "Gunther vs. Seth Rollins": 2,
                 "Cody Rhodes vs. Randy Orton": 0,
                 "Finn Bálor vs. Dominik Mysterio": 0,
                 "Sami Zayn vs. Trick Williams": 4,
@@ -493,7 +664,16 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": 0, "surprises": -1, "turn": -3 },
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -1,
+                "turn": -3
+            },
             "totalPoints": 31
         },
         "yonis1987@gmail.com": {
@@ -507,13 +687,22 @@
                 "Gunther vs. Seth Rollins": 3,
                 "Cody Rhodes vs. Randy Orton": 4,
                 "Finn Bálor vs. Dominik Mysterio": 1,
-                "Sami Zayn vs. Trick Williams": 2,
+                "Sami Zayn vs. Trick Williams": 4,
                 "Intercontinental Championship Ladder Match": 3,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": -1, "turn": -4 },
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": -1,
+                "turn": -4
+            },
             "totalPoints": 26
         },
         "hirshfe@gmail.com": {
@@ -533,8 +722,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 1, "turn": -1 },
-            "totalPoints": 41
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 1,
+                "turn": -1
+            },
+            "totalPoints": 38
         },
         "saarisraelderi@gmail.com": {
             "nickname": "סער ישראל",
@@ -543,7 +741,7 @@
                 "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 6,
-                "Liv Morgan vs. Stephanie Vaquer": 3,
+                "Liv Morgan vs. Stephanie Vaquer": 6,
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": 0,
                 "Finn Bálor vs. Dominik Mysterio": 3,
@@ -551,10 +749,19 @@
                 "Intercontinental Championship Ladder Match": 3,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 6,
-                "CM Punk vs. Roman Reigns": 5
+                "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": -2, "turn": 0 },
-            "totalPoints": 34
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -2,
+                "turn": 0
+            },
+            "totalPoints": 40
         },
         "omer88kul@gmail.com": {
             "nickname": "עומר",
@@ -573,7 +780,16 @@
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 2, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 2,
+                "turn": 0
+            },
             "totalPoints": 26
         },
         "shapiraido123@gmail.com": {
@@ -593,8 +809,17 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": 0, "long": 0, "short": 0, "title_changes": 1, "dq": 0, "surprises": 0, "turn": -2 },
-            "totalPoints": 11
+            "individuals": {
+                "best": -1,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -2
+            },
+            "totalPoints": 10
         },
         "nirflax1984@gmail.com": {
             "nickname": "ניר",
@@ -604,7 +829,7 @@
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 6,
                 "Liv Morgan vs. Stephanie Vaquer": 3,
-                "Gunther vs. Seth Rollins": 1,
+                "Gunther vs. Seth Rollins": 2,
                 "Cody Rhodes vs. Randy Orton": 0,
                 "Finn Bálor vs. Dominik Mysterio": 1,
                 "Sami Zayn vs. Trick Williams": 2,
@@ -613,8 +838,17 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": 0 },
-            "totalPoints": 25
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 24
         },
         "noon.duvshani@gmail.com": {
             "nickname": "The Noon ",
@@ -627,14 +861,23 @@
                 "Gunther vs. Seth Rollins": -2,
                 "Cody Rhodes vs. Randy Orton": 0,
                 "Finn Bálor vs. Dominik Mysterio": 1,
-                "Sami Zayn vs. Trick Williams": 2,
+                "Sami Zayn vs. Trick Williams": 4,
                 "Intercontinental Championship Ladder Match": -6,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": -9,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": -7
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": -6
         },
         "sagikalih1@gmail.com": {
             "nickname": "שגיא",
@@ -651,17 +894,26 @@
                 "Intercontinental Championship Ladder Match": 9,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 3,
-                "CM Punk vs. Roman Reigns": 5
+                "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": 0, "surprises": -2, "turn": 0 },
-            "totalPoints": 16
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -2,
+                "turn": 0
+            },
+            "totalPoints": 19
         },
         "yoavzeevi20@gmail.com": {
             "nickname": "זאבי",
             "matches": {
                 "6-Man Tag Team Match": 0,
                 "Women's Tag Team Fatal 4-Way": 0,
-                "Becky Lynch vs. AJ Lee": 2,
+                "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": 6,
                 "Gunther vs. Seth Rollins": 1,
@@ -673,8 +925,17 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
-            "totalPoints": -8
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": -1,
+                "surprises": 2,
+                "turn": 0
+            },
+            "totalPoints": -4
         },
         "eliyau25@gmail.com": {
             "nickname": "אבא",
@@ -687,14 +948,23 @@
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": -4,
                 "Finn Bálor vs. Dominik Mysterio": 2,
-                "Sami Zayn vs. Trick Williams": 2,
+                "Sami Zayn vs. Trick Williams": 4,
                 "Intercontinental Championship Ladder Match": 3,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": -7
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": -5
         },
         "shaharst5@gmail.com": {
             "nickname": "שחר מלכת הזירה",
@@ -703,18 +973,27 @@
                 "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 6,
-                "Liv Morgan vs. Stephanie Vaquer": 3,
+                "Liv Morgan vs. Stephanie Vaquer": 6,
                 "Gunther vs. Seth Rollins": 1,
                 "Cody Rhodes vs. Randy Orton": 0,
                 "Finn Bálor vs. Dominik Mysterio": 1,
-                "Sami Zayn vs. Trick Williams": 2,
+                "Sami Zayn vs. Trick Williams": 4,
                 "Intercontinental Championship Ladder Match": 3,
                 "Jade Cargill vs. Rhea Ripley": 6,
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": 2, "turn": 0 },
-            "totalPoints": 14
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 0,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 2,
+                "turn": 0
+            },
+            "totalPoints": 20
         },
         "sbarakud@gmail.com": {
             "nickname": "שי ב.",
@@ -728,13 +1007,22 @@
                 "Cody Rhodes vs. Randy Orton": -12,
                 "Finn Bálor vs. Dominik Mysterio": 1,
                 "Sami Zayn vs. Trick Williams": 2,
-                "Intercontinental Championship Ladder Match": 3,
+                "Intercontinental Championship Ladder Match": 6,
                 "Jade Cargill vs. Rhea Ripley": 6,
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": -1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
-            "totalPoints": -6
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 2,
+                "turn": 0
+            },
+            "totalPoints": -5
         },
         "matanshamj@gmail.com": {
             "nickname": "מתן לביא",
@@ -745,16 +1033,25 @@
                 "Jacob Fatu vs. Drew McIntyre": 6,
                 "Liv Morgan vs. Stephanie Vaquer": -6,
                 "Gunther vs. Seth Rollins": 1,
-                "Cody Rhodes vs. Randy Orton": 4,
+                "Cody Rhodes vs. Randy Orton": 8,
                 "Finn Bálor vs. Dominik Mysterio": 2,
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 9,
-                "CM Punk vs. Roman Reigns": 5
+                "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": -1, "worst": 1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": -2, "turn": -2 },
-            "totalPoints": 25
+            "individuals": {
+                "best": -1,
+                "worst": 1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": -2,
+                "turn": -2
+            },
+            "totalPoints": 32
         },
         "ddn142@gmail.com": {
             "nickname": "דני DDN",
@@ -771,17 +1068,26 @@
                 "Intercontinental Championship Ladder Match": 0,
                 "Jade Cargill vs. Rhea Ripley": 3,
                 "Oba Femi vs. Brock Lesnar": 9,
-                "CM Punk vs. Roman Reigns": 5
+                "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": -1, "turn": -2 },
-            "totalPoints": 23
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": -1,
+                "turn": -2
+            },
+            "totalPoints": 25
         },
         "yaronkfir5000@gmail.com": {
             "nickname": "ירון",
             "matches": {
                 "6-Man Tag Team Match": 0,
                 "Women's Tag Team Fatal 4-Way": 0,
-                "Becky Lynch vs. AJ Lee": 2,
+                "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 4,
                 "Liv Morgan vs. Stephanie Vaquer": -9,
                 "Gunther vs. Seth Rollins": 1,
@@ -793,8 +1099,17 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": -1, "surprises": 0, "turn": 0 },
-            "totalPoints": 18
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 20
         },
         "bkadosh@gmail.com": {
             "nickname": "ביג בן ק",
@@ -809,12 +1124,21 @@
                 "Finn Bálor vs. Dominik Mysterio": 1,
                 "Sami Zayn vs. Trick Williams": 2,
                 "Intercontinental Championship Ladder Match": 3,
-                "Jade Cargill vs. Rhea Ripley": 3,
+                "Jade Cargill vs. Rhea Ripley": 6,
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": 10
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 12
         }
     }
 }
