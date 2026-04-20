@@ -113,7 +113,16 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": -4
         },
         "spintoidigital@gmail.com": {
@@ -133,7 +142,16 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": 11
         },
         "rettign@gmail.com": {
@@ -153,7 +171,16 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": -3 },
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -3
+            },
             "totalPoints": 13
         },
         "dannygolan13@gmail.com": {
@@ -173,7 +200,16 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 1, "turn": -1 },
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 1,
+                "turn": -1
+            },
             "totalPoints": 19
         },
         "shaharatari96@gmail.com": {
@@ -193,7 +229,16 @@
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": 0, "worst": 0, "long": 1, "short": 1, "title_changes": 0, "dq": 0, "surprises": 1, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 1,
+                "short": 1,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 1,
+                "turn": 0
+            },
             "totalPoints": 36
         },
         "roby.glodan@nextage.co.il": {
@@ -213,7 +258,16 @@
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": 36
         },
         "davidhengel99@gmail.com": {
@@ -233,7 +287,16 @@
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": -10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": 1, "turn": -1 },
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 1,
+                "turn": -1
+            },
             "totalPoints": 10
         },
         "hagaikt@gmail.com": {
@@ -253,7 +316,16 @@
                 "Oba Femi vs. Brock Lesnar": -6,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": -1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 2,
+                "turn": 0
+            },
             "totalPoints": 1
         },
         "morfridman24@gmail.com": {
@@ -273,8 +345,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": 1, "dq": 0, "surprises": 0, "turn": -2 },
-            "totalPoints": 30
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": 1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -2
+            },
+            "totalPoints": 29
         },
         "yaadilani@gmail.com": {
             "nickname": "אוי דוידוביץ'",
@@ -293,8 +374,17 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": -4 },
-            "totalPoints": 4
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -4
+            },
+            "totalPoints": 1
         },
         "rshamir@gmail.com": {
             "nickname": "רפי",
@@ -313,7 +403,16 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": 1, "worst": -1, "long": 0, "short": 0, "title_changes": 0, "dq": -1, "surprises": 1, "turn": 0 },
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": -1,
+                "surprises": 1,
+                "turn": 0
+            },
             "totalPoints": 8
         },
         "aviadc150@gmail.com": {
@@ -333,8 +432,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": 26
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 25
         },
         "golansade@gmail.com": {
             "nickname": "גולנדרטייקר",
@@ -353,8 +461,17 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": 1, "dq": -1, "surprises": -1, "turn": 0 },
-            "totalPoints": -12
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": 1,
+                "dq": -1,
+                "surprises": -1,
+                "turn": 0
+            },
+            "totalPoints": -14
         },
         "shlomialp@gmail.com": {
             "nickname": "שלומי",
@@ -373,8 +490,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": 0, "surprises": -1, "turn": -1 },
-            "totalPoints": 22
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -1,
+                "turn": -1
+            },
+            "totalPoints": 20
         },
         "dvir.fishel@gmail.com": {
             "nickname": "דביר",
@@ -393,8 +519,17 @@
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": -1 },
-            "totalPoints": 19
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": -1
+            },
+            "totalPoints": 17
         },
         "yeudakonofnitski@gmail.com": {
             "nickname": "יהודה",
@@ -413,7 +548,16 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": 24
         },
         "omerboenos@gmail.com": {
@@ -433,7 +577,16 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 0
             },
-            "individuals": { "best": -1, "worst": -1, "long": 0, "short": 1, "title_changes": -1, "dq": 0, "surprises": -1, "turn": -1 },
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 0,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -1,
+                "turn": -1
+            },
             "totalPoints": 18
         },
         "reuven.openu@gmail.com": {
@@ -453,8 +606,17 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 1, "turn": 0 },
-            "totalPoints": 18
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 1,
+                "turn": 0
+            },
+            "totalPoints": 16
         },
         "liorbarak09@gmail.com": {
             "nickname": "ליאור טייקר",
@@ -473,7 +635,16 @@
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": 1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": 29
         },
         "hampt9@gmail.com": {
@@ -493,8 +664,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": 0, "surprises": -1, "turn": -3 },
-            "totalPoints": 31
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -1,
+                "turn": -3
+            },
+            "totalPoints": 30
         },
         "yonis1987@gmail.com": {
             "nickname": "יוניפאק",
@@ -513,8 +693,17 @@
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": -1, "turn": -4 },
-            "totalPoints": 26
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": -1,
+                "turn": -4
+            },
+            "totalPoints": 24
         },
         "hirshfe@gmail.com": {
             "nickname": "חדרה ברולר",
@@ -533,8 +722,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 1, "turn": -1 },
-            "totalPoints": 41
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 1,
+                "turn": -1
+            },
+            "totalPoints": 38
         },
         "saarisraelderi@gmail.com": {
             "nickname": "סער ישראל",
@@ -553,8 +751,17 @@
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": -2, "turn": 0 },
-            "totalPoints": 34
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -2,
+                "turn": 0
+            },
+            "totalPoints": 32
         },
         "omer88kul@gmail.com": {
             "nickname": "עומר",
@@ -573,7 +780,16 @@
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": -5
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 2, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 2,
+                "turn": 0
+            },
             "totalPoints": 26
         },
         "shapiraido123@gmail.com": {
@@ -593,8 +809,17 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": 0, "long": 0, "short": 0, "title_changes": 1, "dq": 0, "surprises": 0, "turn": -2 },
-            "totalPoints": 11
+            "individuals": {
+                "best": -1,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": -2
+            },
+            "totalPoints": 10
         },
         "nirflax1984@gmail.com": {
             "nickname": "ניר",
@@ -613,8 +838,17 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": 10
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 0, "turn": 0 },
-            "totalPoints": 25
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 23
         },
         "noon.duvshani@gmail.com": {
             "nickname": "The Noon ",
@@ -633,8 +867,17 @@
                 "Oba Femi vs. Brock Lesnar": -9,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": -7
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": -8
         },
         "sagikalih1@gmail.com": {
             "nickname": "שגיא",
@@ -653,8 +896,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": 1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": 0, "surprises": -2, "turn": 0 },
-            "totalPoints": 16
+            "individuals": {
+                "best": 1,
+                "worst": -1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": -2,
+                "turn": 0
+            },
+            "totalPoints": 14
         },
         "yoavzeevi20@gmail.com": {
             "nickname": "זאבי",
@@ -673,8 +925,17 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
-            "totalPoints": -8
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": -1,
+                "surprises": 2,
+                "turn": 0
+            },
+            "totalPoints": -6
         },
         "eliyau25@gmail.com": {
             "nickname": "אבא",
@@ -693,7 +954,16 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": -7
         },
         "shaharst5@gmail.com": {
@@ -713,8 +983,17 @@
                 "Oba Femi vs. Brock Lesnar": 3,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": 2, "turn": 0 },
-            "totalPoints": 14
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 0,
+                "short": 1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 2,
+                "turn": 0
+            },
+            "totalPoints": 15
         },
         "sbarakud@gmail.com": {
             "nickname": "שי ב.",
@@ -733,8 +1012,17 @@
                 "Oba Femi vs. Brock Lesnar": 0,
                 "CM Punk vs. Roman Reigns": -15
             },
-            "individuals": { "best": -1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
-            "totalPoints": -6
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": 1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": 2,
+                "turn": 0
+            },
+            "totalPoints": -8
         },
         "matanshamj@gmail.com": {
             "nickname": "מתן לביא",
@@ -753,8 +1041,17 @@
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": 1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": -2, "turn": -2 },
-            "totalPoints": 25
+            "individuals": {
+                "best": -1,
+                "worst": 1,
+                "long": 1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": -2,
+                "turn": -2
+            },
+            "totalPoints": 23
         },
         "ddn142@gmail.com": {
             "nickname": "דני DDN",
@@ -773,8 +1070,17 @@
                 "Oba Femi vs. Brock Lesnar": 9,
                 "CM Punk vs. Roman Reigns": 5
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": -1, "turn": -2 },
-            "totalPoints": 23
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": 1,
+                "title_changes": -1,
+                "dq": -1,
+                "surprises": -1,
+                "turn": -2
+            },
+            "totalPoints": 20
         },
         "yaronkfir5000@gmail.com": {
             "nickname": "ירון",
@@ -793,7 +1099,16 @@
                 "Oba Femi vs. Brock Lesnar": -3,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": -1, "surprises": 0, "turn": 0 },
+            "individuals": {
+                "best": 0,
+                "worst": 0,
+                "long": 0,
+                "short": 0,
+                "title_changes": 0,
+                "dq": -1,
+                "surprises": 0,
+                "turn": 0
+            },
             "totalPoints": 18
         },
         "bkadosh@gmail.com": {
@@ -813,8 +1128,17 @@
                 "Oba Femi vs. Brock Lesnar": 6,
                 "CM Punk vs. Roman Reigns": 15
             },
-            "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": 10
+            "individuals": {
+                "best": -1,
+                "worst": -1,
+                "long": -1,
+                "short": -1,
+                "title_changes": -1,
+                "dq": 0,
+                "surprises": 0,
+                "turn": 0
+            },
+            "totalPoints": 9
         }
     }
 }
