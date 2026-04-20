@@ -66,14 +66,17 @@ function EventStats({ eventData }) {
     });
 
     const totalPredictions = gamblersArray.length * matches.length;
-    const accuracyRate = ((positiveScores / totalPredictions) * 100).toFixed(0);
+    const accuracyRate = totalPredictions > 0 ? ((positiveScores / totalPredictions) * 100).toFixed(0) : 0;
 
     // Calculate match statistics
     const durationMinutes = durations.map(d => d.minutes);
-    const longestMatchMinutes = Math.max(...durationMinutes);
-    const shortestMatchMinutes = Math.min(...durationMinutes);
-    const highestRating = Math.max(...ratings);
-    const lowestRating = Math.min(...ratings);
+    const longestMatchMinutes = durationMinutes.length > 0 ? Math.max(...durationMinutes) : 0;
+    const shortestMatchMinutes = durationMinutes.length > 0 ? Math.min(...durationMinutes) : 0;
+
+    // Filter out null ratings for min/max calculations
+    const validRatings = ratings.filter(rating => rating !== null && rating !== undefined);
+    const highestRating = validRatings.length > 0 ? Math.max(...validRatings) : 0;
+    const lowestRating = validRatings.length > 0 ? Math.min(...validRatings) : 0;
 
     // Find match names and original duration strings
     const longestMatchData = matches.find(m => durationToMinutes(m.duration) === longestMatchMinutes);
@@ -120,9 +123,11 @@ function EventStats({ eventData }) {
     }
 
     const gamblerArray = Object.values(gamblerStats);
-    const bestGambler = gamblerArray.reduce((best, curr) =>
-      curr.totalScore > best.totalScore ? curr : best
-    );
+    const bestGambler = gamblerArray.length > 0
+      ? gamblerArray.reduce((best, curr) =>
+          curr.totalScore > best.totalScore ? curr : best
+        )
+      : { nickname: 'N/A', totalScore: 0 };
 
     return {
       accuracyRate,
