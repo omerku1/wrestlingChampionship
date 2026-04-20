@@ -53,18 +53,11 @@
             "rating": 3.98
         },
         {
-            "match name": "Finn Bálor vs. Dominik Mysterio",
-            "match score": 1,
-            "duration": "10:27",
+            "match name": "Oba Femi vs. Brock Lesnar",
+            "match score": 3,
+            "duration": "04:46",
             "titleChange": false,
-            "rating": 5.22
-        },
-        {
-            "match name": "Sami Zayn vs. Trick Williams",
-            "match score": 2,
-            "duration": "07:07",
-            "titleChange": true,
-            "rating": 5.13
+            "rating": null
         },
         {
             "match name": "Intercontinental Championship Ladder Match",
@@ -74,18 +67,25 @@
             "rating": 8.03
         },
         {
+            "match name": "Sami Zayn vs. Trick Williams",
+            "match score": 2,
+            "duration": "07:07",
+            "titleChange": true,
+            "rating": 5.13
+        },
+        {
+            "match name": "Finn Bálor vs. Dominik Mysterio",
+            "match score": 1,
+            "duration": "10:27",
+            "titleChange": false,
+            "rating": 5.22
+        },
+        {
             "match name": "Jade Cargill vs. Rhea Ripley",
             "match score": 3,
             "duration": "10:08",
             "titleChange": true,
             "rating": 6.02
-        },
-        {
-            "match name": "Oba Femi vs. Brock Lesnar",
-            "match score": 3,
-            "duration": "04:46",
-            "titleChange": false,
-            "rating": null
         },
         {
             "match name": "CM Punk vs. Roman Reigns",
