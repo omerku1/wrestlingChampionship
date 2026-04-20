@@ -62,12 +62,10 @@
                     "stipulation": "For the World Heavyweight Championship"
                 }
             ]
-        }
-    ],
-    "next event": [
+        },
         {
-            "date": "April 18",
-            "event": "WrestleMania 42: Night 1",
+            "date": "April 18-19",
+            "event": "WrestleMania 42",
             "location": "Allegiant Stadium, Paradise, Nevada",
             "Start time": "2026-04-18T23:59:00Z",
             "matches": [
@@ -112,47 +110,39 @@
                     "match": "Cody Rhodes (c) vs. Randy Orton (with Pat McAfee)",
                     "type": "Singles match",
                     "stipulation": "For the Undisputed WWE Championship. If Orton loses, McAfee will leave the professional wrestling industry permanently."
-                }
-            ]
-        },
-        {
-            "date": "April 19",
-            "event": "WrestleMania 42: Night 2",
-            "location": "Allegiant Stadium, Paradise, Nevada",
-            "Start time": "2026-04-19T23:59:00Z",
-            "matches": [
+                },
                 {
-                    "id": 1,
+                    "id": 8,
                     "match": "Oba Femi vs. Brock Lesnar",
                     "type": "Singles match",
                     "stipulation": ""
                 },
                 {
-                    "id": 2,
+                    "id": 9,
                     "match": "Penta (c) vs. Je'Von Evans vs. Dragon Lee vs. JD McDonagh vs. Rusev vs. Rey Mysterio",
                     "type": "Six-pack ladder match",
                     "stipulation": "For the WWE Intercontinental Championship"
                 },
                 {
-                    "id": 3,
+                    "id": 10,
                     "match": "Jade Cargill (c) vs. Rhea Ripley",
                     "type": "Singles match",
                     "stipulation": "For the WWE Women's Championship"
                 },
                 {
-                    "id": 4,
+                    "id": 11,
                     "match": "Sami Zayn (c) vs. Trick Williams",
                     "type": "Singles match",
                     "stipulation": "For the WWE United States Championship"
                 },
                 {
-                    "id": 5,
+                    "id": 12,
                     "match": "\"The Demon\" Finn Bálor vs. Dominik Mysterio",
                     "type": "Singles match",
                     "stipulation": ""
                 },
                 {
-                    "id": 6,
+                    "id": 13,
                     "match": "CM Punk (c) vs. Roman Reigns",
                     "type": "Singles match",
                     "stipulation": "For the World Heavyweight Championship"
@@ -160,6 +150,7 @@
             ]
         }
     ],
+    "next event": [],
     "upcoming events": [
         {
             "date": "May 9",
