@@ -100,7 +100,7 @@
             "nickname": "ג'וני רסלינג",
             "matches": {
                 "6-Man Tag Team Match": 0,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": 6,
@@ -114,7 +114,7 @@
                 "CM Punk vs. Roman Reigns": -15
             },
             "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": -7
+            "totalPoints": -4
         },
         "spintoidigital@gmail.com": {
             "nickname": "שי איש העוגיות",
@@ -240,7 +240,7 @@
             "nickname": "חגי כץ",
             "matches": {
                 "6-Man Tag Team Match": 0,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": 6,
@@ -254,7 +254,7 @@
                 "CM Punk vs. Roman Reigns": -5
             },
             "individuals": { "best": -1, "worst": -1, "long": 1, "short": -1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
-            "totalPoints": -2
+            "totalPoints": 1
         },
         "morfridman24@gmail.com": {
             "nickname": "מור פרידמן",
@@ -280,7 +280,7 @@
             "nickname": "אוי דוידוביץ'",
             "matches": {
                 "6-Man Tag Team Match": 2,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 0,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": 3,
@@ -294,7 +294,7 @@
                 "CM Punk vs. Roman Reigns": -5
             },
             "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": -4 },
-            "totalPoints": 1
+            "totalPoints": 4
         },
         "rshamir@gmail.com": {
             "nickname": "רפי",
@@ -340,7 +340,7 @@
             "nickname": "גולנדרטייקר",
             "matches": {
                 "6-Man Tag Team Match": 1,
-                "Women's Tag Team Fatal 4-Way": -6,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": -2,
                 "Jacob Fatu vs. Drew McIntyre": 0,
                 "Liv Morgan vs. Stephanie Vaquer": 3,
@@ -354,13 +354,13 @@
                 "CM Punk vs. Roman Reigns": 5
             },
             "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": 1, "dq": -1, "surprises": -1, "turn": 0 },
-            "totalPoints": -18
+            "totalPoints": -12
         },
         "shlomialp@gmail.com": {
             "nickname": "שלומי",
             "matches": {
                 "6-Man Tag Team Match": 1,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 6,
                 "Jacob Fatu vs. Drew McIntyre": 0,
                 "Liv Morgan vs. Stephanie Vaquer": 6,
@@ -374,7 +374,7 @@
                 "CM Punk vs. Roman Reigns": 0
             },
             "individuals": { "best": 1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": 0, "surprises": -1, "turn": -1 },
-            "totalPoints": 19
+            "totalPoints": 22
         },
         "dvir.fishel@gmail.com": {
             "nickname": "דביר",
@@ -400,7 +400,7 @@
             "nickname": "יהודה",
             "matches": {
                 "6-Man Tag Team Match": 0,
-                "Women's Tag Team Fatal 4-Way": -6,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 0,
                 "Liv Morgan vs. Stephanie Vaquer": 3,
@@ -414,7 +414,7 @@
                 "CM Punk vs. Roman Reigns": 15
             },
             "individuals": { "best": 0, "worst": 0, "long": 0, "short": 0, "title_changes": 0, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": 18
+            "totalPoints": 24
         },
         "omerboenos@gmail.com": {
             "nickname": "עומר הקינדר בואנוס",
@@ -520,7 +520,7 @@
             "nickname": "חדרה ברולר",
             "matches": {
                 "6-Man Tag Team Match": 1,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": 9,
@@ -534,7 +534,7 @@
                 "CM Punk vs. Roman Reigns": 5
             },
             "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 1, "turn": -1 },
-            "totalPoints": 38
+            "totalPoints": 41
         },
         "saarisraelderi@gmail.com": {
             "nickname": "סער ישראל",
@@ -580,7 +580,7 @@
             "nickname": "עידו שפירא",
             "matches": {
                 "6-Man Tag Team Match": 1,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 2,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": 6,
@@ -594,7 +594,7 @@
                 "CM Punk vs. Roman Reigns": 15
             },
             "individuals": { "best": -1, "worst": 0, "long": 0, "short": 0, "title_changes": 1, "dq": 0, "surprises": 0, "turn": -2 },
-            "totalPoints": 8
+            "totalPoints": 11
         },
         "nirflax1984@gmail.com": {
             "nickname": "ניר",
@@ -720,7 +720,7 @@
             "nickname": "שי ב.",
             "matches": {
                 "6-Man Tag Team Match": 0,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 4,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": 0,
@@ -734,7 +734,7 @@
                 "CM Punk vs. Roman Reigns": -15
             },
             "individuals": { "best": -1, "worst": -1, "long": 1, "short": 1, "title_changes": -1, "dq": -1, "surprises": 2, "turn": 0 },
-            "totalPoints": -9
+            "totalPoints": -6
         },
         "matanshamj@gmail.com": {
             "nickname": "מתן לביא",
@@ -760,7 +760,7 @@
             "nickname": "דני DDN",
             "matches": {
                 "6-Man Tag Team Match": 0,
-                "Women's Tag Team Fatal 4-Way": -6,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 0,
                 "Jacob Fatu vs. Drew McIntyre": 6,
                 "Liv Morgan vs. Stephanie Vaquer": 3,
@@ -774,7 +774,7 @@
                 "CM Punk vs. Roman Reigns": 5
             },
             "individuals": { "best": -1, "worst": -1, "long": -1, "short": 1, "title_changes": -1, "dq": -1, "surprises": -1, "turn": -2 },
-            "totalPoints": 17
+            "totalPoints": 23
         },
         "yaronkfir5000@gmail.com": {
             "nickname": "ירון",
@@ -800,7 +800,7 @@
             "nickname": "ביג בן ק",
             "matches": {
                 "6-Man Tag Team Match": 0,
-                "Women's Tag Team Fatal 4-Way": -3,
+                "Women's Tag Team Fatal 4-Way": 0,
                 "Becky Lynch vs. AJ Lee": 0,
                 "Jacob Fatu vs. Drew McIntyre": 2,
                 "Liv Morgan vs. Stephanie Vaquer": -6,
@@ -814,7 +814,7 @@
                 "CM Punk vs. Roman Reigns": 15
             },
             "individuals": { "best": -1, "worst": -1, "long": -1, "short": -1, "title_changes": -1, "dq": 0, "surprises": 0, "turn": 0 },
-            "totalPoints": 7
+            "totalPoints": 10
         }
     }
 }
