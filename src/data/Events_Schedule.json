@@ -150,14 +150,34 @@
             ]
         }
     ],
-    "next event": [],
-    "upcoming events": [
+    "next event": [
         {
             "date": "May 9",
             "event": "Backlash",
             "location": "Benchmark International Arena, Tampa, Florida",
-            "matches": []
-        },
+            "matches": [
+                {
+                    "id": 1,
+                    "match": "Cody Rhodes vs. AJ Styles",
+                    "type": "Singles match",
+                    "stipulation": "For the Undisputed WWE Championship"
+                },
+                {
+                    "id": 2,
+                    "match": "Rhea Ripley vs. Liv Morgan",
+                    "type": "Singles match",
+                    "stipulation": "For the Women's World Championship"
+                },
+                {
+                    "id": 3,
+                    "match": "Gunther vs. Finn Bálor",
+                    "type": "Singles match",
+                    "stipulation": "For the World Heavyweight Championship"
+                }
+            ]
+        }
+    ],
+    "upcoming events": [
         {
             "date": "May 31",
             "event": "TBA",
