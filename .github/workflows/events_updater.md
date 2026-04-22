@@ -4,6 +4,12 @@ on:
    schedule:
       - cron: '0 12 * * 0,2' # Runs Sundays and Tuesdays at 12:00 UTC
    workflow_dispatch: # Allows you to trigger it manually
+network:
+   allowed:
+      - defaults
+      - "en.wikipedia.org"
+      - "www.google.com"
+      - "www.wwe.com"
 tools:
    web-search:
    edit:
