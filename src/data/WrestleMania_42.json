@@ -8,7 +8,7 @@
             "match score": 1,
             "duration": "07:08",
             "titleChange": false,
-            "rating": 3.69
+            "rating": 3.67
         },
         {
             "match name": "Women's Tag Team Fatal 4-Way",
@@ -36,7 +36,7 @@
             "match score": 3,
             "duration": "06:51",
             "titleChange": true,
-            "rating": 3.28
+            "rating": 3.34
         },
         {
             "match name": "Gunther vs. Seth Rollins",
@@ -64,7 +64,7 @@
             "match score": 3,
             "duration": "15:08",
             "titleChange": false,
-            "rating": 8.03
+            "rating": 8.08
         },
         {
             "match name": "Sami Zayn vs. Trick Williams",
@@ -92,7 +92,7 @@
             "match score": 5,
             "duration": "33:56",
             "titleChange": true,
-            "rating": 8.9
+            "rating": 9.03
         }
     ],
     "gamblers": {
