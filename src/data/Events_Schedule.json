@@ -150,14 +150,13 @@
             ]
         }
     ],
-    "next event": [],
+    "next event": {
+        "date": "May 9",
+        "event": "Backlash",
+        "location": "Benchmark International Arena, Tampa, Florida",
+        "matches": []
+    },
     "upcoming events": [
-        {
-            "date": "May 9",
-            "event": "Backlash",
-            "location": "Benchmark International Arena, Tampa, Florida",
-            "matches": []
-        },
         {
             "date": "May 31",
             "event": "TBA",
