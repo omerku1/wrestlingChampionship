@@ -12,7 +12,7 @@ const eventModules = import.meta.glob('../data/*.json', { eager: true });
 
 // Convert to a simple filename -> data map
 const EVENT_DATA_MAP = Object.entries(eventModules).reduce((acc, [path, module]) => {
-  const filename = path.split('/').pop(); // Extract just the filename from './data/filename.json'
+  const filename = path.split('/').pop().replace('.json', '').replace(/_/g, '-').toLowerCase(); // Extract just the filename without .json extension, convert to slug
   acc[filename] = module.default;
   return acc;
 }, {});

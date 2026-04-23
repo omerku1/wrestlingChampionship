@@ -184,8 +184,8 @@ function GlobalLeaderboard({ seasonData }) {
                 transition={{ delay: 0.6 + index * 0.1 }}
                 whileHover={{ x: 5 }}
                 onClick={() => {
-                  // Convert event name to filename format
-                  const filename = event.event.replace(/\s+/g, '_') + '.json';
+                  // Convert event name to URL-friendly slug
+                  const filename = event.event.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
                   navigate(`/event/${encodeURIComponent(filename)}`);
                 }}
               >
