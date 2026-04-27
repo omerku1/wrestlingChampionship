@@ -2,7 +2,7 @@
 name: WWE PPV Card & Results Updater
 engine:
    id: gemini
-   model: gemini-2.5-pro-preview
+   model: gemini-2.5-pro
 on:
    schedule:
       - cron: '0 12 * * 0,2' # Runs Sundays and Tuesdays at 12:00 UTC
