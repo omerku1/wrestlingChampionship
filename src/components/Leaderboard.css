@@ -357,10 +357,44 @@
 /* Switch to mobile card view below 640 px */
 @media (max-width: 640px) {
   .desktop-event-leaderboard {
-    display: none;
+    display: block;
   }
 
   .mobile-event-leaderboard {
-    display: block;
+    display: none;
+  }
+
+  /* Make table scrollable on mobile but keep table format */
+  .leaderboard-table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .leaderboard-table {
+    min-width: 600px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .rank-medal {
+    font-size: 1.25rem;
+  }
+
+  .nickname-text {
+    font-size: 0.95rem;
+  }
+
+  .total-score {
+    font-size: 1.1rem;
+  }
+
+  .event-points {
+    font-size: 0.9rem;
+    padding: 0.3rem 0.6rem;
   }
 }

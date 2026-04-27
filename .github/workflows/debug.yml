@@ -1,0 +1,27 @@
+name: Debug API Key
+on: workflow_dispatch
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Secret Shape
+        run: |
+          KEY="${{ secrets.GEMINI_API_KEY }}"
+          echo "Total Length: ${#KEY} characters"
+          
+          if [[ "$KEY" == \"* ]]; then
+            echo "🚨 WARNING: Key starts with a quotation mark!"
+          fi
+          
+          if [[ "$KEY" == *\" ]]; then
+            echo "🚨 WARNING: Key ends with a quotation mark!"
+          fi
+
+          if [[ "$KEY" == *" " ]]; then
+            echo "🚨 WARNING: Key ends with a trailing space!"
+          fi
+          
+          if [ -z "$KEY" ]; then
+            echo "🚨 WARNING: Key is completely empty!"
+          fi
