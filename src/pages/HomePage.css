@@ -36,3 +36,20 @@
   font-size: 2rem;
 }
 
+@media (max-width: 480px) {
+  .page-loading p {
+    font-size: 1rem;
+  }
+
+  .loading-spinner {
+    font-size: 3rem;
+  }
+
+  .page-error h1 {
+    font-size: 1.5rem;
+  }
+
+  .page-error {
+    padding: 1.5rem;
+  }
+}

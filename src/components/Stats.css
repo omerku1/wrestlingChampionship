@@ -219,6 +219,16 @@
   transition: width 0.3s ease;
 }
 
+/* CSS-only bar animation — width driven by --bar-width custom property */
+.distribution-bar.css-bar {
+  width: 0;
+  animation: barExpand 0.9s ease forwards 0.6s;
+}
+
+@keyframes barExpand {
+  to { width: var(--bar-width, 0%); }
+}
+
 .distribution-bar.success {
   background: linear-gradient(90deg, var(--success) 0%, #10b981 100%);
   box-shadow: 0 0 15px rgba(16, 185, 129, 0.5);
@@ -248,22 +258,78 @@
 }
 
 @media (max-width: 768px) {
+  .stats-header h2 {
+    font-size: 1.5rem;
+  }
+
   .stats-grid {
     grid-template-columns: 1fr;
   }
 
+  .stat-card {
+    padding: 1.5rem;
+    border-radius: 16px;
+  }
+
+  .stat-card-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stat-card-content h3 {
+    font-size: 0.9rem;
+  }
+
+  .stat-value {
+    font-size: 2.5rem;
+  }
+
+  .stat-description {
+    font-size: 0.8rem;
+  }
+
+  .overview-value {
+    font-size: 1.75rem;
+  }
+
+  .champion-info {
+    padding: 1.25rem;
+  }
+
+  .champion-name {
+    font-size: 1.5rem;
+  }
+
+  .champion-score {
+    font-size: 1.75rem;
+  }
+
+  .champion-wins {
+    font-size: 1.25rem;
+  }
+
+  .champion-record {
+    font-size: 0.9rem;
+  }
+
   .distribution-item {
     grid-template-columns: 1fr;
-    gap: 0.5rem;
+    gap: 0.75rem;
+  }
+
+  .distribution-label {
+    font-size: 0.85rem;
   }
 
   .distribution-bar-container {
     order: 2;
+    height: 10px;
   }
 
   .distribution-value {
     order: 1;
     text-align: left;
+    font-size: 1.1rem;
   }
 }
 

@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { memo, useMemo } from 'react';
 import './EventStats.css';
 
 // Helper function to convert duration string (e.g., "56:10" or "1:07:00") to total minutes
@@ -25,7 +25,7 @@ function durationToMinutes(duration) {
   return 0;
 }
 
-function EventStats({ eventData }) {
+const EventStats = memo(function EventStats({ eventData }) {
   const statistics = useMemo(() => {
     // Determine which format is being used
     const matches = eventData.matchDetails || eventData.matches || [];
@@ -147,7 +147,7 @@ function EventStats({ eventData }) {
       <div className="event-stat-card">
         <div className="stat-label">Top Performer</div>
         <div className="stat-value stat-value-nickname">{statistics.bestGambler.nickname}</div>
-        <div className="stat-subtext">+{statistics.bestGambler.totalScore} pts</div>
+        <div className="stat-subtext">{statistics.bestGambler.totalScore > 0 ? '+' : ''}{statistics.bestGambler.totalScore} pts</div>
       </div>
 
       <div className="event-stat-card">
@@ -185,7 +185,7 @@ function EventStats({ eventData }) {
       </div>
     </div>
   );
-}
+});
 
 export default EventStats;
 
