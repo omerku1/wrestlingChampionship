@@ -1,7 +1,7 @@
 import { memo, useMemo, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { Zap, Users } from 'lucide-react';
-import { formatScore, getScoreClass } from '../utils/formatScore';
+import { formatScore, getScoreClass } from '../utils/formatScore.js';
 import './Matches.css';
 
 // ---------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 import { memo, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { TrendingUp, BarChart3, Award, Target } from 'lucide-react';
-import { formatScore } from '../utils/formatScore';
+import { formatScore } from '../utils/formatScore.js';
 import './Stats.css';
 
 const Stats = memo(function Stats({ eventData }) {
