@@ -1,6 +1,6 @@
 import { memo, useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { formatScore, getScoreClass } from '../utils/formatScore';
+import { formatScore, getScoreClass } from '../utils/formatScore.js';
 import './Leaderboard.css';
 
 // ---------------------------------------------------------------------------

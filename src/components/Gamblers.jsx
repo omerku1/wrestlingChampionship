@@ -1,7 +1,7 @@
 import { memo, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { Users, TrendingUp, TrendingDown, Award } from 'lucide-react';
-import { formatScore, getScoreClass } from '../utils/formatScore';
+import { formatScore, getScoreClass } from '../utils/formatScore.js';
 import './Gamblers.css';
 
 // ---------------------------------------------------------------------------
