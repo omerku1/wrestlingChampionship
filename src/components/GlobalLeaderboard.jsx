@@ -2,7 +2,7 @@ import { memo, useMemo, useCallback, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Trophy, Calendar, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { formatScore, getScoreClass } from '../utils/formatScore';
+import { formatScore, getScoreClass } from '../utils/formatScore.js';
 import './GlobalLeaderboard.css';
 import logo from '../logo.png';
 import belt from '../belt.png';
