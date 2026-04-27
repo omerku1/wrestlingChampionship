@@ -1,63 +1,37 @@
+import { lazy, Suspense } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import HomePage from './pages/HomePage';
-import EventPage from './pages/EventPage';
 import './App.css';
+
+const HomePage = lazy(() => import('./pages/HomePage'));
+const EventPage = lazy(() => import('./pages/EventPage'));
+
+function AppFallback() {
+  return (
+    <div className="app-suspense-fallback" role="status" aria-label="Loading page">
+      <div className="app-suspense-spinner" />
+    </div>
+  );
+}
 
 function App() {
   return (
     <Router>
       <div className="app">
-        {/* Animated background elements */}
+        {/* Static ambient background — no JS animation */}
         <div className="bg-orbs">
-          <motion.div
-            className="orb orb-1"
-            animate={{
-              x: [0, 100, 0],
-              y: [0, -100, 0],
-              scale: [1, 1.2, 1],
-            }}
-            transition={{
-              duration: 20,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-          <motion.div
-            className="orb orb-2"
-            animate={{
-              x: [0, -100, 0],
-              y: [0, 100, 0],
-              scale: [1, 1.3, 1],
-            }}
-            transition={{
-              duration: 25,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
-          <motion.div
-            className="orb orb-3"
-            animate={{
-              x: [0, 50, 0],
-              y: [0, -50, 0],
-              scale: [1, 1.1, 1],
-            }}
-            transition={{
-              duration: 15,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-          />
+          <div className="orb orb-1" />
+          <div className="orb orb-2" />
         </div>
 
         <div className="container">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/event/:eventFile" element={<EventPage />} />
-            <Route path="/event/next/:eventName" element={<EventPage />} />
-            <Route path="/event/upcoming/:eventName" element={<EventPage />} />
-          </Routes>
+          <Suspense fallback={<AppFallback />}>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/event/:eventFile" element={<EventPage />} />
+              <Route path="/event/next/:eventName" element={<EventPage />} />
+              <Route path="/event/upcoming/:eventName" element={<EventPage />} />
+            </Routes>
+          </Suspense>
         </div>
       </div>
     </Router>
@@ -65,4 +39,3 @@ function App() {
 }
 
 export default App;
-

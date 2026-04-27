@@ -111,3 +111,10 @@ npm run preview
 
 **Built with ❤️ using React Router, Vite, and Framer Motion**
 
+## 📚 Additional Documentation
+
+- **[MOBILE_IMPROVEMENTS.md](./MOBILE_IMPROVEMENTS.md)** - Detailed mobile optimization guide
+- **[MOBILE_TESTING.md](./MOBILE_TESTING.md)** - How to test on your phone
+- **[MOBILE_QUICK_REF.md](./MOBILE_QUICK_REF.md)** - Quick reference for developers
+
+

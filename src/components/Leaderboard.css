@@ -5,12 +5,9 @@
 }
 
 .leaderboard-table-container {
-  background: var(--card-bg);
-  backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.05);
-
-  /* Mobile Scroll Fixes */
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--border);
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
@@ -26,28 +23,36 @@
 }
 
 .leaderboard-table thead {
-  background: linear-gradient(135deg, rgba(233, 69, 96, 0.2) 0%, rgba(15, 52, 96, 0.3) 100%);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
 }
 
 .leaderboard-table th {
-  padding: 1rem 1.25rem;
+  padding: 0.875rem 1.25rem;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--text);
+  letter-spacing: 1.5px;
+  color: var(--text-secondary);
   white-space: nowrap;
 }
 
 .leaderboard-table tbody tr.table-row {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  transition: all 0.3s ease;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s ease;
+}
+
+.leaderboard-table tbody tr.table-row:last-child {
+  border-bottom: none;
+}
+
+.leaderboard-table tbody tr.table-row:hover {
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .leaderboard-table td {
-  padding: 1rem 1.25rem;
+  padding: 0.875rem 1.25rem;
 }
 
 /* Rank & Medal Styling */
@@ -78,28 +83,25 @@
 /* Score Styling (with Neon Glow) */
 .col-total {
   text-align: center;
-  border-left: 1px solid rgba(255,255,255,0.05);
-  border-right: 1px solid rgba(255,255,255,0.05);
-  background: rgba(0,0,0,0.1);
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
 }
 
 .total-score {
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .total-score.positive {
   color: var(--success);
-  text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
 }
 
 .total-score.negative {
   color: var(--danger);
-  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
 }
 
 .total-score.neutral {
-  color: var(--accent);
+  color: var(--text-secondary);
 }
 
 /* Individual Match Score Styling */
@@ -197,17 +199,134 @@
   color: var(--text-secondary);
 }
 
-/* Top 3 Row Backgrounds (Gold, Silver, Bronze) */
+/* Top 3 Row Backgrounds — Gold / Silver / Bronze */
 .table-row.rank-1 {
-  background: linear-gradient(90deg, rgba(112,225,200,0.18) 0%, rgba(34,197,94,0.06) 100%);
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.1) 0%, transparent 60%);
 }
 
 .table-row.rank-2 {
-  background: linear-gradient(90deg, rgba(72,189,204,0.16) 0%, rgba(34,197,94,0.05) 100%);
+  background: linear-gradient(90deg, rgba(192, 192, 192, 0.07) 0%, transparent 60%);
 }
 
 .table-row.rank-3 {
-  background: linear-gradient(90deg, rgba(59,130,246,0.14) 0%, rgba(34,197,94,0.04) 100%);
+  background: linear-gradient(90deg, rgba(205, 127, 50, 0.07) 0%, transparent 60%);
+}
+
+/* Visually hidden (accessible caption) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Desktop / mobile visibility toggles */
+.desktop-event-leaderboard {
+  display: block;
+}
+
+.mobile-event-leaderboard {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------
+   Mobile event leaderboard card styles
+   ---------------------------------------------------------------------- */
+.mobile-event-lb-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  transition: border-color 0.2s ease;
+}
+
+.mobile-event-lb-card:hover {
+  border-color: var(--primary);
+}
+
+.mobile-event-lb-card.rank-1 {
+  border-left: 3px solid #D4AF37;
+  background: linear-gradient(90deg, rgba(212,175,55,0.07) 0%, var(--surface) 40%);
+}
+
+.mobile-event-lb-card.rank-2 {
+  border-left: 3px solid #c0c0c0;
+  background: linear-gradient(90deg, rgba(192,192,192,0.05) 0%, var(--surface) 40%);
+}
+
+.mobile-event-lb-card.rank-3 {
+  border-left: 3px solid #cd7f32;
+  background: linear-gradient(90deg, rgba(205,127,50,0.05) 0%, var(--surface) 40%);
+}
+
+.mobile-event-lb-top {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1rem;
+}
+
+.mobile-event-lb-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-event-lb-identity {
+  min-width: 0;
+}
+
+.mobile-event-lb-identity .nickname-text {
+  display: block;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mobile-event-lb-total .total-score {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.mobile-event-lb-matches {
+  border-top: 1px solid var(--border);
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.mobile-event-lb-match-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mobile-event-lb-match-name {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mobile-event-lb-match-row .event-points {
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  flex-shrink: 0;
 }
 
 /* Mobile Adjustments */
@@ -232,5 +351,16 @@
   .event-points {
     font-size: 1rem;
     padding: 0.4rem 0.8rem;
+  }
+}
+
+/* Switch to mobile card view below 640 px */
+@media (max-width: 640px) {
+  .desktop-event-leaderboard {
+    display: none;
+  }
+
+  .mobile-event-leaderboard {
+    display: block;
   }
 }
