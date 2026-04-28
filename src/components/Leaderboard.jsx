@@ -6,7 +6,9 @@ import './Leaderboard.css';
 // ---------------------------------------------------------------------------
 // Pure table row — memoised to skip re-render if props are unchanged
 // ---------------------------------------------------------------------------
-const LeaderboardRow = memo(function LeaderboardRow({ gambler, rank, matchHeaders }) {
+const LeaderboardRow = memo(function LeaderboardRow({ gambler, matchHeaders }) {
+  const { rank } = gambler;
+
   const rankIcon =
     rank === 1 ? '🥇' :
     rank === 2 ? '🥈' :
@@ -66,7 +68,9 @@ const LeaderboardRow = memo(function LeaderboardRow({ gambler, rank, matchHeader
 // ---------------------------------------------------------------------------
 // Mobile card — rank, nickname, total score, per-match breakdown
 // ---------------------------------------------------------------------------
-const MobileLeaderboardCard = memo(function MobileLeaderboardCard({ gambler, rank, matchHeaders }) {
+const MobileLeaderboardCard = memo(function MobileLeaderboardCard({ gambler, matchHeaders }) {
+  const { rank } = gambler;
+
   const rankIcon =
     rank === 1 ? '🥇' :
     rank === 2 ? '🥈' :
@@ -109,6 +113,26 @@ const MobileLeaderboardCard = memo(function MobileLeaderboardCard({ gambler, ran
     </div>
   );
 });
+
+// ---------------------------------------------------------------------------
+// Helper function to calculate ranks with tie handling
+// ---------------------------------------------------------------------------
+function calculateRanks(leaderboard) {
+  const rankedLeaderboard = [];
+  let currentRank = 1;
+
+  leaderboard.forEach((gambler, index) => {
+    if (index > 0 && leaderboard[index].totalScore !== leaderboard[index - 1].totalScore) {
+      currentRank = index + 1;
+    }
+    rankedLeaderboard.push({
+      ...gambler,
+      rank: currentRank
+    });
+  });
+
+  return rankedLeaderboard;
+}
 
 // ---------------------------------------------------------------------------
 // Main Leaderboard component
@@ -168,9 +192,11 @@ function Leaderboard({ eventData }) {
       }
     });
 
-    return Object.entries(scores)
+    const sorted = Object.entries(scores)
       .map(([id, data]) => ({ id, ...data }))
       .sort((a, b) => b.totalScore - a.totalScore);
+
+    return calculateRanks(sorted);
   }, [eventData]);
 
   // Build match header labels for mobile cards
@@ -215,11 +241,10 @@ function Leaderboard({ eventData }) {
               </tr>
             </thead>
             <tbody>
-              {leaderboardData.map((gambler, index) => (
+              {leaderboardData.map((gambler) => (
                 <LeaderboardRow
                   key={gambler.id}
                   gambler={gambler}
-                  rank={index + 1}
                   matchHeaders={matchHeaders}
                 />
               ))}
@@ -232,11 +257,10 @@ function Leaderboard({ eventData }) {
           Mobile card list — shown only below 640 px via CSS
           -------------------------------------------------------------- */}
       <div className="mobile-event-leaderboard">
-        {leaderboardData.map((gambler, index) => (
+        {leaderboardData.map((gambler) => (
           <MobileLeaderboardCard
             key={gambler.id}
             gambler={gambler}
-            rank={index + 1}
             matchHeaders={matchHeaders}
           />
         ))}
