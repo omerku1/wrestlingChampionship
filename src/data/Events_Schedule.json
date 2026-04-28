@@ -155,7 +155,26 @@
         "event": "Backlash",
         "location": "Benchmark International Arena, Tampa, Florida",
         "Start time": "2026-05-08T23:59:00Z",
-        "matches": []
+        "matches": [
+            {
+                "id": 1,
+                "match": "Roman Reigns (c) vs. Jacob Fatu",
+                "type": "Singles match",
+                "stipulation": "For the World Heavyweight Championship"
+            },
+            {
+                "id": 2,
+                "match": "Seth Rollins vs. Bron Breakker",
+                "type": "Singles match",
+                "stipulation": ""
+            },
+            {
+                "id": 3,
+                "match": "IYO SKY vs. Asuka",
+                "type": "Singles match",
+                "stipulation": ""
+            }
+        ]
     },
     "upcoming events": [
         {
