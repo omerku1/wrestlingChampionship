@@ -173,6 +173,18 @@
                 "match": "IYO SKY vs. Asuka",
                 "type": "Singles match",
                 "stipulation": ""
+            },
+            {
+                "id": 4,
+                "match": "Damian Priest (c) vs. Ricochet",
+                "type": "Singles match",
+                "stipulation": "For the WWE United States Championship"
+            },
+            {
+                "id": 5,
+                "match": "Bianca Belair vs. Tiffany Stratton",
+                "type": "Singles match",
+                "stipulation": ""
             }
         ]
     },
