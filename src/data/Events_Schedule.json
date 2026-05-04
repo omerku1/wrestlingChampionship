@@ -158,20 +158,32 @@
         "matches": [
             {
                 "id": 1,
-                "match": "Roman Reigns (c) vs. Jacob Fatu",
+                "match": "Seth Rollins vs. Bron Breakker (with Paul Heyman)",
                 "type": "Singles match",
-                "stipulation": "For the World Heavyweight Championship"
+                "stipulation": ""
             },
             {
                 "id": 2,
-                "match": "Seth Rollins vs. Bron Breakker",
+                "match": "Iyo Sky vs. Asuka",
                 "type": "Singles match",
                 "stipulation": ""
             },
             {
                 "id": 3,
-                "match": "IYO SKY vs. Asuka",
+                "match": "Roman Reigns (c) vs. Jacob Fatu",
                 "type": "Singles match",
+                "stipulation": "For the World Heavyweight Championship"
+            },
+            {
+                "id": 4,
+                "match": "Trick Williams (c) vs. Sami Zayn",
+                "type": "Singles match",
+                "stipulation": "For the WWE United States Championship"
+            },
+            {
+                "id": 5,
+                "match": "Danhausen and TBA vs. The Miz and Kit Wilson",
+                "type": "Tag team match",
                 "stipulation": ""
             }
         ]
