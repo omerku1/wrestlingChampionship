@@ -193,12 +193,17 @@
             ]
         }
     ],
-    "next event": {},
+    "next event": {
+        "date": "May 31",
+        "event": "Clash in Italy",
+        "location": "Inalpi Arena, Turin, Italy",
+        "matches": []
+    },
     "upcoming events": [
         {
-            "date": "May 31",
-            "event": "TBA",
-            "location": "Italy",
+            "date": "June 27",
+            "event": "Night of Champions",
+            "location": "Kingdom Arena, Riyadh, Saudi Arabia",
             "matches": []
         },
         {
