@@ -148,46 +148,52 @@
                     "stipulation": "For the World Heavyweight Championship"
                 }
             ]
+        },
+        {
+            "date": "May 9",
+            "event": "Backlash",
+            "location": "Benchmark International Arena, Tampa, Florida",
+            "Start time": "2026-05-08T23:59:00Z",
+            "matches": [
+                {
+                    "id": 1,
+                    "match": "Seth Rollins vs. Bron Breakker (with Paul Heyman)",
+                    "type": "Singles match",
+                    "stipulation": "",
+                    "result": "Bron Breakker (with Paul Heyman) defeated Seth Rollins by pinfall"
+                },
+                {
+                    "id": 2,
+                    "match": "Iyo Sky vs. Asuka",
+                    "type": "Singles match",
+                    "stipulation": "",
+                    "result": "Iyo Sky defeated Asuka by pinfall"
+                },
+                {
+                    "id": 3,
+                    "match": "Roman Reigns (c) vs. Jacob Fatu",
+                    "type": "Singles match",
+                    "stipulation": "For the World Heavyweight Championship",
+                    "result": "Roman Reigns (c) defeated Jacob Fatu by pinfall to retain the World Heavyweight Championship"
+                },
+                {
+                    "id": 4,
+                    "match": "Trick Williams (c) vs. Sami Zayn",
+                    "type": "Singles match",
+                    "stipulation": "For the WWE United States Championship",
+                    "result": "Trick Williams (c) (with Lil Yachty) defeated Sami Zayn by pinfall to retain the WWE United States Championship"
+                },
+                {
+                    "id": 5,
+                    "match": "Danhausen and Minihausen vs. The Miz and Kit Wilson",
+                    "type": "Tag team match",
+                    "stipulation": "",
+                    "result": "Danhausen and Minihausen defeated The Miz and Kit Wilson by pinfall"
+                }
+            ]
         }
     ],
-    "next event": {
-        "date": "May 9",
-        "event": "Backlash",
-        "location": "Benchmark International Arena, Tampa, Florida",
-        "Start time": "2026-05-08T23:59:00Z",
-        "matches": [
-            {
-                "id": 1,
-                "match": "Seth Rollins vs. Bron Breakker (with Paul Heyman)",
-                "type": "Singles match",
-                "stipulation": ""
-            },
-            {
-                "id": 2,
-                "match": "Iyo Sky vs. Asuka",
-                "type": "Singles match",
-                "stipulation": ""
-            },
-            {
-                "id": 3,
-                "match": "Roman Reigns (c) vs. Jacob Fatu",
-                "type": "Singles match",
-                "stipulation": "For the World Heavyweight Championship"
-            },
-            {
-                "id": 4,
-                "match": "Trick Williams (c) vs. Sami Zayn",
-                "type": "Singles match",
-                "stipulation": "For the WWE United States Championship"
-            },
-            {
-                "id": 5,
-                "match": "Danhausen and TBA vs. The Miz and Kit Wilson",
-                "type": "Tag team match",
-                "stipulation": ""
-            }
-        ]
-    },
+    "next event": {},
     "upcoming events": [
         {
             "date": "May 31",

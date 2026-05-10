@@ -1,12 +1,12 @@
 {
     "seasonName": "The Wrestling Betting Championship 2026",
-    "totalEvents": 3,
-    "currentChampion": "סער ישראל",
+    "totalEvents": 4,
+    "currentChampion": "שחר אטרי, שי ב",
     "globalLeaderboard": [
         {
             "id": "yoavzeevi20@gmail.com",
             "nickname": "זאבי",
-            "totalPoints": 31,
+            "totalPoints": 47,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -19,6 +19,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -9
+                },
+                {
+                    "event": "Backlash",
+                    "points": 16
                 }
             ],
             "stats": {
@@ -98,7 +102,7 @@
         {
             "id": "hagaikt@gmail.com",
             "nickname": "חגי",
-            "totalPoints": 9,
+            "totalPoints": 24,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -111,6 +115,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -6
+                },
+                {
+                    "event": "Backlash",
+                    "points": 15
                 }
             ],
             "stats": {
@@ -121,7 +129,7 @@
         {
             "id": "liorbarak09@gmail.com",
             "nickname": "ליאור ברק",
-            "totalPoints": 74,
+            "totalPoints": 88,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -134,6 +142,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 44
+                },
+                {
+                    "event": "Backlash",
+                    "points": 14
                 }
             ],
             "stats": {
@@ -144,7 +156,7 @@
         {
             "id": "sbarakud@gmail.com",
             "nickname": "sbarakud",
-            "totalPoints": 8,
+            "totalPoints": 27,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -157,6 +169,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -13
+                },
+                {
+                    "event": "Backlash",
+                    "points": 19
                 }
             ],
             "stats": {
@@ -167,7 +183,7 @@
         {
             "id": "aviadc150@gmail.com",
             "nickname": "אביעד",
-            "totalPoints": 59,
+            "totalPoints": 71,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -180,6 +196,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 36
+                },
+                {
+                    "event": "Backlash",
+                    "points": 12
                 }
             ],
             "stats": {
@@ -190,7 +210,7 @@
         {
             "id": "yaronkfir5000@gmail.com",
             "nickname": "ירון",
-            "totalPoints": 28,
+            "totalPoints": 43,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -203,6 +223,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 15
+                },
+                {
+                    "event": "Backlash",
+                    "points": 15
                 }
             ],
             "stats": {
@@ -213,7 +237,7 @@
         {
             "id": "spintoidigital@gmail.com",
             "nickname": "שי פינטו",
-            "totalPoints": -1,
+            "totalPoints": -5,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -226,6 +250,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -8
+                },
+                {
+                    "event": "Backlash",
+                    "points": -4
                 }
             ],
             "stats": {
@@ -236,7 +264,7 @@
         {
             "id": "shaharst5@gmail.com",
             "nickname": "שחר ס",
-            "totalPoints": 46,
+            "totalPoints": 62,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -249,6 +277,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 23
+                },
+                {
+                    "event": "Backlash",
+                    "points": 16
                 }
             ],
             "stats": {
@@ -259,7 +291,7 @@
         {
             "id": "rshamir@gmail.com",
             "nickname": "רפי",
-            "totalPoints": 45,
+            "totalPoints": 63,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -272,6 +304,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 18
+                },
+                {
+                    "event": "Backlash",
+                    "points": 18
                 }
             ],
             "stats": {
@@ -282,7 +318,7 @@
         {
             "id": "omer88kul@gmail.com",
             "nickname": "עומר",
-            "totalPoints": 37,
+            "totalPoints": 53,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -295,6 +331,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 24
+                },
+                {
+                    "event": "Backlash",
+                    "points": 16
                 }
             ],
             "stats": {
@@ -305,7 +345,7 @@
         {
             "id": "yaadilani@gmail.com",
             "nickname": "יעד",
-            "totalPoints": 17,
+            "totalPoints": 34,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -318,11 +358,15 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -6
+                },
+                {
+                    "event": "Backlash",
+                    "points": 17
                 }
             ],
             "stats": {
                 "accuracyRate": "49%",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Backlash"
             }
         },
         {
@@ -351,7 +395,7 @@
         {
             "id": "erez0017@gmail.com",
             "nickname": "ארז",
-            "totalPoints": 25,
+            "totalPoints": 39,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -364,17 +408,21 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 12
+                },
+                {
+                    "event": "Backlash",
+                    "points": 14
                 }
             ],
             "stats": {
                 "accuracyRate": "44%",
-                "bestEvent": "WrestleMania 42"
+                "bestEvent": "Backlash"
             }
         },
         {
             "id": "omerboenos@gmail.com",
             "nickname": "עומר ב",
-            "totalPoints": 33,
+            "totalPoints": 39,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -387,6 +435,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 16
+                },
+                {
+                    "event": "Backlash",
+                    "points": 6
                 }
             ],
             "stats": {
@@ -420,7 +472,7 @@
         {
             "id": "roby.glodan@nextage.co.il",
             "nickname": "רובי",
-            "totalPoints": 59,
+            "totalPoints": 74,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -433,6 +485,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 52
+                },
+                {
+                    "event": "Backlash",
+                    "points": 15
                 }
             ],
             "stats": {
@@ -443,7 +499,7 @@
         {
             "id": "aviravid85@gmail.com",
             "nickname": "אבי",
-            "totalPoints": -1,
+            "totalPoints": 12,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -456,17 +512,21 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Backlash",
+                    "points": 13
                 }
             ],
             "stats": {
                 "accuracyRate": "79%",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Backlash"
             }
         },
         {
             "id": "hirshfe@gmail.com",
             "nickname": "הירש",
-            "totalPoints": 27,
+            "totalPoints": 38,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -479,6 +539,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 46
+                },
+                {
+                    "event": "Backlash",
+                    "points": 11
                 }
             ],
             "stats": {
@@ -489,7 +553,7 @@
         {
             "id": "gugy.temp@gmail.com",
             "nickname": "gugy.temp",
-            "totalPoints": 4,
+            "totalPoints": 17,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -502,6 +566,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Backlash",
+                    "points": 13
                 }
             ],
             "stats": {
@@ -535,7 +603,7 @@
         {
             "id": "jonathan.arad84@gmail.com",
             "nickname": "יהונתן",
-            "totalPoints": -22,
+            "totalPoints": -4,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -548,11 +616,15 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -5
+                },
+                {
+                    "event": "Backlash",
+                    "points": 18
                 }
             ],
             "stats": {
                 "accuracyRate": "91%",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Backlash"
             }
         },
         {
@@ -581,7 +653,7 @@
         {
             "id": "bar.anidjar@gmail.com",
             "nickname": "Bar Anidjar",
-            "totalPoints": 7,
+            "totalPoints": 23,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -594,17 +666,21 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Backlash",
+                    "points": 16
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Backlash"
             }
         },
         {
             "id": "eliyau25@gmail.com",
             "nickname": "אבא",
-            "totalPoints": -2,
+            "totalPoints": 14,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -617,6 +693,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -18
+                },
+                {
+                    "event": "Backlash",
+                    "points": 16
                 }
             ],
             "stats": {
@@ -627,7 +707,7 @@
         {
             "id": "rettign@gmail.com",
             "nickname": "נופר",
-            "totalPoints": 6,
+            "totalPoints": 22,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -640,17 +720,21 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 6
+                },
+                {
+                    "event": "Backlash",
+                    "points": 16
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "WrestleMania 42"
+                "bestEvent": "Backlash"
             }
         },
         {
             "id": "shaharatari96@gmail.com",
             "nickname": "שחר אטרי",
-            "totalPoints": 49,
+            "totalPoints": 68,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -663,6 +747,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 44
+                },
+                {
+                    "event": "Backlash",
+                    "points": 19
                 }
             ],
             "stats": {
@@ -696,7 +784,7 @@
         {
             "id": "morfridman24@gmail.com",
             "nickname": "מור פרידמן",
-            "totalPoints": 37,
+            "totalPoints": 52,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -709,6 +797,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 36
+                },
+                {
+                    "event": "Backlash",
+                    "points": 15
                 }
             ],
             "stats": {
@@ -880,7 +972,7 @@
         {
             "id": "davidhengel99@gmail.com",
             "nickname": "דודי חנגל",
-            "totalPoints": 4,
+            "totalPoints": 13,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -893,11 +985,15 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 4
+                },
+                {
+                    "event": "Backlash",
+                    "points": 9
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "WrestleMania 42"
+                "bestEvent": "Backlash"
             }
         },
         {
@@ -949,7 +1045,7 @@
         {
             "id": "dvir.fishel@gmail.com",
             "nickname": "דביר",
-            "totalPoints": 20,
+            "totalPoints": 27,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -962,6 +1058,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 20
+                },
+                {
+                    "event": "Backlash",
+                    "points": 7
                 }
             ],
             "stats": {
@@ -1018,7 +1118,7 @@
         {
             "id": "saarisraelderi@gmail.com",
             "nickname": "סער ישראל",
-            "totalPoints": 55,
+            "totalPoints": 64,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1031,6 +1131,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 55
+                },
+                {
+                    "event": "Backlash",
+                    "points": 9
                 }
             ],
             "stats": {
@@ -1064,7 +1168,7 @@
         {
             "id": "matanshamj@gmail.com",
             "nickname": "מתן לביא",
-            "totalPoints": 43,
+            "totalPoints": 53,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1077,6 +1181,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 43
+                },
+                {
+                    "event": "Backlash",
+                    "points": 10
                 }
             ],
             "stats": {
@@ -1087,7 +1195,7 @@
         {
             "id": "bkadosh@gmail.com",
             "nickname": "ביג בן ק",
-            "totalPoints": 14,
+            "totalPoints": 32,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1100,11 +1208,60 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 14
+                },
+                {
+                    "event": "Backlash",
+                    "points": 18
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "WrestleMania 42"
+                "bestEvent": "Backlash"
+            }
+        },
+        {
+            "id": "benporges@gmail.com",
+            "nickname": "בן פורגס",
+            "totalPoints": 10,
+            "history": [
+                {
+                    "event": "Backlash",
+                    "points": 10
+                }
+            ],
+            "stats": {
+                "accuracyRate": "N/A",
+                "bestEvent": "Backlash"
+            }
+        },
+        {
+            "id": "urir.seo@gmail.com",
+            "nickname": "Black snow",
+            "totalPoints": 9,
+            "history": [
+                {
+                    "event": "Backlash",
+                    "points": 9
+                }
+            ],
+            "stats": {
+                "accuracyRate": "N/A",
+                "bestEvent": "Backlash"
+            }
+        },
+        {
+            "id": "avrahamswissa7@gmail.com",
+            "nickname": "אברהם",
+            "totalPoints": 11,
+            "history": [
+                {
+                    "event": "Backlash",
+                    "points": 11
+                }
+            ],
+            "stats": {
+                "accuracyRate": "N/A",
+                "bestEvent": "Backlash"
             }
         }
     ]
