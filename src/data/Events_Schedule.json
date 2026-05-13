@@ -197,7 +197,15 @@
         "date": "May 31",
         "event": "Clash in Italy",
         "location": "Inalpi Arena, Turin, Italy",
-        "matches": []
+        "Start time": "2026-05-31T17:30:00Z",
+        "matches": [
+            {
+                "id": 1,
+                "match": "Cody Rhodes (c) vs. Gunther",
+                "type": "Singles match",
+                "stipulation": "For the Undisputed WWE Championship"
+            }
+        ]
     },
     "upcoming events": [
         {
