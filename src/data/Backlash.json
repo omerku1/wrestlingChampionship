@@ -59,10 +59,10 @@
                 "mystery_partner": 0,
                 "surprises": 0,
                 "turn": 0,
-                "free_guess": -1,
+                "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 17
+            "totalPoints": 18
         },
         "rettign@gmail.com": {
             "nickname": "נופרהאוזן",
@@ -81,18 +81,18 @@
                 "title_changes": 1,
                 "dq": -1,
                 "mystery_partner": -2,
-                "surprises": -1,
+                "surprises": -2,
                 "turn": 0,
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 16
+            "totalPoints": 15
         },
         "liorbarak09@gmail.com": {
             "nickname": "ליאור טייקר",
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 1,
-                "Iyo Sky vs. Asuka": -1,
+                "Iyo Sky vs. Asuka": 0,
                 "Seth Rollins vs. Bron Breakker": 2,
                 "Trick Williams vs. Sami Zayn": 4,
                 "Roman Reigns vs. Jacob Fatu": 9
@@ -110,7 +110,7 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 14
+            "totalPoints": 15
         },
         "hagaikt@gmail.com": {
             "nickname": "חגי כץ",
@@ -227,10 +227,10 @@
                 "mystery_partner": -1,
                 "surprises": -1,
                 "turn": -1,
-                "free_guess": -1,
+                "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 6
+            "totalPoints": 7
         },
         "rshamir@gmail.com": {
             "nickname": "רפי",
@@ -275,10 +275,10 @@
                 "mystery_partner": -1,
                 "surprises": -1,
                 "turn": 0,
-                "free_guess": -2,
+                "free_guess": -1,
                 "penalties": 0
             },
-            "totalPoints": 11
+            "totalPoints": 12
         },
         "jonathan.arad84@gmail.com": {
             "nickname": "ג'וני רסלינג",
@@ -333,7 +333,7 @@
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 2,
                 "Iyo Sky vs. Asuka": 1,
-                "Seth Rollins vs. Bron Breakker": -1,
+                "Seth Rollins vs. Bron Breakker": 0,
                 "Trick Williams vs. Sami Zayn": 4,
                 "Roman Reigns vs. Jacob Fatu": 9
             },
@@ -350,13 +350,13 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 16
+            "totalPoints": 17
         },
         "matanshamj@gmail.com": {
             "nickname": "מתן לביא",
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 1,
-                "Iyo Sky vs. Asuka": -1,
+                "Iyo Sky vs. Asuka": 0,
                 "Seth Rollins vs. Bron Breakker": 3,
                 "Trick Williams vs. Sami Zayn": 4,
                 "Roman Reigns vs. Jacob Fatu": 3
@@ -374,7 +374,7 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 10
+            "totalPoints": 11
         },
         "bkadosh@gmail.com": {
             "nickname": "ביג בן ק",
@@ -477,7 +477,7 @@
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 2,
                 "Iyo Sky vs. Asuka": 1,
-                "Seth Rollins vs. Bron Breakker": -1,
+                "Seth Rollins vs. Bron Breakker": 1,
                 "Trick Williams vs. Sami Zayn": 4,
                 "Roman Reigns vs. Jacob Fatu": 9
             },
@@ -494,14 +494,14 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 14
+            "totalPoints": 16
         },
         "aviadc150@gmail.com": {
             "nickname": "Aviad Cohen",
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 1,
                 "Iyo Sky vs. Asuka": 2,
-                "Seth Rollins vs. Bron Breakker": -1,
+                "Seth Rollins vs. Bron Breakker": 0,
                 "Trick Williams vs. Sami Zayn": 6,
                 "Roman Reigns vs. Jacob Fatu": 6
             },
@@ -518,14 +518,14 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 12
+            "totalPoints": 13
         },
         "urir.seo@gmail.com": {
             "nickname": "Black snow",
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 3,
                 "Iyo Sky vs. Asuka": 2,
-                "Seth Rollins vs. Bron Breakker": -1,
+                "Seth Rollins vs. Bron Breakker": 0,
                 "Trick Williams vs. Sami Zayn": 2,
                 "Roman Reigns vs. Jacob Fatu": 6
             },
@@ -542,7 +542,7 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 9
+            "totalPoints": 10
         },
         "saarisraelderi@gmail.com": {
             "nickname": "סער",
@@ -562,16 +562,16 @@
                 "dq": -1,
                 "mystery_partner": -1,
                 "surprises": -1,
-                "turn": -1,
+                "turn": 0,
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 9
+            "totalPoints": 10
         },
         "gugy.temp@gmail.com": {
             "nickname": "גיא",
             "matches": {
-                "Danhausen and Minihausen vs. The Miz and Kit Wilson": -1,
+                "Danhausen and Minihausen vs. The Miz and Kit Wilson": 0,
                 "Iyo Sky vs. Asuka": 1,
                 "Seth Rollins vs. Bron Breakker": 2,
                 "Trick Williams vs. Sami Zayn": 4,
@@ -590,7 +590,7 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 13
+            "totalPoints": 14
         },
         "shaharst5@gmail.com": {
             "nickname": "שחר מלכת הזירה",
@@ -717,9 +717,9 @@
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 1,
                 "Iyo Sky vs. Asuka": 1,
-                "Seth Rollins vs. Bron Breakker": -1,
-                "Trick Williams vs. Sami Zayn": -2,
-                "Roman Reigns vs. Jacob Fatu": -3
+                "Seth Rollins vs. Bron Breakker": 0,
+                "Trick Williams vs. Sami Zayn": 0,
+                "Roman Reigns vs. Jacob Fatu": 0
             },
             "individuals": {
                 "best": 0,
@@ -734,13 +734,13 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": -4
+            "totalPoints": 2
         },
         "roby.glodan@nextage.co.il": {
             "nickname": "רובי",
             "matches": {
                 "Danhausen and Minihausen vs. The Miz and Kit Wilson": 1,
-                "Iyo Sky vs. Asuka": -1,
+                "Iyo Sky vs. Asuka": 0,
                 "Seth Rollins vs. Bron Breakker": 2,
                 "Trick Williams vs. Sami Zayn": 4,
                 "Roman Reigns vs. Jacob Fatu": 9
@@ -758,7 +758,7 @@
                 "free_guess": 0,
                 "penalties": 0
             },
-            "totalPoints": 15
+            "totalPoints": 16
         },
         "morfridman24@gmail.com": {
             "nickname": "מור פרידמן",

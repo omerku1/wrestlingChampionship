@@ -1,7 +1,7 @@
 {
     "seasonName": "The Wrestling Betting Championship 2026",
     "totalEvents": 4,
-    "currentChampion": "שחר אטרי, שי ב",
+    "currentChampion": "שחר אטרי",
     "globalLeaderboard": [
         {
             "id": "yoavzeevi20@gmail.com",
@@ -129,7 +129,7 @@
         {
             "id": "liorbarak09@gmail.com",
             "nickname": "ליאור ברק",
-            "totalPoints": 88,
+            "totalPoints": 89,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -145,7 +145,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 14
+                    "points": 15
                 }
             ],
             "stats": {
@@ -183,7 +183,7 @@
         {
             "id": "aviadc150@gmail.com",
             "nickname": "אביעד",
-            "totalPoints": 71,
+            "totalPoints": 72,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -199,7 +199,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 12
+                    "points": 13
                 }
             ],
             "stats": {
@@ -237,7 +237,7 @@
         {
             "id": "spintoidigital@gmail.com",
             "nickname": "שי פינטו",
-            "totalPoints": -5,
+            "totalPoints": 1,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -253,7 +253,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": -4
+                    "points": 2
                 }
             ],
             "stats": {
@@ -345,7 +345,7 @@
         {
             "id": "yaadilani@gmail.com",
             "nickname": "יעד",
-            "totalPoints": 34,
+            "totalPoints": 35,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -361,7 +361,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 17
+                    "points": 18
                 }
             ],
             "stats": {
@@ -395,7 +395,7 @@
         {
             "id": "erez0017@gmail.com",
             "nickname": "ארז",
-            "totalPoints": 39,
+            "totalPoints": 41,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -411,7 +411,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 14
+                    "points": 16
                 }
             ],
             "stats": {
@@ -422,7 +422,7 @@
         {
             "id": "omerboenos@gmail.com",
             "nickname": "עומר ב",
-            "totalPoints": 39,
+            "totalPoints": 40,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -438,7 +438,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 6
+                    "points": 7
                 }
             ],
             "stats": {
@@ -472,7 +472,7 @@
         {
             "id": "roby.glodan@nextage.co.il",
             "nickname": "רובי",
-            "totalPoints": 74,
+            "totalPoints": 75,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -488,7 +488,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 15
+                    "points": 16
                 }
             ],
             "stats": {
@@ -526,7 +526,7 @@
         {
             "id": "hirshfe@gmail.com",
             "nickname": "הירש",
-            "totalPoints": 38,
+            "totalPoints": 39,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -542,7 +542,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 11
+                    "points": 12
                 }
             ],
             "stats": {
@@ -553,7 +553,7 @@
         {
             "id": "gugy.temp@gmail.com",
             "nickname": "gugy.temp",
-            "totalPoints": 17,
+            "totalPoints": 18,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -569,7 +569,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 13
+                    "points": 14
                 }
             ],
             "stats": {
@@ -680,7 +680,7 @@
         {
             "id": "eliyau25@gmail.com",
             "nickname": "אבא",
-            "totalPoints": 14,
+            "totalPoints": 15,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -696,7 +696,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 16
+                    "points": 17
                 }
             ],
             "stats": {
@@ -707,7 +707,7 @@
         {
             "id": "rettign@gmail.com",
             "nickname": "נופר",
-            "totalPoints": 22,
+            "totalPoints": 21,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -723,7 +723,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 16
+                    "points": 15
                 }
             ],
             "stats": {
@@ -1118,7 +1118,7 @@
         {
             "id": "saarisraelderi@gmail.com",
             "nickname": "סער ישראל",
-            "totalPoints": 64,
+            "totalPoints": 65,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1134,7 +1134,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 9
+                    "points": 10
                 }
             ],
             "stats": {
@@ -1168,7 +1168,7 @@
         {
             "id": "matanshamj@gmail.com",
             "nickname": "מתן לביא",
-            "totalPoints": 53,
+            "totalPoints": 54,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1184,7 +1184,7 @@
                 },
                 {
                     "event": "Backlash",
-                    "points": 10
+                    "points": 11
                 }
             ],
             "stats": {
@@ -1237,11 +1237,11 @@
         {
             "id": "urir.seo@gmail.com",
             "nickname": "Black snow",
-            "totalPoints": 9,
+            "totalPoints": 10,
             "history": [
                 {
                     "event": "Backlash",
-                    "points": 9
+                    "points": 10
                 }
             ],
             "stats": {
