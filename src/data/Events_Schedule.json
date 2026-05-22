@@ -204,6 +204,18 @@
                 "match": "Cody Rhodes (c) vs. Gunther",
                 "type": "Singles match",
                 "stipulation": "For the Undisputed WWE Championship"
+            },
+            {
+                "id": 2,
+                "match": "Roman Reigns (c) vs. Jacob Fatu",
+                "type": "Tribal Combat",
+                "stipulation": "For the World Heavyweight Championship"
+            },
+            {
+                "id": 3,
+                "match": "Brock Lesnar vs. Oba Femi",
+                "type": "Singles match",
+                "stipulation": ""
             }
         ]
     },
