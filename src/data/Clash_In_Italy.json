@@ -1,0 +1,544 @@
+{
+    "eventName": "Clash in Italy",
+    "eventDate": "2026-05-31",
+    "location": "Inalpi Arena, Turin, Italy",
+    "matchDetails": [
+        {
+            "match name": "Undisputed WWE Championship: Cody Rhodes vs. Gunther",
+            "match score": 0,
+            "duration": "11:35",
+            "titleChange": false,
+            "rating": 5.61
+        },
+        {
+            "match name": "WWE Women's Championship: Rhea Ripley vs. Jade Cargill",
+            "match score": 0,
+            "duration": "16:57",
+            "titleChange": false,
+            "rating": 6.60
+        },
+        {
+            "match name": "Oba Femi vs. Brock Lesnar",
+            "match score": 0,
+            "duration": "06:21",
+            "titleChange": false,
+            "rating": 5.69
+        },
+        {
+            "match name": "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca",
+            "match score": 0,
+            "duration": "14:02",
+            "titleChange": true,
+            "rating": 6.50
+        },
+        {
+            "match name": "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu",
+            "match score": 0,
+            "duration": "27:12",
+            "titleChange": false,
+            "rating": 5.75
+        }
+    ],
+    "gamblers": {
+        "rshamir@gmail.com": {
+            "nickname": "EL Raffi Americano",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 1
+            }
+        },
+        "morfridman24@gmail.com": {
+            "nickname": "מורהאוזן",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 1
+            }
+        },
+        "rettign@gmail.com": {
+            "nickname": "נופרהאוזן",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 4,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 0
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": -1
+            }
+        },
+        "yeudakonofnitski@gmail.com": {
+            "nickname": "יהודה קונופניצקי",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 1
+            }
+        },
+        "yaadilani@gmail.com": {
+            "nickname": "אוי דוידוביץ'",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": -1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        },
+        "liorbarak09@gmail.com": {
+            "nickname": "ליאור טייקר",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 0,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 1
+            }
+        },
+        "aviravid85@gmail.com": {
+            "nickname": "My name us- bella hater",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": -4,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": -1
+            }
+        },
+        "nirflax1984@gmail.com": {
+            "nickname": "ניר הרגיל",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 4,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 0
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": 0,
+                "surprises": -1,
+                "title_changes": -1
+            }
+        },
+        "aviadc150@gmail.com": {
+            "nickname": "Aviad Cohen",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": -2,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        },
+        "spintoidigital@gmail.com": {
+            "nickname": "שי איש העוגיות",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 3,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 3
+            },
+            "individuals": {
+                "short": 0,
+                "long": 0,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        },
+        "shaharst5@gmail.com": {
+            "nickname": "שחר מלכת הזירה",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 4,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": 0,
+                "long": 1,
+                "best": -1,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 1
+            }
+        },
+        "moshb52@gmail.com": {
+            "nickname": "משה רולינס",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": -4,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": -3,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": -1,
+                "best": 1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": -2,
+                "title_changes": 1
+            }
+        },
+        "hagaikt@gmail.com": {
+            "nickname": "חגי כץ",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": -1
+            }
+        },
+        "asafsela1989@gmail.com": {
+            "nickname": "אסף פאטו סלע",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 3,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 1
+            }
+        },
+        "dvir.fishel@gmail.com": {
+            "nickname": "דביר",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 4,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 3,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": -1,
+                "turn": 0,
+                "surprises": -1,
+                "title_changes": 1
+            }
+        },
+        "saarisraelderi@gmail.com": {
+            "nickname": "סער",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 0,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": -1
+            }
+        },
+        "avrahamswissa7@gmail.com": {
+            "nickname": "אברהם",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 4,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": -1,
+                "surprises": -1,
+                "title_changes": 1
+            }
+        },
+        "roby.glodan@nextage.co.il": {
+            "nickname": "רובי",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": -1,
+                "long": -1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        },
+        "omer88kul@gmail.com": {
+            "nickname": "עומר",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 0,
+                "best": -1,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        },
+        "gugy.temp@gmail.com": {
+            "nickname": "גיא",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 2,
+                "Oba Femi vs. Brock Lesnar": 4,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": -1,
+                "surprises": -1,
+                "title_changes": 1
+            }
+        },
+        "yaronkfir5000@gmail.com": {
+            "nickname": "ירון",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": -6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": -1,
+                "long": 1,
+                "best": 0,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        },
+        "avisarg8@gmail.com": {
+            "nickname": "מאור",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 4,
+                "Oba Femi vs. Brock Lesnar": 4,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 2,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": -9,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 3
+            },
+            "individuals": {
+                "short": -1,
+                "long": 1,
+                "best": -1,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": -1
+            }
+        },
+        "matanshamj@gmail.com": {
+            "nickname": "מתן לביא",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": -6,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 0,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 6,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 1,
+                "worst": 0,
+                "dq": -1,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 1
+            }
+        },
+        "yoavzeevi20@gmail.com": {
+            "nickname": "זאבי",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 2,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 4,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": -3,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 9
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 0,
+                "worst": -1,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        },
+        "shaharatari96@gmail.com": {
+            "nickname": "שחר אטרי",
+            "matches": {
+                "Women's Intercontinental Title: Becky Lynch vs. Sol Ruca": 0,
+                "Oba Femi vs. Brock Lesnar": 4,
+                "WWE Women's Championship: Rhea Ripley vs. Jade Cargill": 6,
+                "Undisputed WWE Championship: Cody Rhodes vs. Gunther": 3,
+                "World Heavyweight Championship: Roman Reigns vs. Jacob Fatu": 6
+            },
+            "individuals": {
+                "short": 1,
+                "long": 1,
+                "best": 0,
+                "worst": 0,
+                "dq": 0,
+                "turn": 0,
+                "surprises": 0,
+                "title_changes": 0
+            }
+        }
+    }}
+
