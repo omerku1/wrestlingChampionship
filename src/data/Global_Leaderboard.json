@@ -1,12 +1,12 @@
 {
     "seasonName": "The Wrestling Betting Championship 2026",
-    "totalEvents": 4,
-    "currentChampion": "שחר אטרי",
+    "totalEvents": 5,
+    "currentChampion": "EL Raffi Americano",
     "globalLeaderboard": [
         {
             "id": "yoavzeevi20@gmail.com",
             "nickname": "זאבי",
-            "totalPoints": 47,
+            "totalPoints": 60,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -23,6 +23,10 @@
                 {
                     "event": "Backlash",
                     "points": 16
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 13
                 }
             ],
             "stats": {
@@ -46,6 +50,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 9
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -68,6 +76,10 @@
                 },
                 {
                     "event": "WrestleMania 42",
+                    "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
                     "points": 0
                 }
             ],
@@ -92,6 +104,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -102,7 +118,7 @@
         {
             "id": "hagaikt@gmail.com",
             "nickname": "חגי",
-            "totalPoints": 24,
+            "totalPoints": 44,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -119,6 +135,10 @@
                 {
                     "event": "Backlash",
                     "points": 15
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 20
                 }
             ],
             "stats": {
@@ -129,7 +149,7 @@
         {
             "id": "liorbarak09@gmail.com",
             "nickname": "ליאור ברק",
-            "totalPoints": 89,
+            "totalPoints": 111,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -146,6 +166,10 @@
                 {
                     "event": "Backlash",
                     "points": 15
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 22
                 }
             ],
             "stats": {
@@ -173,6 +197,10 @@
                 {
                     "event": "Backlash",
                     "points": 19
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -183,7 +211,7 @@
         {
             "id": "aviadc150@gmail.com",
             "nickname": "אביעד",
-            "totalPoints": 72,
+            "totalPoints": 89,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -200,6 +228,10 @@
                 {
                     "event": "Backlash",
                     "points": 13
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 17
                 }
             ],
             "stats": {
@@ -210,7 +242,7 @@
         {
             "id": "yaronkfir5000@gmail.com",
             "nickname": "ירון",
-            "totalPoints": 43,
+            "totalPoints": 51,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -227,6 +259,10 @@
                 {
                     "event": "Backlash",
                     "points": 15
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 8
                 }
             ],
             "stats": {
@@ -237,7 +273,7 @@
         {
             "id": "spintoidigital@gmail.com",
             "nickname": "שי פינטו",
-            "totalPoints": 1,
+            "totalPoints": 11,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -254,6 +290,10 @@
                 {
                     "event": "Backlash",
                     "points": 2
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 10
                 }
             ],
             "stats": {
@@ -264,7 +304,7 @@
         {
             "id": "shaharst5@gmail.com",
             "nickname": "שחר ס",
-            "totalPoints": 62,
+            "totalPoints": 86,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -281,17 +321,21 @@
                 {
                     "event": "Backlash",
                     "points": 16
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 24
                 }
             ],
             "stats": {
                 "accuracyRate": "47%",
-                "bestEvent": "WrestleMania 42"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
             "id": "rshamir@gmail.com",
             "nickname": "רפי",
-            "totalPoints": 63,
+            "totalPoints": 87,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -308,17 +352,21 @@
                 {
                     "event": "Backlash",
                     "points": 18
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 24
                 }
             ],
             "stats": {
                 "accuracyRate": "84%",
-                "bestEvent": "WrestleMania 42"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
             "id": "omer88kul@gmail.com",
             "nickname": "עומר",
-            "totalPoints": 53,
+            "totalPoints": 74,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -335,6 +383,10 @@
                 {
                     "event": "Backlash",
                     "points": 16
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 21
                 }
             ],
             "stats": {
@@ -345,7 +397,7 @@
         {
             "id": "yaadilani@gmail.com",
             "nickname": "יעד",
-            "totalPoints": 35,
+            "totalPoints": 54,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -362,17 +414,21 @@
                 {
                     "event": "Backlash",
                     "points": 18
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 19
                 }
             ],
             "stats": {
                 "accuracyRate": "49%",
-                "bestEvent": "Backlash"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
             "id": "yeudakonofnitski@gmail.com",
             "nickname": "יהודה",
-            "totalPoints": 43,
+            "totalPoints": 67,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -385,6 +441,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 36
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 24
                 }
             ],
             "stats": {
@@ -412,6 +472,10 @@
                 {
                     "event": "Backlash",
                     "points": 16
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -439,6 +503,10 @@
                 {
                     "event": "Backlash",
                     "points": 7
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -449,7 +517,7 @@
         {
             "id": "moshb52@gmail.com",
             "nickname": "משה ב",
-            "totalPoints": -1,
+            "totalPoints": 4,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -462,17 +530,21 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 5
                 }
             ],
             "stats": {
                 "accuracyRate": "63%",
-                "bestEvent": "Royal Rumble"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
             "id": "roby.glodan@nextage.co.il",
             "nickname": "רובי",
-            "totalPoints": 75,
+            "totalPoints": 94,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -489,6 +561,10 @@
                 {
                     "event": "Backlash",
                     "points": 16
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 19
                 }
             ],
             "stats": {
@@ -499,7 +575,7 @@
         {
             "id": "aviravid85@gmail.com",
             "nickname": "אבי",
-            "totalPoints": 12,
+            "totalPoints": 23,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -516,6 +592,10 @@
                 {
                     "event": "Backlash",
                     "points": 13
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 11
                 }
             ],
             "stats": {
@@ -543,6 +623,10 @@
                 {
                     "event": "Backlash",
                     "points": 12
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -553,7 +637,7 @@
         {
             "id": "gugy.temp@gmail.com",
             "nickname": "gugy.temp",
-            "totalPoints": 18,
+            "totalPoints": 40,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -570,11 +654,15 @@
                 {
                     "event": "Backlash",
                     "points": 14
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 22
                 }
             ],
             "stats": {
                 "accuracyRate": "77%",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
@@ -593,11 +681,15 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
                 "accuracyRate": "61%",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
@@ -620,6 +712,10 @@
                 {
                     "event": "Backlash",
                     "points": 18
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -643,6 +739,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -19
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -670,6 +770,10 @@
                 {
                     "event": "Backlash",
                     "points": 16
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -697,17 +801,21 @@
                 {
                     "event": "Backlash",
                     "points": 17
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Backlash"
             }
         },
         {
             "id": "rettign@gmail.com",
             "nickname": "נופר",
-            "totalPoints": 21,
+            "totalPoints": 39,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -724,17 +832,21 @@
                 {
                     "event": "Backlash",
                     "points": 15
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 18
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "Backlash"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
             "id": "shaharatari96@gmail.com",
             "nickname": "שחר אטרי",
-            "totalPoints": 68,
+            "totalPoints": 89,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -751,6 +863,10 @@
                 {
                     "event": "Backlash",
                     "points": 19
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 21
                 }
             ],
             "stats": {
@@ -761,7 +877,7 @@
         {
             "id": "asafsela1989@gmail.com",
             "nickname": "אסף \"פאטו\" סלע",
-            "totalPoints": -3,
+            "totalPoints": 16,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -774,17 +890,21 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 19
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "Elimination Chamber"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
             "id": "morfridman24@gmail.com",
             "nickname": "מור פרידמן",
-            "totalPoints": 52,
+            "totalPoints": 75,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -801,6 +921,10 @@
                 {
                     "event": "Backlash",
                     "points": 15
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 23
                 }
             ],
             "stats": {
@@ -823,6 +947,10 @@
                 },
                 {
                     "event": "WrestleMania 42",
+                    "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
                     "points": 0
                 }
             ],
@@ -847,6 +975,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -870,6 +1002,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 36
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -880,7 +1016,7 @@
         {
             "id": "nirflax1984@gmail.com",
             "nickname": "ניר, אבל לא זה המגניב, השני",
-            "totalPoints": 24,
+            "totalPoints": 40,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -893,6 +1029,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 24
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 16
                 }
             ],
             "stats": {
@@ -916,6 +1056,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 27
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -938,6 +1082,10 @@
                 },
                 {
                     "event": "WrestleMania 42",
+                    "points": 0
+                },
+                {
+                    "event": "Clash in Italy",
                     "points": 0
                 }
             ],
@@ -962,6 +1110,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 25
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -989,6 +1141,10 @@
                 {
                     "event": "Backlash",
                     "points": 9
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1012,11 +1168,15 @@
                 {
                     "event": "WrestleMania 42",
                     "points": -27
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "Royal Rumble"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
@@ -1035,6 +1195,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 24
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1045,7 +1209,7 @@
         {
             "id": "dvir.fishel@gmail.com",
             "nickname": "דביר",
-            "totalPoints": 27,
+            "totalPoints": 48,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1062,11 +1226,15 @@
                 {
                     "event": "Backlash",
                     "points": 7
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 21
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "WrestleMania 42"
+                "bestEvent": "Clash in Italy"
             }
         },
         {
@@ -1085,6 +1253,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 10
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1108,6 +1280,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 33
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1118,7 +1294,7 @@
         {
             "id": "saarisraelderi@gmail.com",
             "nickname": "סער ישראל",
-            "totalPoints": 65,
+            "totalPoints": 85,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1135,6 +1311,10 @@
                 {
                     "event": "Backlash",
                     "points": 10
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 20
                 }
             ],
             "stats": {
@@ -1158,6 +1338,10 @@
                 {
                     "event": "WrestleMania 42",
                     "points": 26
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1168,7 +1352,7 @@
         {
             "id": "matanshamj@gmail.com",
             "nickname": "מתן לביא",
-            "totalPoints": 54,
+            "totalPoints": 63,
             "history": [
                 {
                     "event": "Royal Rumble",
@@ -1185,6 +1369,10 @@
                 {
                     "event": "Backlash",
                     "points": 11
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 9
                 }
             ],
             "stats": {
@@ -1212,6 +1400,10 @@
                 {
                     "event": "Backlash",
                     "points": 18
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1227,6 +1419,10 @@
                 {
                     "event": "Backlash",
                     "points": 10
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1242,6 +1438,10 @@
                 {
                     "event": "Backlash",
                     "points": 10
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 0
                 }
             ],
             "stats": {
@@ -1252,16 +1452,20 @@
         {
             "id": "avrahamswissa7@gmail.com",
             "nickname": "אברהם",
-            "totalPoints": 11,
+            "totalPoints": 33,
             "history": [
                 {
                     "event": "Backlash",
                     "points": 11
+                },
+                {
+                    "event": "Clash in Italy",
+                    "points": 22
                 }
             ],
             "stats": {
                 "accuracyRate": "N/A",
-                "bestEvent": "Backlash"
+                "bestEvent": "Clash in Italy"
             }
         }
     ]
