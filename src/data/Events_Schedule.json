@@ -234,7 +234,14 @@
         "date": "June 27",
         "event": "Night of Champions",
         "location": "Kingdom Arena, Riyadh, Saudi Arabia",
-        "matches": []
+        "matches": [
+            {
+                "id": 1,
+                "match": "Seth Rollins vs. Drew McIntyre",
+                "type": "Singles match",
+                "stipulation": "None"
+            }
+        ]
     },
     "upcoming events": [
         {
