@@ -234,7 +234,26 @@
         "date": "June 27",
         "event": "Night of Champions",
         "location": "Kingdom Arena, Riyadh, Saudi Arabia",
-        "matches": []
+        "matches": [
+            {
+                "id": 1,
+                "match": "Seth Rollins (c) vs. Drew McIntyre",
+                "type": "Singles match",
+                "stipulation": "For the World Heavyweight Championship"
+            },
+            {
+                "id": 2,
+                "match": "Roman Reigns (c) vs. Cody Rhodes",
+                "type": "Singles match",
+                "stipulation": "For the Undisputed WWE Universal Championship"
+            },
+            {
+                "id": 3,
+                "match": "Rhea Ripley (c) vs. Becky Lynch",
+                "type": "Singles match",
+                "stipulation": "For the Women's World Championship"
+            }
+        ]
     },
     "upcoming events": [
         {
