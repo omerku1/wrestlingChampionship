@@ -137,7 +137,7 @@
                 },
                 {
                     "id": 12,
-                    "match": "\"The Demon\" Finn Bálor vs. Dominik Mysterio",
+                    "match": ""The Demon" Finn Bálor vs. Dominik Mysterio",
                     "type": "Singles match",
                     "stipulation": ""
                 },
@@ -228,21 +228,23 @@
                     "stipulation": "For the Women's Intercontinental Championship"
                 }
             ]
+        },
+        {
+            "date": "June 27",
+            "event": "Night of Champions",
+            "location": "Kingdom Arena, Riyadh, Saudi Arabia",
+            "Start time": "2026-06-27T23:59:00Z",
+            "matches": []
         }
     ],
     "next event": {
-        "date": "June 27",
-        "event": "Night of Champions",
-        "location": "Kingdom Arena, Riyadh, Saudi Arabia",
+        "date": "August 1-2",
+        "event": "SummerSlam",
+        "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
+        "Start time": "2026-08-01T23:59:00Z",
         "matches": []
     },
     "upcoming events": [
-        {
-            "date": "August 1-2",
-            "event": "SummerSlam",
-            "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
-            "matches": []
-        },
         {
             "date": "September 6",
             "event": "Money in the Bank",
