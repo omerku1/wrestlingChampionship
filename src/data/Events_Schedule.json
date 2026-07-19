@@ -137,7 +137,7 @@
                 },
                 {
                     "id": 12,
-                    "match": "\"The Demon\" Finn Bálor vs. Dominik Mysterio",
+                    "match": ""The Demon" Finn Bálor vs. Dominik Mysterio",
                     "type": "Singles match",
                     "stipulation": ""
                 },
@@ -191,7 +191,8 @@
                     "result": "Danhausen and Minihausen defeated The Miz and Kit Wilson by pinfall"
                 }
             ]
-        },{
+        },
+        {
             "date": "May 31",
             "event": "Clash in Italy",
             "location": "Inalpi Arena, Turin, Italy",
@@ -228,21 +229,57 @@
                     "stipulation": "For the Women's Intercontinental Championship"
                 }
             ]
+        },
+        {
+            "date": "June 27",
+            "event": "Night of Champions",
+            "location": "Kingdom Arena, Riyadh, Saudi Arabia",
+            "matches": [
+                {
+                    "id": 1,
+                    "match": "Gunther (c) vs. Bron Breakker",
+                    "type": "Singles match",
+                    "stipulation": "For the Intercontinental Championship",
+                    "result": "Gunther retained the Intercontinental Championship"
+                },
+                {
+                    "id": 2,
+                    "match": "Liv Morgan (c) vs. Raquel Rodriguez",
+                    "type": "Singles match",
+                    "stipulation": "For the Women's World Championship",
+                    "result": "Liv Morgan retained the Women's World Championship"
+                },
+                {
+                    "id": 3,
+                    "match": "Damian Priest (c) vs. Finn Bálor",
+                    "type": "Singles match",
+                    "stipulation": "For the World Heavyweight Championship",
+                    "result": "Damian Priest retained the World Heavyweight Championship"
+                },
+                {
+                    "id": 4,
+                    "match": "Cody Rhodes (c) vs. AJ Styles",
+                    "type": "Singles match",
+                    "stipulation": "For the Undisputed WWE Championship",
+                    "result": "Cody Rhodes retained the Undisputed WWE Championship"
+                },
+                {
+                    "id": 5,
+                    "match": "The Judgment Day (Dominik Mysterio and JD McDonagh) (c) vs. DIY (Tommaso Ciampa and Johnny Gargano)",
+                    "type": "Tag team match",
+                    "stipulation": "For the Undisputed WWE Tag Team Championship",
+                    "result": "The Judgment Day retained the Undisputed WWE Tag Team Championship"
+                }
+            ]
         }
     ],
     "next event": {
-        "date": "June 27",
-        "event": "Night of Champions",
-        "location": "Kingdom Arena, Riyadh, Saudi Arabia",
+        "date": "August 1-2",
+        "event": "SummerSlam",
+        "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
         "matches": []
     },
     "upcoming events": [
-        {
-            "date": "August 1-2",
-            "event": "SummerSlam",
-            "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
-            "matches": []
-        },
         {
             "date": "September 6",
             "event": "Money in the Bank",
