@@ -137,7 +137,7 @@
                 },
                 {
                     "id": 12,
-                    "match": "\"The Demon\" Finn Bálor vs. Dominik Mysterio",
+                    "match": ""The Demon" Finn Bálor vs. Dominik Mysterio",
                     "type": "Singles match",
                     "stipulation": ""
                 },
@@ -191,7 +191,8 @@
                     "result": "Danhausen and Minihausen defeated The Miz and Kit Wilson by pinfall"
                 }
             ]
-        },{
+        },
+        {
             "date": "May 31",
             "event": "Clash in Italy",
             "location": "Inalpi Arena, Turin, Italy",
@@ -228,21 +229,82 @@
                     "stipulation": "For the Women's Intercontinental Championship"
                 }
             ]
+        },
+        {
+            "date": "June 27",
+            "event": "Night of Champions",
+            "location": "Kingdom Arena, Riyadh, Saudi Arabia",
+            "matches": [
+                {
+                    "id": 1,
+                    "match": "Seth Rollins (c) vs. Drew McIntyre",
+                    "type": "Singles match",
+                    "stipulation": "For the World Heavyweight Championship",
+                    "result": "Seth Rollins retained"
+                },
+                {
+                    "id": 2,
+                    "match": "Bianca Belair (c) vs. Iyo Sky",
+                    "type": "Singles match",
+                    "stipulation": "For the Raw Women's Championship",
+                    "result": "Bianca Belair retained"
+                },
+                {
+                    "id": 3,
+                    "match": "Gunther (c) vs. Ricochet",
+                    "type": "Singles match",
+                    "stipulation": "For the Intercontinental Championship",
+                    "result": "Gunther retained"
+                },
+                {
+                    "id": 4,
+                    "match": "Roman Reigns vs. Jey Uso",
+                    "type": "Singles match",
+                    "stipulation": "None",
+                    "result": "Roman Reigns won"
+                },
+                {
+                    "id": 5,
+                    "match": "Kevin Owens & Sami Zayn (c) vs. The Usos",
+                    "type": "Tag team match",
+                    "stipulation": "For the Undisputed WWE Tag Team Championship",
+                    "result": "Kevin Owens & Sami Zayn retained"
+                }
+            ]
         }
     ],
     "next event": {
-        "date": "June 27",
-        "event": "Night of Champions",
-        "location": "Kingdom Arena, Riyadh, Saudi Arabia",
-        "matches": []
+        "date": "August 1-2",
+        "event": "SummerSlam",
+        "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
+        "matches": [
+            {
+                "id": 1,
+                "match": "Cody Rhodes vs. Gunther",
+                "type": "Singles match",
+                "stipulation": ""
+            },
+            {
+                "id": 2,
+                "match": "Rhea Ripley vs. Raquel Rodriguez",
+                "type": "Singles match",
+                "stipulation": "For the Women's World Championship"
+            },
+            {
+                "id": 3,
+                "match": "Damian Priest vs. Finn Bálor",
+                "type": "Singles match",
+                "stipulation": "For the World Heavyweight Championship"
+            },
+            {
+                "id": 4,
+                "match": "Logan Paul vs. Ricochet",
+                "type": "Singles match",
+                "stipulation": "For the United States Championship"
+            }
+        ]
     },
     "upcoming events": [
-        {
-            "date": "August 1-2",
-            "event": "SummerSlam",
-            "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
-            "matches": []
-        },
         {
             "date": "September 6",
             "event": "Money in the Bank",
