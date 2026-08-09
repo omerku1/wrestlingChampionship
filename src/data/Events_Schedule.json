@@ -137,7 +137,7 @@
                 },
                 {
                     "id": 12,
-                    "match": "\"The Demon\" Finn Bálor vs. Dominik Mysterio",
+                    "match": ""The Demon" Finn Bálor vs. Dominik Mysterio",
                     "type": "Singles match",
                     "stipulation": ""
                 },
@@ -191,7 +191,8 @@
                     "result": "Danhausen and Minihausen defeated The Miz and Kit Wilson by pinfall"
                 }
             ]
-        },{
+        },
+        {
             "date": "May 31",
             "event": "Clash in Italy",
             "location": "Inalpi Arena, Turin, Italy",
@@ -228,21 +229,83 @@
                     "stipulation": "For the Women's Intercontinental Championship"
                 }
             ]
+        },
+        {
+            "date": "June 27",
+            "event": "Night of Champions",
+            "location": "Kingdom Arena, Riyadh, Saudi Arabia",
+            "matches": [
+                {
+                    "id": 1,
+                    "match": "Seth Rollins (c) vs. Finn Bálor",
+                    "type": "Singles match",
+                    "stipulation": "For the World Heavyweight Championship",
+                    "result": "Seth Rollins defeated Finn Bálor by pinfall to retain the World Heavyweight Championship"
+                },
+                {
+                    "id": 2,
+                    "match": "Bianca Belair (c) vs. Asuka",
+                    "type": "Singles match",
+                    "stipulation": "For the Raw Women's Championship",
+                    "result": "Asuka defeated Bianca Belair by pinfall to win the Raw Women's Championship"
+                },
+                {
+                    "id": 3,
+                    "match": "Gunther (c) vs. Mustafa Ali",
+                    "type": "Singles match",
+                    "stipulation": "For the Intercontinental Championship",
+                    "result": "Gunther defeated Mustafa Ali by pinfall to retain the Intercontinental Championship"
+                },
+                {
+                    "id": 4,
+                    "match": "Cody Rhodes vs. Brock Lesnar",
+                    "type": "Singles match",
+                    "stipulation": "",
+                    "result": "Cody Rhodes defeated Brock Lesnar by pinfall"
+                },
+                {
+                    "id": 5,
+                    "match": "Becky Lynch vs. Trish Stratus",
+                    "type": "Singles match",
+                    "stipulation": "",
+                    "result": "Becky Lynch defeated Trish Stratus by pinfall"
+                },
+                {
+                    "id": 6,
+                    "match": "Kevin Owens & Sami Zayn (c) vs. Roman Reigns & Solo Sikoa",
+                    "type": "Tag team match",
+                    "stipulation": "For the Undisputed WWE Tag Team Championship",
+                    "result": "Kevin Owens & Sami Zayn defeated Roman Reigns & Solo Sikoa by pinfall to retain the Undisputed WWE Tag Team Championship"
+                }
+            ]
         }
     ],
     "next event": {
-        "date": "June 27",
-        "event": "Night of Champions",
-        "location": "Kingdom Arena, Riyadh, Saudi Arabia",
-        "matches": []
+        "date": "August 1-2",
+        "event": "SummerSlam",
+        "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
+        "matches": [
+            {
+                "id": 1,
+                "match": "Roman Reigns (c) vs. Gunther",
+                "type": "Singles match",
+                "stipulation": "For the Undisputed WWE Universal Championship"
+            },
+            {
+                "id": 2,
+                "match": "Cody Rhodes vs. Seth Rollins",
+                "type": "No Holds Barred Match",
+                "stipulation": ""
+            },
+            {
+                "id": 3,
+                "match": "Rhea Ripley (c) vs. Raquel Rodriguez",
+                "type": "Singles match",
+                "stipulation": "For the Women's World Championship"
+            }
+        ]
     },
     "upcoming events": [
-        {
-            "date": "August 1-2",
-            "event": "SummerSlam",
-            "location": "U.S. Bank Stadium, Minneapolis, Minnesota",
-            "matches": []
-        },
         {
             "date": "September 6",
             "event": "Money in the Bank",
